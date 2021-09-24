@@ -1,0 +1,20 @@
+start = xml
+xml = element xml {popolVuh}
+
+popolVuh = element popolVuh {title, book+}
+
+title = element title {text}
+
+book = element book {n, part+}
+
+n= attribute n {xsd:integer}
+
+part = element part {n, type?, head, \text}
+
+type = attribute type {"titles" | "gen" | "dynasty" | "houses"}
+
+head = element head {text}
+
+\text = element text {mixed{spk*}}
+
+spk = element spk {text}
