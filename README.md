@@ -7,16 +7,18 @@ From Project Proposal:
 
 # Ancient Mayans Digitized
 
-This project's final outcomes would be two-fold:
+This project's final outcomes have multiple possibilities:
 
-    A digital text analysis of the English translations of ancient Mayan writing, which would involve working with images of Mayan hieroglyphics to display alongside the translations and analysis of the language on the website. There's a bajillion things we could do with these translations to make cool visualizations of their language usage, like how many times they referenced one of their Gods, which God they referenced the most, how many times human blood-letting and sacrifice was mentioned in their texts, etc.
+ A digital text analysis of the English translations of ancient Mayan writing, which would involve working with images of Mayan hieroglyphics to display alongside the translations and analysis of the language on the website. There's a bajillion things we could do with these translations to make cool visualizations of their language usage, like how many times they referenced one of their Gods, which God they referenced the most, how many times human blood-letting and sacrifice was mentioned in their texts, etc.
 
-    Using photogrammetry methods and 3D rendering software such as Blender to create digital 3D models of real ancient Mayan relics, artifacts, and parts of ancient Mayan human skeletons that have been discovered. OR, we could use a game-building software such as Unreal or Unity to recreate an ancient Mayan city to be embedded in the website. Or both.
-    EDIT: We could totally take a project team field trip to museums in Pittsburgh, Cleveland, and Buffalo to go take pictures of the Mayan artifact displays they have! I'm also thinking about contacting a museum directly about the possibility of them letting us take the pictures, since we'll need to take a whole lot from many angles, and I imagine not all of their displays allow 360-degree viewing, or a glass box might be obstructing the shot.
 
-EDIT - I just thought of another possibility for this project: We could create a digital map of ancient Yucatan Peninsula (like the Map of Early Modern London Project) and code clickable locations and structures into the map, which on click would toggle a photo and description of the site/structure that the user clicked. So, basically the same exact concept as MoEML, except instead of London it'd be the Yucatan Peninsula as it was during the ancient Mayan civilization's peak.
+ Using photogrammetry methods and 3D rendering software such as Blender to create digital 3D models of real ancient Mayan relics, artifacts, and parts of ancient Mayan human skeletons that have been discovered. OR, we could use a game-building software such as Unreal or Unity to recreate an ancient Mayan city to be embedded in the website. Or both.
+    
+    
+  We could create a digital map of ancient Yucatan Peninsula (like the Map of Early Modern London Project) and code clickable locations and structures into the map, which on click would toggle a photo and description of the site/structure that the user clicked. So, basically the same exact concept as MoEML, except instead of London it'd be the Yucatan Peninsula as it was during the ancient Mayan civilization's peak.
 
-Edit Pt. II - We could also implement the use of a timeline into the map^ (or alone) to display the rise of the ancient Mayan civilization, the tools, tech, art, and structures they developed through time, what a Mayan city looked like at the civilization's peak, and then finally their downfall.
+
+  We could also implement the use of a timeline into the map^ (or alone) to display the rise of the ancient Mayan civilization, the tools, tech, art, and structures they developed through time, what a Mayan city looked like at the civilization's peak, and then finally their downfall.
 
 ALSO, there's a possibility that we could animate some ancient Mayan illustrations that were drawn on pottery and other objects!!! Which would be super cool and fun.
 
@@ -32,14 +34,15 @@ A neat example of using Unreal Engine for Archaeology
 
 ### Things to note:
 
-    The classic piece of Mayan literature is the Popul Vuh. Unfortunately, there are no copies of the whole story in Mayan hieroglyphics, though there are many short passages on pottery. The images on the pottery are rather fun, kind of like comics, so that might be an interesting graphical interpretation, perhaps with the translation of a glyph popping-up on mouse-over. Presumably, you would be working with material that has already been translated. Ample XML mark-up opportunities!
+The classic piece of Mayan literature is the Popul Vuh. Unfortunately, there are no copies of the whole story in Mayan hieroglyphics, though there are many short passages on pottery. The images on the pottery are rather fun, kind of like comics, so that might be an interesting graphical interpretation, perhaps with the translation of a glyph popping-up on mouse-over. Presumably, you would be working with material that has already been translated. Ample XML mark-up opportunities!
+ 
     Here are some examples, most of which are from pottery: http://www.famsi.org/research/kerr/articles/xbalanque/index.html
 
-    Besides the Popul Vuh, there are many, many stelae (stone monuments) with pictures and hieroglyphics, which would be interesting to manipulate and graphically-display. https://en.wikipedia.org/wiki/Maya_stelae
+Besides the Popul Vuh, there are many, many stelae (stone monuments) with pictures and hieroglyphics, which would be interesting to manipulate and graphically-display. https://en.wikipedia.org/wiki/Maya_stelae
 
-    The regional mapping is interesting because, over the 2000 years or so of prehistoric Mayan civilization, there are shift as dozens of sites are abandoned and new ones established elsewhere. While this project would be practical at a large scale, because there are hundreds of sites, a temple-by-temple, pyramid-by-pyramid level of mapping would be probably more than you would want to do.
+The regional mapping is interesting because, over the 2000 years or so of prehistoric Mayan civilization, there are shift as dozens of sites are abandoned and new ones established elsewhere. While this project would be practical at a large scale, because there are hundreds of sites, a temple-by-temple, pyramid-by-pyramid level of mapping would be probably more than you would want to do.
 
-    This scale of mapping would be possible for a single site, to use a game engine or sketch-up or other CAD or GIS software to model/reconstruct.
+This scale of mapping would be possible for a single site, to use a game engine or sketch-up or other CAD or GIS software to model/reconstruct.
 
 
 
@@ -47,10 +50,15 @@ A neat example of using Unreal Engine for Archaeology
 
 ## Here are some links to maps:
 http://www.latinamericanstudies.org/tikal-maps.htm
+
 https://www.latinamericanstudies.org/copan-maps.htm
+
 https://ezaccess.libraries.psu.edu/login?url=https://www.jstor.org/stable/26307335
+
 https://www.latinamericanstudies.org/palenque-maps.htm
+
 http://www.latinamericanstudies.org/chichen-itza-maps.htm
+
 http://www.mesoweb.com/chichen/resources/map/SChome.html
 
 -- (from Dr. Bondar)
