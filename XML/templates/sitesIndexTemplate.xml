@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-    <site id="#chichentitza">
-        <name>Name of Mayan Site</name>
-        <location lat="decimal" long="decimal"/>
+    <site id="#joyadecerén">
+        <name>Joya de Cerén</name>
+        <location lat="13.8279° N" long="89.3562° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#elmirador">
+        <name>El Mirador</name>
+        <location lat="42.5713° S" long="64.2817° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#tikal">
+        <name>Tikal</name>
+        <location lat="17.2220° N" long="89.6237° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#copán">
+        <name>Copán</name>
+        <location lat="14.8497° N" long="89.1468° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#chichenitza">
+        <name>Chichen Itza</name>
+        <location lat="20.6843° N" long="88.5678° W"/>
         <relic id="#thisone!">
             <desc> </desc>
             <gods>
                 <!-- GODS DEPICTED ON IT -->
-                <name id="#GOD"> God of Poopypants </name>
+                <name id="#GOD">  </name>
             </gods>
         </relic>
         <relic>
@@ -21,14 +85,79 @@
             <desc/>
         </temple>
     </site>
-    <site id="#dfaskdfn">
-        <name>Name of another Mayan site</name>
-        <location lat="decimal" long="decimal"/>
+    
+    <site id="#izapa">
+        <name>Izapa</name>
+        <location lat="14.923° N" long="92.180° W"/>
         <relic>
             <desc/>
             <gods>
                 <name id="#GOD"/>
-
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#palenque">
+        <name>Palenque</name>
+        <location lat="17.4848° N" long="92.0459° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#uxmal">
+        <name>Uxmal</name>
+        <location lat="20.3599° N" long="89.7684° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#yaxchilan">
+        <name>Yaxchilan</name>
+        <location lat="16.8989° N" long="90.9659° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+    
+    <site id="#yaxuna">
+        <name>Yaxuna</name>
+        <location lat="20.5411° N" long="88.6766° W"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+                
             </gods>
         </relic>
         <temple id="#">
