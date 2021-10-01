@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <site id="#chichentitza">
+        <name>Name of Mayan Site</name>
+        <location lat="decimal" long="decimal"/>
+        <relic id="#thisone!">
+            <desc> </desc>
+            <gods>
+                <!-- GODS DEPICTED ON IT -->
+                <name id="#GOD"> God of Poopypants </name>
+            </gods>
+        </relic>
+        <relic>
+            <desc></desc>
+            <gods>
+                <name id="#"></name>
+            </gods>
+        </relic>
+        <temple xml:id="#thatone!">
+            <name>Jaguar temple!</name>
+            <desc/>
+        </temple>
+    </site>
+    <site id="#dfaskdfn">
+        <name>Name of another Mayan site</name>
+        <location lat="decimal" long="decimal"/>
+        <relic>
+            <desc/>
+            <gods>
+                <name id="#GOD"/>
+
+            </gods>
+        </relic>
+        <temple id="#">
+            <name/>
+            <desc/>
+        </temple>
+    </site>
+</xml>
