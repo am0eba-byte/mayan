@@ -1,0 +1,12 @@
+start = root
+root = element root {head, body}
+head = element head {titleStmt}
+titleStmt = element titleStmt {title}
+title = attribute title {text}
+body = element body {(country, site)+, bibl}
+country = element country {where+}
+where = attribute where { "El Salavador" | "Guatemala" | "Honduras" | "Mexico" }
+site = element site {type, name}
+name = attribute name { "Joya de Cerén" | "El Mirador" | "Tikal" | "Copán" | "Chichen Itza" | "Izapa" | "Palenque" | "Uxmal" | "Yaxchilan" | "Yaxuna" }
+type = attribute type { "temple" | "pyramid" }
+bibl = element bibl {text}

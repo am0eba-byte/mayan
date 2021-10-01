@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <head>
+    <titleStmt>
+        <title>Mayan Sites</title>
+    </titleStmt>
+    </head>
+    <body>
+        <country where="El Salavador">El Salavador:</country>
+        <site name="Joya de Cerén">Joya de Cer&#233;n</site>
+        
+        <country where="Guatemala">Guatemala:</country>
+        <site name="El Mirador" type="pyramid">El Mirador</site>
+        <site name="Tikal">Tikal</site>
+        
+        <country where="Honduras">Honduras:</country>
+        <site name="Copán" type="">Cop&#225;n</site>
+    
+    <country where="Mexico">Mexico:</country>
+        <site name="Chichen Itza">Chichen Itza</site>
+        <site name="Izapa">Izapa</site>
+        <site name="Palenque">Palenque</site>
+        <site name="Uxmal">Uxmal</site>
+        <site name="Yaxchilan">Yaxchilan</site>
+        <site name="Yaxuna">Yaxuna</site>
+    
+        <bibl>Says, P. H., &amp; Says, T. (2018). Home. The Temple Trail. Retrieved September 27, 2021, from https://thetempletrail.com/map-of-maya-sites/. </bibl>
+</body>
+</root>
+
