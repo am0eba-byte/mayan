@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="temple_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <name>
+  
+        <eng>    Chichen Itza </eng>
+        <may> "at the mouth of the well of the Itza"</may>
+    </name>
+    
+    <date apxdate="850" discDate="1841"> 
+    </date>
+    
+    <description>
+         Chitzen Itza is a UNESCO world Heritage Site.
+         Much of the history of Chichen Itza is unknown. The cite is widely accpeted to be used as a ceremonial centerfor the Maya Civilization, from 550 to 800AD. The area was then abondended for around 100 years, being resettled around 900AD. IN 1250 the city was again abandonded.
+         
+Chitzen Itza is a UNESCO world Heritage Site.
+         
+    </description>
+    
+    <location>
+        <modloc lat="20.6843" long="88.5678"> Loacted on the Yucatan Pennsuila in soutern part of Mexico. </modloc>
+    </location>
+    
+    <timeline>
+        <eng>
+            Chitzen Itza
+        </eng>
+        <date apxdate="850">
+        </date>
+        <description>
+            Ceremonial Cite
+        </description>
+    </timeline>
+    <gen>
+        <gods assocT= "gods" assocID="Earthquake">
+            whatever a specific god is ex=Earthquake
+        </gods>
+        <rel assocT="rel" assocID="Sun calendar">
+            Whatever a specifc Relic may be ex=Sun Calendar
+        </rel>
+        <temp assocT="temp" assocID="Chichén Itzá">
+            A specifc temple or area = Chichén Itzá
+        </temp>
+    </gen>
+ <source>
+     https://www.chichenitza.com/
+ </source>
+</xml>
