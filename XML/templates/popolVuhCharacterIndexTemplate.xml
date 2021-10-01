@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <head>
+        <editor>anthonyyy</editor>
+    </head>
+    <index>
+        <character xml:id="#ABC">
+            <name></name>
+            <altName></altName>
+            <from></from>
+            <entity></entity> <!-- entity = if the character is a god, or an animal, or a lord -->
+            <family>
+                <mother>jadfjabf</mother>
+                <grandmmamama>ADJFNKAFN</grandmmamama>
+                <sibling>VFISJFNGAN</sibling>
+                <grandfather></grandfather>
+            </family>
+            <desc>
+                
+            </desc>
+        </character>
+    </index>
+</xml>
