@@ -74,14 +74,14 @@ h2 {
 	font: italic normal 1.4em georgia, sans-serif;
 	font-size: 30px;
 	letter-spacing: 1px; 
+	text-align: center;
 	margin-top: 1.5em;
 	margin-bottom: 5px; 
 	color: #10A37C;
 }
 p { 
     margin-top: 1.5em;
-	text-align: justify;
+	text-align: center;
 	font-size: 18px;
-	padding-right: 5em;
 	color: #000000;
 }
