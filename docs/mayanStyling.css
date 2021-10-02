@@ -8,6 +8,13 @@ body {
                 /* HEADER STYLE */
 header {
 }
+h1 {
+	font: italic normal 1.4em georgia, sans-serif;
+	font-size: 35px;
+	letter-spacing: 1px; 
+	margin-bottom: 20px; 
+	color: #10A37C;
+}
 /* NAV BAR v */
 .names{
     padding-left: 20px;
@@ -21,14 +28,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #844234;
+  background-color: #10A37C;
 }
 .lisc{
       list-style-type: none;
   margin: 0;
   padding: 20px 20px 20px 20px;
   overflow: hidden;
-  background-color: #844234;
+  background-color: #10A37C;
   color: #FF7A23;
 }
 li {
@@ -36,7 +43,7 @@ li {
 }
 li a {
   display: block;
-  color: #FF7A23;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
