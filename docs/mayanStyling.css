@@ -1,5 +1,5 @@
 body {
-    background-color:#e6e6e6;
+    background-color: #EEEEEE;
     color:maroon;
     font-family:arial, helvetica, sans-serif;
     padding: 15px;
@@ -49,7 +49,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #DF9180;
+  background-color: #48F0C3;
 }
 .center {
   display: block;
