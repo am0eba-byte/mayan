@@ -1,5 +1,46 @@
 start = xml
-xml = element xml {popolVuh}
+xml = element xml {header, popolVuh}
+
+header = element header {fileDesc}
+
+fileDesc = element fileDesc {titleStmt, publicationStmt, sourceDesc}
+
+titleStmt = element titleStmt {creator, translator, editor}
+
+creator = element creator {text}
+
+translator = element translator {text}
+
+editor = element editor {text}
+
+publicationStmt = element publicationStmt {p}
+
+p = element p {text}
+
+
+sourceDesc = element sourceDesc {bibl}
+
+bibl = element bibl {docName, date, location, ref+}
+
+docName = element docName {text}
+
+date = element date {when, empty}
+
+when = attribute when {xsd:gYear}
+
+location = element location {lat, long, empty}
+
+lat = attribute lat {xsd:float}
+
+long = attribute long {xsd:float}
+
+ref = element ref {target, text}
+
+target = attribute target {xsd:anyURI}
+
+
+
+
 
 popolVuh = element popolVuh {title, book+}
 
@@ -15,6 +56,16 @@ type = attribute type {"titles" | "gen" | "dynasty" | "houses"}
 
 head = element head {text}
 
-\text = element text {mixed{spk*}}
+\text = element text {mixed{(spk | character)*}}
 
-spk = element spk {text}
+character = element character {idref, rel*, entity?, of?, text}
+
+idref = attribute idref {text}
+
+rel = attribute rel {text}
+
+entity = attribute entity {text}
+
+of = attribute of {text}
+
+spk = element spk {mixed{character*}}

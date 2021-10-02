@@ -1,0 +1,61 @@
+start = xml
+xml = element xml {head, index}
+
+head = element head {editor, co-editor, source+}
+
+editor = element editor {text}
+
+co-editor = element co-editor {text}
+
+index =  element index {character+}
+
+character = element character {xmlid, name, altName*, entity?, of?,  family?, desc+}
+
+entity = element entity {text}
+
+of = element of {text}
+
+
+xmlid = attribute xml:id {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
+
+name = element name {text}
+
+altName = element altName {text}
+
+desc = element desc {text}
+
+source =  element source {ref}
+
+ref = attribute  ref {text}
+
+
+
+family = element family {(partner?, children?, grandparents?, grandChildren?, parents?, brother?, babymom?, uncle?)*}
+
+partner = element partner {idref, text}
+
+children = element children {(son | daughter)*}
+son = element son {idref, text}
+daughter = element daughter {idref, text}
+
+grandparents = element grandparents {(grandpa?, grandma?)*}
+grandpa = element grandpa {idref, text}
+grandma = element grandma {idref, text}
+
+grandChildren = element grandChildren {grandson+}
+grandson = element grandson {idref, text}
+
+parents = element parents {(father?, mother?)*}
+mother = element mother {idref?, text}
+father = element father {idref, text}
+
+brother = element brother {idref, text}
+
+babymom = element babymom {idref?, text}
+
+uncle = element uncle {idref, text}
+
+idref = attribute idref {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
+
+
+
