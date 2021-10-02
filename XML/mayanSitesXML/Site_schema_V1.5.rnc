@@ -1,0 +1,52 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = root
+
+root = element xml {name,date,description,location,timeline, gen, source}
+# Name of the Temple or its general area
+name = element name {eng,may}
+#English Version of the name
+eng = element eng {text}
+#Mayan name of the temple
+may = element may {text}
+
+#Date of the the aproximate founding of the temple
+date = element date {apxdate, discDate?, text}
+#founding date of the city or cites
+apxdate = attribute apxdate {xsd:date | xsd:gYearMonth | xsd:gYear|text}
+#date the cite was discovered
+discDate = attribute discDate {xsd:date | xsd:gYearMonth | xsd:gYear}
+
+#Description of the temple
+description = element description {text}
+
+#Location of the temple in terms of modern standing, include latitude and longitude
+location = element location {modloc}
+modloc = element modloc {lat,long,text}
+lat = attribute lat {xsd:float}
+long = attribute long {xsd:float}
+
+#Information to include on a timeline
+timeline = element timeline {eng,date,description}
+
+gen = element gen {human, PV, rel, temp}
+#This includes Humans
+human = element human  {assocT,assocIDh,text}
+#charecters from the polpol vuh
+PV = element  PV  {assocT,assocIDpv,text}
+#Relics
+rel = element rel {assocT,assocIDr,text}
+#Temples
+temp = element temp {assocT,assocIDt,text}
+
+#Association type
+assocT = attribute assocT {"PV"|"rel"|"temp"|"human"}
+#Charecteres from the popol vuh
+assocIDpv = attribute assocIDpv {"Sovereign Plumed Serpent" | "Hurricane" | "Xpiyacoc" | "Xmucane" |"Mud Men" | "Wooden Men" | "Maize Men" | "Hunahpu" | "Xbalanque" | "Seven Macaw" | "Zipacna" | "Earthquake" | "One" | "Seven Hunahpu" | "One Monkey" | "One Artisan" | "Lords of Xibalba" | "The Owl Messengers" | "Blood Woman" | "Tohil" | "Sun calendar"}
+#Humans associated with sites
+assocIDh = attribute assocIDh {text}
+#Relics associated with sites
+assocIDr = attribute assocIDr {text}
+#Important sites
+assocIDt = attribute assocIDt {"Copan" | "Ceren" | "El Mirador" | "Tikal" | "Chichen Itza" | "Izapa" | "Palenque" | "Yaxchilan" | "Uxmal"}
+
+source = element source {text}
