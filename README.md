@@ -7,6 +7,8 @@ From Project Proposal:
 
 # Ancient Mayans Digitized
 
+Our project aims to develop an interactive digital experience of the Ancient Mayan world. We will be utilizing the Popol Vuh, a legend of ancient Mayan mythology, to connect the sacred dieties and important characters within the Mayan spiritual world to the temples, pottery, art, and other relics which depict those characters, in order to create a vivid map of the ancient world of the Maya. Our project will utilize data on major archaeological sites in the Mesoamerican area to create a timeline, an interactive map, and 3D models of some of the most fascinating discoveries from the Mayan civilization.
+
 This project's final outcomes have multiple possibilities:
 
  A digital text analysis of the English translations of ancient Mayan writing, which would involve working with images of Mayan hieroglyphics to display alongside the translations and analysis of the language on the website. There's a bajillion things we could do with these translations to make cool visualizations of their language usage, like how many times they referenced one of their Gods, which God they referenced the most, how many times human blood-letting and sacrifice was mentioned in their texts, etc.
