@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="mayan_sites.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="sitesIndex_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <head>
         <editor>Brett Meyer</editor>
         <co-editor>Mia Borgia</co-editor>
-        <source href="https://thetempletrail.com/map-of-maya-sites/"/>
+        <source href="https://thebuildingtrail.com/map-of-maya-sites/"/>
         <source href="http://www.latinamericanstudies.org/maya-sites.htm"/>
     </head>
     <mayanSites>
@@ -16,16 +16,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -37,16 +37,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -58,16 +58,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -79,16 +79,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -96,27 +96,27 @@
             <name>Chichen Itza</name>
             <location lat="20.6843° N" long="88.5678° W"/>
             <artifacts>
-                <relic> <!-- mb: should we put IDs on individual relics and temples? -->
+                <relic> <!-- mb: should we put IDs on individual relics and buildings? -->
                     <name/>
                     <desc> </desc>
                     <gods>
                         <!-- GODS DEPICTED ON IT -->
-                        <dietyName godID="#GOD"> </dietyName>
+                        <deityName godID="#GOD"> </deityName>
                     </gods>
                 </relic>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#"/>
+                        <deityName godID="#"/>
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple>
-                    <name>Jaguar temple!</name>
+                <building>
+                    <name>Jaguar building!</name>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -128,16 +128,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -149,18 +149,18 @@
                     <name/>
                     <desc> </desc>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID=""></dietyName>
+                        <deityName godID=""></deityName>
                     </gods>
-                </temple>
+                </building>
             </structures>
 
         </site>
@@ -173,16 +173,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -194,16 +194,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -215,16 +215,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
 
@@ -236,16 +236,16 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <dietyName godID="#GOD"/>
+                        <deityName godID="#GOD"/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <temple >
+                <building >
                     <name/>
                     <desc/>
-                </temple>
+                </building>
             </structures>
         </site>
     </mayanSites>

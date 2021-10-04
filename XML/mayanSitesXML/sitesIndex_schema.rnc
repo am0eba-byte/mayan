@@ -14,17 +14,19 @@ id = attribute id {"#Ceren" | "#elMira" | "#tikal" | "#copan" | "#chItza" | "#iz
 name = element name {text}
 
 location = element location {lat, long, empty}
-lat = attribute lat {text} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITUDE #
-long = attribute long {text} # SEE ABOVE #
+lat = attribute lat {xsd:float} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITUDE #
+long = attribute long {xsd:float} # SEE ABOVE #
 
 artifacts = element artifacts {relic+}
 relic = element relic {name, desc, gods*}
 desc = element desc {text}
-gods = element gods {dietyName}
-dietyName = element dietyName {godID, text}
+gods = element gods {deityName}
+deityName = element deityName {godID, text}
 godID = attribute godID {text} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
 
-structures = element structures {temple+}
-temple = element temple { name, desc, gods*}
+structures = element structures {building+}
+building = element building {type, name, desc, gods*}
+type = attribute type {text}
+#temple = element temple { name, desc, gods*}
 # templID = attribute templID {text} #INPUT INDIVIDUAL TEMPLE IDS HERE LATER#
 
