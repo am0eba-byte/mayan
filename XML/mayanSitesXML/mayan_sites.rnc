@@ -1,12 +1,30 @@
-start = root
-root = element root {head, body}
-head = element head {titleStmt}
-titleStmt = element titleStmt {title}
-title = attribute title {text}
-body = element body {(country, site)+, bibl}
-country = element country {where+}
-where = attribute where { "El Salavador" | "Guatemala" | "Honduras" | "Mexico" }
-site = element site {type, name}
-name = attribute name { "Joya de Cerén" | "El Mirador" | "Tikal" | "Copán" | "Chichen Itza" | "Izapa" | "Palenque" | "Uxmal" | "Yaxchilan" | "Yaxuna" }
-type = attribute type { "temple" | "pyramid" }
-bibl = element bibl {text}
+start = xml
+xml= element xml {head, mayanSites}
+
+head = element head {editor, co-editor, source+}
+editor = element editor {text}
+co-editor = element co-editor {text}
+source = element source {href, empty}
+href = attribute href {xsd:anyURI}
+
+mayanSites = element mayanSites {site+}
+
+site = element site {id, name, location, artifacts, structures}
+id = attribute id {"#Ceren" | "#elMira" | "#tikal" | "#copan" | "#chItza" | "#izapa" | "#KJ" | "#palenQ" | "#uxmal" | "#yaxchil" | "#yaxun" }
+name = element name {text}
+
+location = element location {lat, long, empty}
+lat = attribute lat {text} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITUDE #
+long = attribute long {text} # SEE ABOVE #
+
+artifacts = element artifacts {relic+}
+relic = element relic {name, desc, gods*}
+desc = element desc {text}
+gods = element gods {dietyName}
+dietyName = element dietyName {godID, text}
+godID = attribute godID {text} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
+
+structures = element structures {temple+}
+temple = element temple { name, desc, gods*}
+# templID = attribute templID {text} #INPUT INDIVIDUAL TEMPLE IDS HERE LATER#
+
