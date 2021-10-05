@@ -9,9 +9,13 @@ href = attribute href {xsd:anyURI}
 
 mayanSites = element mayanSites {site+}
 
-site = element site {id, name, location, artifacts, structures}
+site = element site {id, name, dateActive, location, artifacts, structures}
 id = attribute id {"#Ceren" | "#elMira" | "#tikal" | "#copan" | "#chItza" | "#izapa" | "#KJ" | "#palenQ" | "#uxmal" | "#yaxchil" | "#yaxun" }
 name = element name {text}
+
+dateActive = element dateActive {yearStart, yearEnd}
+yearStart = attribute yearStart {xsd:integer}
+yearEnd = attribute yearEnd {xsd:integer}
 
 location = element location {lat, long, empty}
 lat = attribute lat {xsd:float} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITUDE #
@@ -19,10 +23,12 @@ long = attribute long {xsd:float} # SEE ABOVE #
 
 artifacts = element artifacts {relic+}
 relic = element relic {name, desc, gods*}
-desc = element desc {text}
-gods = element gods {deityName}
-deityName = element deityName {godID, text}
-godID = attribute godID {text} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
+desc = element desc {descSource?, text}
+descSource = attribute descSource {xsd:anyURI}
+
+gods = element gods {deityName+}
+deityName = element deityName {godID?, text}
+godID = attribute godID {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
 
 structures = element structures {building+}
 building = element building {type, name, desc, gods*}

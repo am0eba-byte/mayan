@@ -9,20 +9,21 @@
     </head>
     <mayanSites>
         <site id="#Ceren">
-            <name>Joya de Cerén</name>
-            <location lat="13.8279° N" long="89.3562° W"/>
+            <name>Cerén</name>
+            <dateActive yearStart="200" yearEnd="600"/>
+            <location lat="13.8279" long="-89.3562"/>
             <artifacts>
                 <relic>
                     <name/>
-                    <desc/>
+                    <desc descSource=""></desc>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple" >
                     <name/>
                     <desc/>
                 </building>
@@ -31,19 +32,20 @@
 
         <site id="#elMira">
             <name>El Mirador</name>
-            <location lat="42.5713° S" long="64.2817° W"/>
+            <dateActive yearStart="-2700 " yearEnd="-200"/>
+            <location lat="42.5713" long="-64.2817"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple" >
                     <name/>
                     <desc/>
                 </building>
@@ -52,19 +54,20 @@
 
         <site id="#tikal">
             <name>Tikal</name>
-            <location lat="17.2220° N" long="89.6237° W"/>
+            <dateActive yearStart="600" yearEnd="900"/>
+            <location lat="17.2220" long="-89.6237"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName />
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple">
                     <name/>
                     <desc/>
                 </building>
@@ -73,48 +76,55 @@
 
         <site id="#copan">
             <name>Copán</name>
-            <location lat="14.8497° N" long="89.1468° W"/>
+            <dateActive yearStart="290" yearEnd="900"/> 
+            <location lat="14.8497" long="-89.1468"/>
             <artifacts>
                 <relic>
-                    <name/>
-                    <desc/>
+                    <name>Xibalban ball-court markers</name>
+                    <desc descSource="https://uncoveredhistory.com/honduras/copan/copan-templo-11-the-portal-to-the-underworld/">The stairs of Temple 11 in Copan also lead down to the underworld, which is defined by three Xibalban ball-court markers which are still located outside the Temple. The markers clearly show the evil looking Lords of Xibalba nestled amongst the roots of the Tree of Life. The stairs and sloping walls of Temple 11 act as one of the sloping walls of the ball-game arena, from the top of which the game can be watched. The sacred ball-game has its origins in a mythical game played by the Hero Twins, Hunuhpu and Xbalanque, who were asked to play against the the Lords of Xibalba. The myth ends with the boys winning the game and defeating the Lords of Xibabla and therefore defeating death. </desc>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName godID="#LOX">Lords of Xibalba</deityName>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
-                    <name/>
-                    <desc/>
+                <building type="temple">
+                    <name>Temple 11</name>
+                    <desc descSource="https://uncoveredhistory.com/honduras/copan/copan-templo-11-the-portal-to-the-underworld/">Temple 11 is covered in glyphic inscriptions that describe the sacred rites that were performed within it and allude to its religious function, hence it is also known as the Temple of Inscriptions.  Unfortunately, these texts are so specific to these unknown rites that they remain unreadable at present. However, the few carvings that remain attached and in situ around the building do provide enough evidence to assess its function and symbolic purpose. The most descriptive carvings are those of the so called “Howler Monkey God”.
+                        The two Howler Monkey Gods flank the stairway that rise from the West Court and have been given their name from the ape like face that they feature and what appear to be curling tails. The Howler Monkey Gods are thought to be associated with music and dance, as well as literature, and the left-hand monkey strikes a theatrical pose with what is said to be a rattle in his hand. There is plenty of evidence to suggest that Temple 11 was designed as a portal for the ruler Yax Pasaj to travel between the realms of the heavens and the underworld – a power that any divine ruler should have in his possession. Unlike his predecessors, Yax Pasaj may have felt the need prove his divinity as he wasn’t part of the divine royal lineage. </desc>
+                    <gods>
+                        <deityName godID="#OneArt">Howler Monkey God</deityName>
+                        <deityName godID="#OneMonk">Howler Monkey God</deityName>
+                    </gods>
                 </building>
             </structures>
         </site>
 
         <site id="#chItza">
             <name>Chichen Itza</name>
-            <location lat="20.6843° N" long="88.5678° W"/>
+            <dateActive yearStart="600" yearEnd="900"/>
+            <location lat="20.6843" long="-88.5678"/>
             <artifacts>
                 <relic> <!-- mb: should we put IDs on individual relics and buildings? -->
                     <name/>
                     <desc> </desc>
                     <gods>
                         <!-- GODS DEPICTED ON IT -->
-                        <deityName godID="#GOD"> </deityName>
+                        <deityName > </deityName>
                     </gods>
                 </relic>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#"/>
+                        <deityName/>
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building>
-                    <name>Jaguar building!</name>
+                <building type="temple">
+                    <name></name>
                     <desc/>
                 </building>
             </structures>
@@ -122,19 +132,20 @@
 
         <site id="#izapa">
             <name>Izapa</name>
-            <location lat="14.923° N" long="92.180° W"/>
+            <dateActive yearStart="-900" yearEnd="-100"/>
+            <location lat="14.923" long="-92.180"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName/>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple">
                     <name/>
                     <desc/>
                 </building>
@@ -143,22 +154,23 @@
 
         <site id="#KJ">
             <name>Kaminaljuyu</name>
-            <location lat="14° 37' 34.84 N" long="-90° 32' 34.05 W"/>
+            <dateActive yearStart="-1500" yearEnd="1200"/>
+            <location lat="14.6263441613" long="-90.5427911622"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc> </desc>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName/>
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple">
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID=""></deityName>
+                        <deityName ></deityName>
                     </gods>
                 </building>
             </structures>
@@ -167,19 +179,20 @@
 
         <site id="#palenQ">
             <name>Palenque</name>
-            <location lat="17.4848° N" long="92.0459° W"/>
+            <dateActive yearStart="-226" yearEnd="799"/>
+            <location lat="17.50953" long="-91.98248"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName />
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple">
                     <name/>
                     <desc/>
                 </building>
@@ -188,19 +201,20 @@
 
         <site id="#uxmal">
             <name>Uxmal</name>
-            <location lat="20.3599° N" long="89.7684° W"/>
+            <dateActive yearStart="500" yearEnd="1000"/>
+            <location lat="20.3599" long="-89.7684"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName />
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple">
                     <name/>
                     <desc/>
                 </building>
@@ -209,28 +223,33 @@
 
         <site id="#yaxchil">
             <name>Yaxchilan</name>
-            <location lat="16.8989° N" long="90.9659° W"/>
+            <dateActive yearStart="250" yearEnd="900"/>
+            <location lat="16.8989" long="-90.9659"/>
             <artifacts>
                 <relic>
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName godID="#GOD"/>
+                        <deityName />
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
-                <building >
+                <building type="temple">
                     <name/>
                     <desc/>
                 </building>
             </structures>
         </site>
+        
+        
+        <!-- mb: I'm thinkin about taking Yaxuna out of the index cuz it might not have enough cool stuff to be worth paying attention to-->
 
-        <site id="#yaxun">
+        <!--<site id="#yaxun">
             <name>Yaxuna</name>
-            <location lat="20.5411° N" long="88.6766° W"/>
+            <dateActive yearStart="" yearEnd=""/>
+            <location lat="20.5411" long="-88.6766"/>
             <artifacts>
                 <relic>
                     <name/>
@@ -247,6 +266,6 @@
                     <desc/>
                 </building>
             </structures>
-        </site>
+        </site>-->
     </mayanSites>
 </xml>
