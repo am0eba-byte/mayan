@@ -6,6 +6,9 @@
         <co-editor>Mia Borgia</co-editor>
         <source href="https://thebuildingtrail.com/map-of-maya-sites/"/>
         <source href="http://www.latinamericanstudies.org/maya-sites.htm"/>
+        <source href="https://www.worldhistory.org/Yaxchilan/"/>
+        <source href="https://www.thoughtco.com/pyramid-of-the-magician-mexico-169623"/>
+        <source href="https://mayanpeninsula.com/ball-court-in-uxmal/"/>
     </head>
     <mayanSites>
         <site id="#Ceren">
@@ -205,18 +208,18 @@
             <location lat="20.3599" long="-89.7684"/>
             <artifacts>
                 <relic>
-                    <name/>
-                    <desc/>
+                    <name>Ball Court</name>
+                    <desc descSource="https://mayanpeninsula.com/ball-court-in-uxmal/">Its condition is very deteriorated, and it’s made of two constructions of medium dimensions that make up the sides of the court with the rings by which the ball was to be introduced. The originally carved stone rings were removed to protect them from the elements and were replaced by reproductions. This game has always been related to mythical and cosmic aspects. The ball symbolized the movements of the stars in the sky and the players, in repeated occasions, symbolically staged the fight of the day against the night or the struggle of the deities of the underworld against the gods of heaven. The date of construction was found in one of the calendrical symbols revealing the date in the year 906, time in which Uxmal began the decline.</desc>
                     <gods>
-                        <deityName />
+                        <deityName godID="#Cha">Chahk</deityName>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
                 <building type="temple">
-                    <name/>
-                    <desc/>
+                    <name>Pyramid Of the Magician</name>
+                    <desc descSource="https://www.thoughtco.com/pyramid-of-the-magician-mexico-169623">Its name comes from a Maya tale of the 19th century, titled the Leyenda del Enano de Uxmal (The Legend of the Uxmal’s Dwarf). According to this legend, a dwarf constructed the pyramid in one night, helped by his mother, a witch. This building is one of the most impressive of Uxmal, measuring about 115 feet in height. It was constructed over the Late and Terminal Classic periods, between AD 600 and 1000, and five constructive phases have been detected. The one visible today is the latest one, built around AD 900-1000. The pyramid, over which the actual temple stands, has a peculiar elliptical form. Two staircases lead to the top of the pyramid. The Eastern staircase, the wider, has a small temple along the way that cut the stairway in half. The second access stair, the Western, faces the Nunnery Quadrangle and is decorated with friezes of the rain god Chaac.</desc>
                 </building>
             </structures>
         </site>
@@ -227,18 +230,18 @@
             <location lat="16.8989" long="-90.9659"/>
             <artifacts>
                 <relic>
-                    <name/>
-                    <desc/>
+                    <name>Stela 11</name>
+                    <desc descSource="https://www.worldhistory.org/Yaxchilan/">Stela 11 shows two standing figures in costume on the front, probably signifying the accession of the ruler Bird-Jaguar alongside his father and, in a quite different style, the reverse side again shows Bird-Jaguar, this time represented as the god Chahk, attacking three kneeling victims with his sceptre.</desc>
                     <gods>
-                        <deityName />
+                        <deityName godID="#Cha">Chahk</deityName>
 
                     </gods>
                 </relic>
             </artifacts>
             <structures>
                 <building type="temple">
-                    <name/>
-                    <desc/>
+                    <name>Temple 23</name>
+                    <desc descSource="https://www.worldhistory.org/Yaxchilan/">Temple 23 has scenes on limestone lintels, carved in high relief, typically portray rituals such as a worshipper drawing blood from his tongue in the presence of a priest and Bird-Jaguar standing over a kneeling captive. Another vivid scene, from Temple 23, shows a giant double-headed snake creature from the mouths of which emerge a warrior and the war and rain god Tlaloc, who both tower over a kneeling worshipper, identified as Lady Xok', wife of the Yaxchilan ruler Shield-Jaguar, who sees the monster in a blood-letting induced vision. This scene, as indicated by the glyphs, occurred on 23rd October 681 CE, the accession of Itzamnaaj Bahlam II, 'Shield Jaguar the Great'. Traces of red, greens, and yellows indicate that the panels were once brightly painted. These violent scenes are amongst the earliest to show such graphic episodes of religious life and conquest, although they would later become common in the art of the Toltec and Aztec civilizations.</desc>
                 </building>
             </structures>
         </site>
