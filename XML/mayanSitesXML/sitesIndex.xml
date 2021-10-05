@@ -139,22 +139,22 @@
             <location lat="14.923" long="-92.180"/>
             <artifacts>
                 <relic>
-                    <name/>
+                    <name></name>
                     <desc/>
                     <gods>
-                        <deityName/>
-
+                        <deityName>Chaac, Hunahpu and Xbalanque</deityName>
+                        <deityName> Vucub Caquix</deityName>
                     </gods>
                 </relic>
             </artifacts>
             <structures>
                 <building type="temple">
-                    <name/>
-                    <desc/>
+                    <name>N/A</name>
+                    <desc> Izapa is known more for its vastness rather than any of the particualr buildngs on the premiss. The site stretches close to one and a half miles. The abundance of monuments gives name to the term Izapan style.</desc>
                 </building>
             </structures>
         </site>
-
+        
         <site id="#KJ">
             <name>Kaminaljuyu</name>
             <dateActive yearStart="-1500" yearEnd="1200"/>
@@ -169,17 +169,17 @@
                 </relic>
             </artifacts>
             <structures>
-                <building type="temple">
-                    <name/>
-                    <desc/>
+                <building type="tomb">
+                    <name> Mounds A and B</name>
+                    <desc> Two mounds that are noticable becuase of the amount of fine pottery that is mixed in with the dirt covering the mounds. In the same style done in Teotihuacan.</desc>
                     <gods>
                         <deityName ></deityName>
                     </gods>
                 </building>
             </structures>
-
+            
         </site>
-
+        
         <site id="#palenQ">
             <name>Palenque</name>
             <dateActive yearStart="-226" yearEnd="799"/>
@@ -189,15 +189,19 @@
                     <name/>
                     <desc/>
                     <gods>
-                        <deityName />
-
+                        <deityName> God of death</deityName>
+                        
                     </gods>
                 </relic>
             </artifacts>
             <structures>
                 <building type="temple">
-                    <name/>
-                    <desc/>
+                    <name>Temple of the inscriptions</name>
+                    <desc> Holds the second longest glyph known in the Mayan world. The glyph tells the history of the site for around 180 years. This is also the place that leads to Pakals Tomb. </desc>
+                </building>
+                <building type="temple">
+                    <name> Temple of the cross group </name>
+                    <desc>Cross section of three temples, The temple of the Cross, the Temple of the Sun and Temple of the Foliated Cross. They sit upon temples </desc>
                 </building>
             </structures>
         </site>
