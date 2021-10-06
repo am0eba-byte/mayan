@@ -28,7 +28,7 @@ descSource = attribute descSource {xsd:anyURI}
 
 gods = element gods {deityName+}
 deityName = element deityName {godID?, text}
-godID = attribute godID {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
+godID = attribute godID {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha"} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
 
 structures = element structures {building+}
 building = element building {type, name, desc, gods*}

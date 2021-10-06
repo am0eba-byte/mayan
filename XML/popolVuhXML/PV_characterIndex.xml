@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="AMW_ProjectM4a_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="PV_characterIndex_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <head>
         <editor>Anthony</editor>
@@ -7,10 +7,12 @@
         <source
             ref="https://www.bowers.org/index.php/collection/collection-blog/who-s-who-in-the-popol-vuh"/>
         <source ref="https://www.litcharts.com/lit/popol-vuh/characters"/>
+        <source ref="https://www.historyonthenet.com/the-mayan-pantheon-gods-and-goddesses"/>
     </head>
     <index>
         <character xml:id="#SPS">
             <name>Sovereign Plumed Serpent</name>
+            <altName>Kukulkan</altName>
             <entity>God</entity>
             <desc>Sovereign Plumed Serpent is a feathered serpent god very similar to Quetzalcoatl
                 of the Aztecs. In the Quiché language his name is Tepeu Gucumatz and it’s actually
@@ -139,6 +141,8 @@
                 </parents>
                 <uncle idref="#SevH">Seven Hunahpu</uncle>
                 <brother idref="#Hun">Hunahpu</brother>
+                <brother idref="#OneArt">One Artisan</brother>
+                <brother idref="#OneMonk">One Monkey</brother>
                 <grandparents>
                     <grandma idref="#Xmu">Xmucane</grandma>
                     <grandpa idref="#Xpi">Xpiyacoc</grandpa>
@@ -239,6 +243,8 @@
                     <mother>Xbaquiyalo</mother>
                 </parents>
                 <brother idref="#OneArt">One Artisan</brother>
+                <brother idref="#Hun">Hunahpu</brother>
+                <brother idref="#Xba">Xbalanque</brother>
             </family>
             <desc>One Monkey is onne of the sons of One Hunahpu and Xbaquiyalo. Before One left for
                 Xibalba to eventually be defeated, the two brothers trained One Monkey and One
@@ -257,6 +263,8 @@
                     <mother>Xbaquiyalo</mother>
                 </parents>
                 <brother idref="#OneMonk">One Monkey</brother>
+                <brother idref="#Hun">Hunahpu</brother>
+                <brother idref="#Xba">Xbalanque</brother>
             </family>
             <desc>One Artisan is one the sons of One Hunahpu and Xbaquiyalo. Before One and Seven
                 Hunahpu left for Xibalba to eventually be defeated, the two brothers trained One
@@ -268,6 +276,7 @@
         </character>
         <character xml:id="#LOX">
             <name>Lords of Xibalba</name>
+            <of>Xibalba</of>
             <desc>The lords of Xibalba are the court that rules Xibalba, the underworld. The group
                 as a whole is far from a charming lot, and tends to ultimately sacrifice all who
                 come before them, either personally or by means of their six houses, each of which
@@ -378,5 +387,25 @@
                 as to embarrass their patron god, Calm Snake (who oddly enough has the appearance of
                 a bat). </desc>
         </character>
+        <character xml:id="#Cha">
+            <name>Chaac</name>
+            <entity>Rain God</entity>
+            <desc>
+                Chaac is the goggled-eyed rain god, of prime importance to the Mayans. Chaac has a four-fold aspect, with each aspect representing the cardinal directions and colors. Chaac brought clouds, thunder, lightning and most importantly, rain.
+            </desc>
+        </character>
+        <character xml:id="#Itz">
+            <name>Itzamna</name>
+            <entity>Creator God</entity>
+            <desc>Itzamna is a creator god, one of the gods involved in creating human beings and father of the Bacabs, who upheld the corners of the world. Itzamna taught humans the crafts of writing and medicine. Itzamna is sometimes identified with the high god Hunab Ku and the sun god Kinich Ahau.</desc>
+        </character>
+        <character xml:id="#KinAh">
+            <name>Kinich Ahau</name>
+            <altName>God G</altName>
+            <entity>God</entity>
+            <desc>Kinich Ahau is the sun god of the Mayans, sometimes associated with or an aspect of Itzamna. During the Classic period, Kinich Ahau was used as a royal title, carrying the idea of the divine king. He is also known in the Mayan codices as God G and is shown in many carvings on Mayan pyramids.</desc>
+        </character>
+        
+        
     </index>
 </xml>
