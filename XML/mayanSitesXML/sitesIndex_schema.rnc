@@ -22,7 +22,7 @@ lat = attribute lat {xsd:float} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITU
 long = attribute long {xsd:float} # SEE ABOVE #
 
 artifacts = element artifacts {relic+}
-relic = element relic {name, desc, gods*}
+relic = element relic {type?, name, desc, gods*}
 desc = element desc {descSource?, text}
 descSource = attribute descSource {xsd:anyURI}
 
