@@ -1,7 +1,7 @@
 start = xml
 xml= element xml {head, mayanSites}
 
-head = element head {editor, co-editor, source+}
+head = element head {editor+, source+}
 editor = element editor {text}
 co-editor = element co-editor {text}
 source = element source {href, empty}
