@@ -13,17 +13,22 @@
         <source href="https://mayanpeninsula.com/ball-court-in-uxmal/"/>
     </head>
     <mayanSites>
-        <site id="#Ceren">
-            <name>Cerén</name>
-            <dateActive yearStart="200" yearEnd="600"/>
-            <location lat="13.8279" long="-89.3562"/>
+        <site id="#SanBart">
+            <name>San Bartolo</name>
+            <dateActive yearStart="-100" yearEnd="200"/>
+            <location lat="15.0844400" long="-91.4558300"/>
             <artifacts>
                 <relic>
-                    <name/>
-                    <desc descSource=""/>
+                    <name>San Bartolo Mural</name>
+                    <desc descSource="https://alchetron.com/San-Bartolo-(Maya-site)"><p>The north wall mural consists of two scenes. One scene is situated in front of a mountain cave (belonging to the Flower Mountain); several persons are walking and kneeling on a large serpent. The Maya maize god is shown in the midst of a group of men and women, while receiving (or perhaps bequeathing) a vine calabash. The other scene shows four babies, with their umbilical cords still attached, surrounding a calabash, which has now split up and from which a fifth, and fully clothed male emerges. A large deity figure watches the scene.</p>
+                        
+                       <p> The west wall mural has a far greater number of scenes. One part of the mural has four successive images of trees with birds, kings with the markings of the Maya Hero Twin Hunahpu, and sacrifices (consisting of fish, deer, turkey, and fragrant blossoms), to which a fifth tree has been added. The five trees are comparable to the directional trees of the Codex Borgia and to those mentioned in the Book of Chilam Balam of Chumayel; the associated birds represent the Principal Bird Deity. The sacrifices are comparable to those in the Year Bearer section of the Dresden Codex. The first four kings are shown piercing their penises (see fig.), spilling sacrificial blood, then offering a sacrifice. The fifth figure, associated with a fifth tree belonging to the centre - the tree of life itself - is the Maya maize god. The directional representation as a whole might refer to the initial arrangement of the world.</p>
+                       <p> Another part of the western mural depicts three scenes from the life of the maize god and the coronation of a king, showing divine right to rule coming from the gods, and providing evidence that the Maya had full-fledged monarchies centuries earlier than previously thought. The three maize god scenes show (i) a maize baby held by a man kneeling in the waters; (ii) the maize god inside a turtle cave, dancing before two enthroned, aquatic deities; and (iii) the maize god flying in the sky, or perhaps falling from the sky down into the water. Scene (iii) has been suggested to represent the death of the maize deity. Alternatively, it may refer to the maize god's role as a rain bringer.</p>
+                    </desc>
                     <gods>
-                        <deityName/>
-
+                        <deityName godID="#OneH">Maize God</deityName>
+                        <deityName godID="#Hun">Hunahpu</deityName>
+                        <deityName godID="#PBD">Principal Bird Deity</deityName>
                     </gods>
                 </relic>
             </artifacts>
@@ -54,7 +59,7 @@
                     <name>Tecolote Structure</name>
                     <desc>Carved with a stucco frieze showing impersonators of the Rain God, Chahk. Late Preclassic.</desc>
                     <gods>
-                        <deityName>Chahk</deityName>
+                        <deityName godID="#Cha">Chahk</deityName>
                     </gods>
                 </building>
             </structures>
@@ -72,8 +77,8 @@
                         travelling in a canoe to the Underworld. In the middle is the Maize God; at
                         the left and right are the old Paddler Gods.</desc>
                     <gods>
-                        <deityName> Chahk </deityName>
-                        <deityName>Maize God</deityName>
+                        <deityName godID="#Cha">Chahk</deityName>
+                        <deityName godID="#OneH">Maize God</deityName>
                         <deityName>Paddler God</deityName>
 
                     </gods>
@@ -85,7 +90,7 @@
                         once adhered to a wooden interior, which has long since disintigrated. Ht:
                         9.5 inches (24.2 cm)</desc>
                     <gods>
-                        <deityName>Maize God</deityName>
+                        <deityName godID="#OneH">Maize God</deityName>
                     </gods>
                 </relic>
             </artifacts>
@@ -126,7 +131,7 @@
                     <desc>Stone bust of young Maize God, Temple 22. One of the wonderfully baroque
                         sculptures from this site.</desc>
                     <gods>
-                        <deityName> Maize God </deityName>
+                        <deityName godID="#OneH">Maize God</deityName>
                     </gods>
                 </relic>
             </artifacts>
@@ -198,12 +203,12 @@
             <artifacts>
                 <relic type="stela">
                     <name>Stela 2</name>
-                    <desc>The Hero Twins gesture toward the Principal Bird Diety (Wuqub Caquix) as
+                    <desc>The Hero Twins gesture toward the Principal Bird Deity (Wuqub Caquix) as
                         he descends to the fruit tree. Late Preclassic, c. 100 B.C. or later.</desc>
                     <gods>
-                        <deityName>Hunahpu</deityName>
-                        <deityName>Xbalanque</deityName>
-                        <deityName> Vucub Caquix</deityName>
+                        <deityName godID="#Hun">Hunahpu</deityName>
+                        <deityName godID="#Xba">Xbalanque</deityName>
+                        <deityName godID="#PBD">Principal Bird Deity</deityName>
                     </gods>
                 </relic>
             </artifacts>
@@ -226,7 +231,7 @@
                     <name>Wuqub Kaquix Impersonation Stela</name>
                     <desc> A ruler impersonating the Principal Bird Deity (Wuqub Kaquix) is carved on this granite stela. Ht 6 ft </desc>
                     <gods>
-                        <deityName>Wuqub Kaquix</deityName>
+                        <deityName godID="#PBD">Wuqub Kaquix</deityName>
                     </gods>
                 </relic>
             </artifacts>
@@ -263,7 +268,7 @@
                         scene is a band depicting celestial bodies and ancestral figures. AD
                         683.</desc>
                     <gods>
-                        <deityName>Wuqub Kaquix</deityName>
+                        <deityName godID="#PBD">Wuqub Kaquix</deityName>
 
                     </gods>
                 </relic>
@@ -281,7 +286,7 @@
                         Funerary Crypt, where Palenque's mighty ruler K'inich Janahb Pakal (Pakal
                         the Great) was found. This temple holds the second longest glyph known in
                         the Mayan world. The glyph tells the history of the site for around 180
-                        years. This is also the place that leads to Pakals Tomb. </desc>
+                        years. This is also the place that leads to Pakal's Tomb. </desc>
                 </building>
                 <building type="temple">
                     <name> Temple of the cross group </name>
