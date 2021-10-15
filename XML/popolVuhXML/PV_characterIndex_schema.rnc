@@ -9,14 +9,17 @@ co-editor = element co-editor {text}
 
 index =  element index {character+}
 
-character = element character {xmlid, name, altName*, entity?, of?,  family?, desc+}
+character = element character {xmlid, name, altName*, img*, entity?, of?,  family?, desc+}
+
+img = element img {src, empty}
+src = attribute src {text}
 
 entity = element entity {text}
 
 of = element of {text}
 
 
-xmlid = attribute xml:id {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha" | "#Itz" | "#KinAh"}
+xmlid = attribute xml:id {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha" | "#Itz" | "#GodG" | "#GodL"}
 
 name = element name {text}
 

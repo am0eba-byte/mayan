@@ -1,5 +1,5 @@
 start = xml
-xml= element xml {head, mayanSites}
+xml= element xml {head, mayanSites, unknownOrigin}
 
 head = element head {editor+, source+}
 editor = element editor {text}
@@ -22,7 +22,9 @@ lat = attribute lat {xsd:float} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITU
 long = attribute long {xsd:float} # SEE ABOVE #
 
 artifacts = element artifacts {relic+}
-relic = element relic {type?, name, desc, gods*}
+relic = element relic {type?, name, date?, img*, desc, gods*}
+img = element img {src, empty}
+src = attribute src {text}
 desc = element desc {descSource?, mixed{p*}}
 p = element p {text}
 descSource = attribute descSource {xsd:anyURI}
@@ -32,8 +34,12 @@ deityName = element deityName {godID?, text}
 godID = attribute godID {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha"} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
 
 structures = element structures {building+}
-building = element building {type, name, desc, gods*}
+building = element building {type, name, img*, desc, gods*}
 type = attribute type {text}
 #temple = element temple { name, desc, gods*}
 # templID = attribute templID {text} #INPUT INDIVIDUAL TEMPLE IDS HERE LATER#
+
+unknownOrigin = element unknownOrigin {relic+}
+date = element date {when, text}
+when = attribute when {xsd:integer}
 
