@@ -14,6 +14,7 @@
             <name>Sovereign Plumed Serpent</name>
             
             <altName>Kukulkan</altName>
+            <img src="characterPics/SPSerpent.jpg"/>
             <entity>God</entity>
             <desc>Sovereign Plumed Serpent is a feathered serpent god very similar to Quetzalcoatl
                 of the Aztecs. In the Quiché language his name is Tepeu Gucumatz and it’s actually
@@ -27,6 +28,7 @@
         <character xml:id="#Hur">
             <name>Hurricane</name>
             <altName>Thunderbolt Hurricane</altName>
+            <img src="characterPics/Hurricane.jpg"/>
             <entity>God</entity>
             <of>Heart of Sky</of>
             <desc>Hurricane is the leader of the three thunder gods that together are Heart of Sky
@@ -36,6 +38,7 @@
         <character xml:id="#Xpi">
             <name>Xpiyacoc</name>
             <altName>Grandfather</altName>
+            <img src="characterPics/Xpiyacoc.jpg"/>
             <entity>God</entity>
             <family>
                 <partner idref="#Xmu">Xmucane</partner>
@@ -56,6 +59,7 @@
         <character xml:id="#Xmu">
             <name>Xmucane</name>
             <altName>Grandmother</altName>
+            <img src="characterPics/Xmucane.jpg"/>
             <entity>diety</entity>
             <family>
                 <partner idref="#Xpi">Xpiyacoc</partner>
@@ -75,6 +79,7 @@
         </character>
         <character xml:id="#MudM">
             <name>Mud Men</name>
+            
             <desc>The mud men were the Bearer, Begetter’s first attempt at making man. They were
                 drawn from mud, which sadly did not hold shape. The creatures seemed to dissolve at
                 their inception, and though they had the ability to speak they said only nonsense.
@@ -111,6 +116,7 @@
             <name>Hunahpu</name>
             <altName>One Blowgun Hunter</altName>
             <altName>Venus Lord</altName>
+            <img src="characterPics/HeroTwins.jpg"/>
             <entity>Hero Twins</entity>
             <family>
                 <parents>
@@ -132,8 +138,10 @@
         </character>
         <character xml:id="#Xba">
             <name>Xbalanque</name>
+            
             <altName>Young Hidden Sun</altName>
             <altName>Jaguar Sun</altName>
+            <img src="characterPics/Hero_Twins.JPG"/>
             <entity>Hero Twins</entity>
             <family>
                 <parents>
@@ -156,6 +164,7 @@
             <name>Seven Macaw</name>
             <altName>Principal Bird Diety</altName>
             <altName>Wuqub Kaquix</altName>
+            <img src="characterPics/Seven_Macaw.jpg"/>
             <entity>God</entity>
             <family>
                 <children>
@@ -171,6 +180,7 @@
         </character>
         <character xml:id="#Zip">
             <name>Zipacna</name>
+            <img src="characterPics/"/>
             <entity>Demon God</entity>
             <family>
                 <parents>
@@ -186,6 +196,7 @@
         </character>
         <character xml:id="#Ear">
             <name>Earthquake</name>
+            <img src="characterPics/Earth_and_Zipac.jpg"/>
             <entity>Demon God</entity>
             <family>
                 <parents>
@@ -200,6 +211,7 @@
         <character xml:id="#OneH">
             <name>One Hunahpu</name>
             <altName>Maize God</altName>
+            <img src="characterPics/One_and_7_Hun.jpg"/>
             <entity>God</entity>
             <family>
                 <parents>
@@ -222,6 +234,7 @@
         </character>
         <character xml:id="#SevH">
             <name>Seven Hunahpu</name>
+            <img src="characterPics/One_and_7_Hun.jpg"/>
             <entity>God</entity>
             <family>
                 <parents>
@@ -238,6 +251,7 @@
         <character xml:id="#OneMonk">
             <name>One Monkey</name>
             <altName>One Batz</altName>
+            <img src="characterPics/OneMonk_and_One_Art.jpg"/>
             <family>
                 <parents>
                     <father idref="#OneH">One Hunahpu</father>
@@ -258,6 +272,7 @@
             <name>One Artisan</name>
             <altName>One Chouen</altName>
             <altName>One Howler</altName>
+            <img src="characterPics/OneMonk_and_One_Art.jpg"/>
             <family>
                 <parents>
                     <father idref="#OneH">One Hunahpu</father>
@@ -277,6 +292,7 @@
         </character>
         <character xml:id="#LOX">
             <name>Lords of Xibalba</name>
+            <img src="characterPics/Jasaw-Kawiil-bone_Xibalba.jpg"/>
             <of>Xibalba</of>
             <desc>The lords of Xibalba are the court that rules Xibalba, the underworld. The group
                 as a whole is far from a charming lot, and tends to ultimately sacrifice all who
@@ -294,6 +310,7 @@
         </character>
         <character xml:id="#OneD">
             <name>One Death</name>
+            
             <entity>Lord</entity>
             <of>Xibalba</of>
             
@@ -320,6 +337,7 @@
         </character>
         <character xml:id="#TOM">
             <name>The Owl Messengers</name>
+            <img src="characterPics/Owls.jpg"/>
             <of>Xibalba</of>
             <desc>The four owl messengers of Xibalba, called Shooting Owl (“like a point, just
                 piercing”), One-Legged Owl (“with just one leg; he has wings”), Macaw Owl (“with a
@@ -373,6 +391,7 @@
         </character>
         <character xml:id="#Toh">
             <name>Tohil</name>
+            <img src="characterPics/Tohil.jpg"/>
             <entity>God</entity>
             <desc>Tohil is the patron god of the Quiché-Maya and the bringer of fire, which he
                 creates by pivoting in his sandal. Tohil first appears by name in the fourth part of
@@ -390,6 +409,7 @@
         </character>
         <character xml:id="#Cha">
             <name>Chaac</name>
+            <img src="characterPics/Chaac.jpg"/>
             <entity>Rain God</entity>
             <desc>
                 Chaac is the goggled-eyed rain god, of prime importance to the Mayans. Chaac has a four-fold aspect, with each aspect representing the cardinal directions and colors. Chaac brought clouds, thunder, lightning and most importantly, rain.
@@ -402,7 +422,9 @@
         </character>
         <character xml:id="#GodG">
             <name>Kinich Ahau</name>
+            
             <altName>God G</altName>
+            <img src="characterPics/godG.jpg"/>
             <entity>God</entity>
             <desc>Kinich Ahau is the sun god of the Mayans, sometimes associated with or an aspect of Itzamna. During the Classic period, Kinich Ahau was used as a royal title, carrying the idea of the divine king. He is also known in the Mayan codices as God G and is shown in many carvings on Mayan pyramids.</desc>
         </character>
