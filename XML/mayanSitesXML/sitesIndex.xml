@@ -59,19 +59,19 @@
             <structures>
                 <building type="temple">
                     <name>Tecolote Structure</name>
-                    <desc>Carved with a stucco frieze showing impersonators of the Rain God, Chahk. Late Preclassic.</desc>
+                    <desc><p>Carved with a stucco frieze showing impersonators of the Rain God, Chahk. Late Preclassic.</p></desc>
                     <gods>
                         <deityName godID="#Cha">Chahk</deityName>
                     </gods>
                 </building>
                 <building type="complex">
                     <name>Danta Complex</name>
-                    <desc>The Danta Complex, at 230 feet tall, is essentially a giant patio group. It is thought to have housed El Mirador's royalty. The purpose of its tall stature was probably meant to exclude commoners from this elite housing area.</desc>
+                    <desc><p>The Danta Complex, at 230 feet tall, is essentially a giant patio group. It is thought to have housed El Mirador's royalty. The purpose of its tall stature was probably meant to exclude commoners from this elite housing area.</p></desc>
                 </building>
                 <building type="temple">
                     <name>Jaguar Temple</name>
                     <desc>
-                        This 180 ft tall structure is elaborately decorated with lime plaster and stucco depictions of jaguars. The king for whom it was built was called Great Fiery Jaguar Paw. It was probably built as a royal tomb for the Great Fiery Jaguar Paw king, but no burial was ever found within the temple.
+                        <p>This 180 ft tall structure is elaborately decorated with lime plaster and stucco depictions of jaguars. The king for whom it was built was called Great Fiery Jaguar Paw. It was probably built as a royal tomb for the Great Fiery Jaguar Paw king, but no burial was ever found within the temple.</p>
                     </desc>
                 </building>
             </structures>
@@ -108,8 +108,10 @@
             </artifacts>
             <structures>
                 <building type="temple">
-                    <name/>
-                    <desc/>
+                    <name>Temple IV – The Two-Headed Serpent Temple</name>
+                    <desc><p>
+                        
+                        The 212-foot high Temple IV is the highest pyramid temple at Tikal; it towers over the rain forest. According to Maya experts, leader Yax Kin ordered the temple built around 734 AD. Climb to the summit of this temple with care, by wooden ladder and stone steps. The summit affords a panoramic view over the site, with views of the other major temples rising from the treetops. This temple is known as the Two-Headed Serpent Temple</p></desc>
                 </building>
             </structures>
         </site>
@@ -152,7 +154,7 @@
                     <name>Temple 11</name>
                     <desc
                         descSource="https://uncoveredhistory.com/honduras/copan/copan-templo-11-the-portal-to-the-underworld/"
-                        >Temple 11 is covered in glyphic inscriptions that describe the sacred rites
+                        ><p>Temple 11 is covered in glyphic inscriptions that describe the sacred rites
                         that were performed within it and allude to its religious function, hence it
                         is also known as the Temple of Inscriptions. Unfortunately, these texts are
                         so specific to these unknown rites that they remain unreadable at present.
@@ -169,7 +171,7 @@
                         realms of the heavens and the underworld – a power that any divine ruler
                         should have in his possession. Unlike his predecessors, Yax Pasaj may have
                         felt the need prove his divinity as he wasn’t part of the divine royal
-                        lineage. </desc>
+                        lineage.</p> </desc>
                     <gods>
                         <deityName godID="#OneArt">Howler Monkey God</deityName>
                         <deityName godID="#OneMonk">Howler Monkey God</deityName>
@@ -203,7 +205,7 @@
             <structures>
                 <building type="temple">
                     <name>Temple of the Jaguars</name>
-                    <desc>The inner walls were once beautifully painted with Toltec battle scenes, so detailed and convincing that the artist must have been a witness to the Toltec invasion. Decades of neglect have resulted in their almost total ruin. The doorway of the Temple of the Jaguars, overlooking the ball court, depict one of two Feathered Serpant columns which support the lintel, and a door jamb with a relief figure of a Toltec warrior. Four staircases, paved on the top, where the two Dance Platforms are, whose facings are covered with themes such as eagles and jaguars eating hearts. They say that the Dance Platforms are where farces were represented, and comedies for the pleasure of the public. </desc>
+                    <desc><p>The inner walls were once beautifully painted with Toltec battle scenes, so detailed and convincing that the artist must have been a witness to the Toltec invasion. Decades of neglect have resulted in their almost total ruin. The doorway of the Temple of the Jaguars, overlooking the ball court, depict one of two Feathered Serpant columns which support the lintel, and a door jamb with a relief figure of a Toltec warrior. Four staircases, paved on the top, where the two Dance Platforms are, whose facings are covered with themes such as eagles and jaguars eating hearts. They say that the Dance Platforms are where farces were represented, and comedies for the pleasure of the public.</p> </desc>
                 </building>
                 <building type="pyramid">
                     <name>Pyramid of Kukulcan</name>
@@ -256,9 +258,9 @@
             <structures>
                 <building type="temple">
                     <name>N/A</name>
-                    <desc> Izapa is known more for its vastness rather than any of the particualr
+                    <desc> <p>Izapa is known more for its vastness rather than any of the particualr
                         buildngs on the premiss. The site stretches close to one and a half miles.
-                        The abundance of monuments gives name to the term Izapan style.</desc>
+                        The abundance of monuments gives name to the term Izapan style.</p></desc>
                 </building>
             </structures>
         </site>
@@ -283,16 +285,16 @@
             <structures>
                 <building type="mound">
                     <name> Mounds A and B</name>
-                    <desc> Two mounds that are noticable becuase of the amount of fine pottery that
+                    <desc> <p>Two mounds that are noticable becuase of the amount of fine pottery that
                         is mixed in with the dirt covering the mounds. In the same style done in
-                        Teotihuacan.</desc>
+                        Teotihuacan.</p></desc>
                     <gods>
                         <deityName/>
                     </gods>
                 </building>
                 <building type="tomb">
                     <name>Tomb II, Mound E-II-3</name>
-                    <desc>A burial of the Late Preclassic culture at Kaminaljuyu, the first and oldest royal burial found from the Preclassic Period. Consists of several superimposed temple platforms, each a flat-topped, stepped pyramid fronted by a broad stairway. Almost certainly the temples themselves were thatched-roof affairs supported by upright timbers. Within, skeletal remains of sacrifices, both adults and children, accompanied by the illustrious dead, together with offerings of an astonishing richness and profusion. Over 300 objects of beautiful workmanship were placed with the bodies. Among those recovered were the remains of a mask or head-dress of jade plaques, jade flares which once adorned the earlobes of the honored dead, bowls carved from chlorite-schist engraves with scroll designs, and little carved bottles of soapstone adn fuchsite. Pottery vessels, stingray spines, and other objects were also within the tomb.</desc>
+                    <desc><p>A burial of the Late Preclassic culture at Kaminaljuyu, the first and oldest royal burial found from the Preclassic Period. Consists of several superimposed temple platforms, each a flat-topped, stepped pyramid fronted by a broad stairway. Almost certainly the temples themselves were thatched-roof affairs supported by upright timbers. Within, skeletal remains of sacrifices, both adults and children, accompanied by the illustrious dead, together with offerings of an astonishing richness and profusion. Over 300 objects of beautiful workmanship were placed with the bodies. Among those recovered were the remains of a mask or head-dress of jade plaques, jade flares which once adorned the earlobes of the honored dead, bowls carved from chlorite-schist engraves with scroll designs, and little carved bottles of soapstone adn fuchsite. Pottery vessels, stingray spines, and other objects were also within the tomb.</p></desc>
                 </building>
             </structures>
 
@@ -321,7 +323,7 @@
             <structures>
                 <building type="temple">
                     <name>Temple of the inscriptions</name>
-                    <desc> The Temple of Inscriptions rests on a 65-ft high stepped pyramid
+                    <desc><p> The Temple of Inscriptions rests on a 65-ft high stepped pyramid
                         approached by a noble frontal stairway. On the walls of its portico and
                         central chamber, three panels contain a total of 620 hieroglyphs with many
                         dates, the most corresponding to AD 692. The floor of the temple is covered
@@ -331,12 +333,12 @@
                         Funerary Crypt, where Palenque's mighty ruler K'inich Janahb Pakal (Pakal
                         the Great) was found. This temple holds the second longest glyph known in
                         the Mayan world. The glyph tells the history of the site for around 180
-                        years. This is also the place that leads to Pakal's Tomb. </desc>
+                        years. This is also the place that leads to Pakal's Tomb.</p> </desc>
                 </building>
                 <building type="temple">
                     <name> Temple of the cross group </name>
-                    <desc>Cross section of three temples, The temple of the Cross, the Temple of the
-                        Sun and Temple of the Foliated Cross. They sit upon temples </desc>
+                    <desc><p>Cross section of three temples, The temple of the Cross, the Temple of the
+                        Sun and Temple of the Foliated Cross. They sit upon temples </p></desc>
                 </building>
             </structures>
         </site>
@@ -370,7 +372,7 @@
                     <name>Pyramid Of the Magician</name>
                     <desc
                         descSource="https://www.thoughtco.com/pyramid-of-the-magician-mexico-169623"
-                        >Its name comes from a Maya tale of the 19th century, titled the Leyenda del
+                        ><p>Its name comes from a Maya tale of the 19th century, titled the Leyenda del
                         Enano de Uxmal (The Legend of the Uxmal’s Dwarf). According to this legend,
                         a dwarf constructed the pyramid in one night, helped by his mother, a witch.
                         This building is one of the most impressive of Uxmal, measuring about 115
@@ -381,7 +383,7 @@
                         form. Two staircases lead to the top of the pyramid. The Eastern staircase,
                         the wider, has a small temple along the way that cut the stairway in half.
                         The second access stair, the Western, faces the Nunnery Quadrangle and is
-                        decorated with friezes of the rain god Chaac.</desc>
+                        decorated with friezes of the rain god Chaac.</p></desc>
                 </building>
             </structures>
         </site>
@@ -407,7 +409,7 @@
             <structures>
                 <building type="temple">
                     <name>Temple 23</name>
-                    <desc descSource="https://www.worldhistory.org/Yaxchilan/">Temple 23 has scenes
+                    <desc descSource="https://www.worldhistory.org/Yaxchilan/"><p>Temple 23 has scenes
                         on limestone lintels, carved in high relief, typically portray rituals such
                         as a worshipper drawing blood from his tongue in the presence of a priest
                         and Bird-Jaguar standing over a kneeling captive. Another vivid scene, from
@@ -420,7 +422,7 @@
                         greens, and yellows indicate that the panels were once brightly painted.
                         These violent scenes are amongst the earliest to show such graphic episodes
                         of religious life and conquest, although they would later become common in
-                        the art of the Toltec and Aztec civilizations.</desc>
+                        the art of the Toltec and Aztec civilizations.</p></desc>
                 </building>
             </structures>
         </site>
