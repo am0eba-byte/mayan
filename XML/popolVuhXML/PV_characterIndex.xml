@@ -125,6 +125,8 @@
                 </parents>
                 <uncle idref="#SevH">Seven Hunahpu</uncle>
                 <brother idref="#Xba">Xbalanque</brother>
+                <brother idref="#OneArt">One Artisan</brother>
+                <brother idref="#OneMonk">One Monkey</brother>
                 <grandparents>
                     <grandma idref="#Xmu">Xmucane</grandma>
                     <grandpa idref="#Xpi">Xpiyacoc</grandpa>
