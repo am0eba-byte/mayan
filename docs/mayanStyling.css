@@ -1,3 +1,6 @@
+
+
+
 body {
     background-color: #FFE8DD;
     color:maroon;
@@ -5,8 +8,32 @@ body {
     padding: 10px;
     line-height:1.4em;
 }
-                /* HEADER STYLE */
+
+
+/* *******************************
+ * FONTS
+ * ***************************** */
+ 
+ /* 
+  *     font-family: 'Dokdo', cursive;
+
+    font-family: 'Fredericka the Great', cursive;
+
+    font-family: 'Frijole', cursive;
+
+    font-family: 'New Tegomin', serif;
+
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-family: 'Walter Turncoat', cursive;
+  */
+
+
+/***************************************************
+ * **************** HEADER STYLE 
+ * *************************************************/
 header {
+    
 }
 
 div.titlePic {
@@ -20,14 +47,26 @@ height: 200px;
 flex: 1;
 }
 
-h1 {
-	font: italic normal 1.4em georgia, sans-serif;
+header h1 {
+	font-family: 'Frijole', cursive;
 	font-size: 35px;
 	letter-spacing: 1px; 
 	margin-bottom: 20px; 
 	color: #10A37C;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-evenly;
+	text-align:center;
 }
-/* NAV BAR v */
+
+
+
+/*******************************************
+ * ************** NAV BAR 
+ * *****************************************/
+
+
+
 .names{
     padding-left: 20px;
 }
@@ -46,7 +85,12 @@ div.navbar {
   overflow: hidden;
   background-color: #10A37C;
   color: #FF7A23;
+   font-family: 'Dokdo', cursive;
+   font-size:1.6em;
+   display: flex;
+justify-content: space-evenly;
 }
+
 
 
 a.nav {
@@ -57,7 +101,7 @@ a.nav {
   color: #000000;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: wavy underline;
 }
 a.nav:hover {
   background-color: #48F0C3;
@@ -74,21 +118,25 @@ img.banner {
     height: 250px;
 }
 
-
-                /* FOOTER STYLE */
+/*************************** ************************
+ * ***************FOOTER STYLE 
+ * **************************************************/
 
 footer {
     
 }
 
 
-            /* SPLASH PAGE STYLE */
+/**************************************************
+ * ************** SPLASH PAGE STYLE 
+ * ************************************************/
 
 section.splash {
 }
 h2 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	font-size: 30px;
+	 
+	 font-family: 'Walter Turncoat', cursive;
+	font-size: 2.2em;
 	letter-spacing: 1px; 
 	text-align: center;
 	
@@ -100,12 +148,17 @@ p {
 	text-align: center;
 	font-size: 18px;
 	color: #000000;
+	font-family: 'New Tegomin', serif;
+}
+
+h3 {
+    font-family: 'Dokdo', cursive;
 }
 
 
 
-/* ********************************************
- * GODOGRAPHY STYLE
+/* **********************************************
+ ************** GODOGRAPHY STYLE
  * **************************** *****************/
 
 
@@ -129,10 +182,45 @@ img.god{
 
 
 /* ************************************************
- * TIMELINE STYLE
+ ************** TIMELINE STYLE
  * ************************************************ */
  
  img.timelinePic {
      height:10%;
      width:10%;
+ }
+ 
+ 
+ 
+ 
+ /* ****************************************************
+  * ABOUT THE PROJECT TEAM 
+  * ************************************************** */
+ 
+ div.bioWrap {
+     display:flex;
+     flex-direction:row;
+     margin:50px;
+     justify-content: space-evenly;
+ }
+ 
+ div.bio {
+     display:flex;
+     flex-direction:column;
+     flex:1;
+ }
+ 
+ img.bioPic {
+     width:100%;
+     opacity: 1;
+     transition: 1s;
+     border-radius: 25px;
+ }
+ 
+ img.bioPic:hover {
+     opacity: .6;
+ }
+ 
+ p.bioText {
+     font-size: .8em;
  }
