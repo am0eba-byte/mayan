@@ -29,6 +29,23 @@ body {
   */
 
 
+
+/* ******************************
+ * THEME COLORS
+ * 
+ * .rusty red { color: #A33F21; }
+.pinkish { color: #FF8A66; }
+.greenish blue { color: #10A37C; }
+.light teal { color: #48F0C3; }
+ * 
+
+ * **************************** */
+
+
+
+
+
+
 /***************************************************
  * **************** HEADER STYLE 
  * *************************************************/
@@ -79,11 +96,11 @@ div.navbar {
   margin: 0;
   padding: 5px;
   overflow: hidden;
-  background-color: #10A37C;
+  background-image: linear-gradient(to bottom left, #10A37C, #1B6C57);
   margin: 0;
   /*padding: 20px 20px 20px 20px;*/
   overflow: hidden;
-  background-color: #10A37C;
+  
   color: #FF7A23;
    font-family: 'Dokdo', cursive;
    font-size:1.6em;
@@ -123,7 +140,42 @@ img.banner {
  * **************************************************/
 
 footer {
-    
+    background-image: linear-gradient(to bottom right, #10A37C, #1B6C57);
+padding: 2px;
+color: #FF7A23;
+font-family: 'Dokdo', cursive;
+font-size: 1.6em;
+
+}
+
+div.foot {
+    display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+
+div.footLinks {
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+p.foot {
+    line-height: 1.5em;
+    margin:0;
+}
+
+p.foot a {
+    color: white
+}
+
+p.foot a:hover {
+    color:#A33F21;
+}
+
+img.foot {
+   width: 8vw;
+height: 12vh;
 }
 
 
