@@ -84,10 +84,10 @@
             <artifacts>
                 <relic type="bones">
                     <name>Incised bones from Temple I tomb</name>
-                    <desc>Two incised bones from the Temple I tomb in Tikal. One depicts three
+                    <desc><p>Two incised bones from the Temple I tomb in Tikal. One depicts three
                         Chahks (Rain Gods) catching fish. The other depicts seven Maya deities
                         travelling in a canoe to the Underworld. In the middle is the Maize God; at
-                        the left and right are the old Paddler Gods.</desc>
+                        the left and right are the old Paddler Gods.</p></desc>
                     <gods>
                         <deityName godID="#Cha">Chahk</deityName>
                         <deityName godID="#OneH">Maize God</deityName>
@@ -97,10 +97,10 @@
                 </relic>
                 <relic type="jade">
                     <name>Jade mosaic vase of Maize God</name>
-                    <desc>Jade mosaic vase with portrait head of the Maize God, from Burial 196, a
+                    <desc><p>Jade mosaic vase with portrait head of the Maize God, from Burial 196, a
                         royal interment of the Late Classic period at Tikal, Guatemala. The pieces
                         once adhered to a wooden interior, which has long since disintigrated. Ht:
-                        9.5 inches (24.2 cm)</desc>
+                        9.5 inches (24.2 cm)</p></desc>
                     <gods>
                         <deityName godID="#OneH">Maize God</deityName>
                     </gods>
@@ -108,7 +108,7 @@
             </artifacts>
             <structures>
                 <building type="temple">
-                    <name>Temple IV – The Two-Headed Serpent Temple</name>
+                    <name>Temple IV / The Two-Headed Serpent Temple</name>
                     <desc><p>
                         
                         The 212-foot high Temple IV is the highest pyramid temple at Tikal; it towers over the rain forest. According to Maya experts, leader Yax Kin ordered the temple built around 734 AD. Climb to the summit of this temple with care, by wooden ladder and stone steps. The summit affords a panoramic view over the site, with views of the other major temples rising from the treetops. This temple is known as the Two-Headed Serpent Temple</p></desc>
@@ -125,7 +125,7 @@
                     <name>Xibalban ball-court markers</name>
                     <desc
                         descSource="https://uncoveredhistory.com/honduras/copan/copan-templo-11-the-portal-to-the-underworld/"
-                        >The stairs of Temple 11 in Copan also lead down to the underworld, which is
+                        ><p>The stairs of Temple 11 in Copan also lead down to the underworld, which is
                         defined by three Xibalban ball-court markers which are still located outside
                         the Temple. The markers clearly show the evil looking Lords of Xibalba
                         nestled amongst the roots of the Tree of Life. The stairs and sloping walls
@@ -134,7 +134,7 @@
                         origins in a mythical game played by the Hero Twins, Hunuhpu and Xbalanque,
                         who were asked to play against the the Lords of Xibalba. The myth ends with
                         the boys winning the game and defeating the Lords of Xibabla and therefore
-                        defeating death. </desc>
+                        defeating death. </p></desc>
                     <gods>
                         <deityName godID="#LOX">Lords of Xibalba</deityName>
 
@@ -142,8 +142,8 @@
                 </relic>
                 <relic type="bust">
                     <name>Stone bust of young Maize God</name>
-                    <desc>Stone bust of young Maize God, Temple 22. One of the wonderfully baroque
-                        sculptures from this site.</desc>
+                    <desc><p>Stone bust of young Maize God, Temple 22. One of the wonderfully baroque
+                        sculptures from this site.</p></desc>
                     <gods>
                         <deityName godID="#OneH">Maize God</deityName>
                     </gods>
@@ -233,8 +233,8 @@
             <artifacts>
                 <relic type="stela">
                     <name>Stela 2</name>
-                    <desc>The Hero Twins gesture toward the Principal Bird Deity (Wuqub Caquix) as
-                        he descends to the fruit tree. Late Preclassic, c. 100 B.C. or later.</desc>
+                    <desc><p>The Hero Twins gesture toward the Principal Bird Deity (Wuqub Caquix) as
+                        he descends to the fruit tree. Late Preclassic, c. 100 B.C. or later.</p></desc>
                     <gods>
                         <deityName godID="#Hun">Hunahpu</deityName>
                         <deityName godID="#Xba">Xbalanque</deityName>
@@ -244,15 +244,15 @@
                 <relic type="stela"> 
                 <name>N/A</name>
                     <desc>
-                        A carved stone depiction of Mayan god of rain, Chahk (God G), standing on water. The decorations at the top, called a "sky band," was the Mayan artistic method of depicting the sky and the heavens above a scene.
-                    </desc>
+                       <p> A carved stone depiction of Mayan god of rain, Chahk (God G), standing on water. The decorations at the top, called a "sky band," was the Mayan artistic method of depicting the sky and the heavens above a scene.
+                    </p></desc>
                     <gods>
                         <deityName godID="#Cha">Chahk</deityName>
                     </gods>
                 </relic>
                 <relic type="stela">
                     <name>Stela 5</name>
-                    <desc>This Izapan stela depicts humanity emerging out of the World's Tree from the underworld, Xibalba. It possibly depicts a Mayan ritual.</desc>
+                    <desc><p>This Izapan stela depicts humanity emerging out of the World's Tree from the underworld, Xibalba. It possibly depicts a Mayan ritual.</p></desc>
                 </relic>
             </artifacts>
             <structures>
@@ -272,14 +272,14 @@
             <artifacts>
                 <relic type="stela">
                     <name>Wuqub Kaquix Impersonation Stela</name>
-                    <desc> A ruler impersonating the Principal Bird Deity (Wuqub Kaquix) is carved on this granite stela. Ht 6 ft </desc>
+                    <desc><p> A ruler impersonating the Principal Bird Deity (Wuqub Kaquix) is carved on this granite stela. Ht 6 ft</p> </desc>
                     <gods>
                         <deityName godID="#PBD">Wuqub Kaquix</deityName>
                     </gods>
                 </relic>
                 <relic type="monument">
                     <name>Monument 65</name>
-                    <desc>Monument 65 depicts high-ranking captives captured in battle, about to be sacrificed to the gods.</desc>
+                    <desc><p>Monument 65 depicts high-ranking captives captured in battle, about to be sacrificed to the gods.</p></desc>
                 </relic>
             </artifacts>
             <structures>
@@ -305,15 +305,15 @@
             <dateActive yearStart="-226" yearEnd="799"/>
             <location lat="17.50953" long="-91.98248"/>
             <artifacts>
-                <relic>
+                <relic type="tomb">
                     <name>Sarcophagus of Pakal the Great</name>
-                    <desc>This carving on the upper surface of the sarcophagus found within the
+                    <desc><p>This carving on the upper surface of the sarcophagus found within the
                         Funerary Crypt in the Temple of Inscriptions depicts the youthful-appearing
                         Pakal the Great (the eighty-year-old king interred within the tomb) falling
                         through gigantic fleshless jaws into the Underworld; above him rises the
                         World Tree, surmounted by the bird-monster Wuqub Kaquix. Surrounding the
                         scene is a band depicting celestial bodies and ancestral figures. AD
-                        683.</desc>
+                        683.</p></desc>
                     <gods>
                         <deityName godID="#PBD">Wuqub Kaquix</deityName>
 
@@ -348,9 +348,9 @@
             <dateActive yearStart="500" yearEnd="1000"/>
             <location lat="20.3599" long="-89.7684"/>
             <artifacts>
-                <relic>
+                <relic type="decor">
                     <name>Ball Court</name>
-                    <desc descSource="https://mayanpeninsula.com/ball-court-in-uxmal/">Its condition
+                    <desc descSource="https://mayanpeninsula.com/ball-court-in-uxmal/"><p>Its condition
                         is very deteriorated, and it’s made of two constructions of medium
                         dimensions that make up the sides of the court with the rings by which the
                         ball was to be introduced. The originally carved stone rings were removed to
@@ -360,7 +360,7 @@
                         occasions, symbolically staged the fight of the day against the night or the
                         struggle of the deities of the underworld against the gods of heaven. The
                         date of construction was found in one of the calendrical symbols revealing
-                        the date in the year 906, time in which Uxmal began the decline.</desc>
+                        the date in the year 906, time in which Uxmal began the decline.</p></desc>
                     <gods>
                         <deityName godID="#Cha">Chahk</deityName>
 
@@ -393,13 +393,13 @@
             <dateActive yearStart="250" yearEnd="900"/>
             <location lat="16.8989" long="-90.9659"/>
             <artifacts>
-                <relic>
+                <relic type="stela">
                     <name>Stela 11</name>
-                    <desc descSource="https://www.worldhistory.org/Yaxchilan/">Stela 11 shows two
+                    <desc descSource="https://www.worldhistory.org/Yaxchilan/"><p>Stela 11 shows two
                         standing figures in costume on the front, probably signifying the accession
                         of the ruler Bird-Jaguar alongside his father and, in a quite different
                         style, the reverse side again shows Bird-Jaguar, this time represented as
-                        the god Chahk, attacking three kneeling victims with his sceptre.</desc>
+                        the god Chahk, attacking three kneeling victims with his sceptre.</p></desc>
                     <gods>
                         <deityName godID="#Cha">Chahk</deityName>
 
@@ -459,8 +459,8 @@
             <date when="600">Late Classic Period</date>
             <img src=""/>
             <desc descSource="http://www.mesoweb.com/publications/MayaScribe/MayaScribe.lores.pdf">
-                The theme of this vessel has many linkages with the Popol Vuh. A Young Lord is in the act of pulling God N from his snail shell, while he conceals behind his back the knife with which he is going to sacrifice him.
-            </desc>
+               <p> The theme of this vessel has many linkages with the Popol Vuh. A Young Lord is in the act of pulling God N from his snail shell, while he conceals behind his back the knife with which he is going to sacrifice him.
+            </p></desc>
             <gods>
                 <deityName>God N</deityName>
                 <deityName godID="#LOX">Lord of Xibalba</deityName>
