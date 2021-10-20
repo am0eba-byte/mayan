@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <script type="text/javascript" src="javascript/calendar-converter.js"></script>
+    </head>
+    <body>
+        <div id='calendar-converter-main'>
+            <p id='calendar-quote'><!--&ldquo;--><strong>Each day in the sacred Maya calendar</strong> has a meaning. It tells us about the relationship among all things, including the animals, the land, humans, and everything in the cosmos.<!--&rdquo; &nbsp;&mdash;--><strong>Hermelinda Sapon Pu, K’iche’ Maya, Day Keeper</strong></p>
+            <div id='converter-wrap'>
+                <div id='conveter-main'>
+                    <div id='monument'>
+                        <div id='intro-glyph'></div>
+                        <div id='baktuns' rel='0' class='calendar-glyph even'><div class='numeral'></div></div>
+                        <div id='katuns' rel='1' class='calendar-glyph odd'><div class='numeral'></div></div>
+                        <div id='tuns' rel='2' class='calendar-glyph even'><div class='numeral'></div></div>
+                        <div id='uinals' rel='3' class='calendar-glyph odd'><div class='numeral'></div></div>
+                        <div id='kins' rel='4' class='calendar-glyph even'><div class='numeral'></div></div>
+                        <div id='tzolkin' rel='5' class='calendar-glyph odd'><div class='numeral'></div></div>
+                        <div id='haab' rel='6' class='calendar-glyph even'><div class='numeral'></div></div>
+                        <div id='night' rel='7' class='calendar-glyph odd'></div>
+                    </div><!--monument-->
+                </div><!--converter-main-->
+                <div id='converter-aside'>
+                    <div id='select-date'>
+                        <div>
+                            <table>
+                                <tr><td class='bold'>MONTH:</td><td>
+                                    <select id='month' name='month' class='date-select'>
+                                        <option value="0">January</option>
+                                        <option value="1">February</option>
+                                        <option value="2">March</option>
+                                        <option value="3">April</option>
+                                        <option value="4">May</option>
+                                        <option value="5">June</option>
+                                        <option value="6">July</option>
+                                        <option value="7">August</option>
+                                        <option value="8">September</option>
+                                        <option value="9">October</option>
+                                        <option value="10">November</option>
+                                        <option value="11">December</option>
+                                    </select>
+                                </td></tr>
+                                <tr>
+                                    <td class='bold'>DAY:</td>
+                                    <td>
+                                        <input type='text' id='day' size='2' class='date-select'/>
+                                    </td>
+                                </tr>
+                                <tr><td class='bold'>YEAR:</td><td><input type='text' id='year' size='4' class='date-select'/></td></tr>
+                            </table>
+                        </div>
+                        <div>
+                            <button id='convert'>CONVERT</button>
+                           <!-- <button id='minus-1'><span>-1</span>&nbsp;Day</button>
+                            <button id='plus-1'><span>+1</span>&nbsp;Day</button>-->
+                        </div>
+                    </div><!--select-date-->
+                    <div id='details'>
+                        <div>
+                            <h3>Long Count Date</h3><h3><span id='lcd'></span></h3>
+                        </div>
+                        <div><span class='bold lcd-baktuns'>0</span> <strong>baktun</strong><br/><span class='lcd-baktuns'>0</span> X 144,000 days = <span id='lcd-baktuns-days'>0</span> days</div>
+                        <div><span class='bold lcd-katuns'>0</span> <strong>katun</strong><br/><span class='lcd-katuns'>0</span> X 7,200 days = <span id='lcd-katuns-days'>0</span> days</div>
+                        <div><span class='bold lcd-tuns'>0</span> <strong>tun</strong><br/><span class='lcd-tuns'>0</span> X 360 days = <span id='lcd-tuns-days'>0</span> days</div>
+                        <div><span class='bold lcd-uinals'>0</span> <strong>uinal</strong><br/><span class='lcd-uinals'>0</span> X 20 days = <span id='lcd-uinals-days'>0</span> days</div>
+                        <div><span class='bold lcd-kins'>0</span> <strong>k'in</strong><br/><span class='lcd-kins'>0</span> X 1 day = <span id='lcd-kins-days'>0</span> days</div>
+                        <div>
+                            <p><strong>Tzolk'in Date:</strong><!--&nbsp;--><span id='tzolkin-date'></span><!--&nbsp;--><span id='tzolkin-month'></span></p>
+                            <p><strong>Haab Date:</strong><!--&nbsp;--><span id='haab-date'></span><!--&nbsp;--><span id='haab-month'></span></p>
+                            <p><strong>Lord of the Night:</strong><!--&nbsp;-->G<span id='night-date'></span></p>
+                        </div>
+                    </div><!--details-->
+                </div><!--converter-aside-->
+                <div class='clear'></div>
+            </div><!--converter wrap-->
+        </div><!--calendar-converter-main-->
+    </body>
+</html>

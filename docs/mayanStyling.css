@@ -9,6 +9,14 @@ body {
     line-height:1.4em;
 }
 
+p.date {
+    text-align:right;
+}
+
+span#date-time {
+    font-family: 'Noto Sans Mayan Numerals', sans-serif;
+}
+
 
 /* *******************************
  * FONTS

@@ -185,22 +185,18 @@
             <dateActive yearStart="600" yearEnd="900"/>
             <location lat="20.6843" long="-88.5678"/>
             <artifacts>
-                <relic>
-                    <!-- mb: should we put IDs on individual relics and buildings? -->
-                    <name/>
-                    <desc> </desc>
+                <relic type="temple sculpture">
+                   
+                    <name>Serpent Heads on El Castillo</name>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/ChichenItzaEquinox.jpg/2560px-ChichenItzaEquinox.jpg"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Serpent_head_at_the_base_of_El_Castillo.jpg/2560px-Serpent_head_at_the_base_of_El_Castillo.jpg"/>
+                    <desc><p>These sculptures of plumed serpents run down the sides of the northern balustrade. Around the spring and autumn equinoxes, the late afternoon sun strikes off the northwest corner of the pyramid and casts a series of triangular shadows against the northwest balustrade, creating the illusion of the feathered serpent "crawling" down the pyramid. To contemporary visitors, the event has been very popular and is witnessed by thousands at the spring equinox, but it is not known whether the phenomenon is a result of a purposeful design since the light-and-shadow effect can be observed without major changes during several weeks near the equinoxes.</p></desc>
                     <gods>
-                        <!-- GODS DEPICTED ON IT -->
-                        <deityName> </deityName>
+                        
+                        <deityName godID="#SPS">Kukulcan</deityName>
                     </gods>
                 </relic>
-                <relic>
-                    <name/>
-                    <desc/>
-                    <gods>
-                        <deityName/>
-                    </gods>
-                </relic>
+           
             </artifacts>
             <structures>
                 <building type="temple">
