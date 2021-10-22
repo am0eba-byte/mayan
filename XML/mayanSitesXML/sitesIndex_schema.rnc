@@ -1,5 +1,5 @@
 start = xml
-xml= element xml {head, mayanSites, unknownOrigin}
+xml= element xml {head, mayanSites}
 
 head = element head {editor+, source+}
 editor = element editor {text}
@@ -7,9 +7,9 @@ co-editor = element co-editor {text}
 source = element source {href, empty}
 href = attribute href {xsd:anyURI}
 
-mayanSites = element mayanSites {site+}
+mayanSites = element mayanSites {site+, unknownOrigin}
 
-site = element site {id, name, dateActive, location, artifacts, structures}
+site = element site {id, name, dateActive, location, artifacts?, structures?}
 id = attribute id {"#SanBart" | "#elMira" | "#tikal" | "#copan" | "#chItza" | "#izapa" | "#KJ" | "#palenQ" | "#uxmal" | "#yaxchil" | "#yaxun" }
 name = element name {text}
 
@@ -22,10 +22,10 @@ lat = attribute lat {xsd:float} # NEED TO FIND DATATYPE FOR LATITUDE AND LONGITU
 long = attribute long {xsd:float} # SEE ABOVE #
 
 artifacts = element artifacts {relic+}
-relic = element relic {type?, name, date?, img*, desc, gods*}
+relic = element relic {type, name, date?, img*, desc, gods*}
 img = element img {src, empty}
 src = attribute src {text}
-desc = element desc {descSource?, mixed{p*}}
+desc = element desc {descSource?, p+}
 p = element p {text}
 descSource = attribute descSource {xsd:anyURI}
 

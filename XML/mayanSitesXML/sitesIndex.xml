@@ -35,9 +35,10 @@
                 </relic>
             </artifacts>
             <structures>
-                <building type="temple">
-                    <name/>
-                    <desc/>
+                <building type="pyramid">
+                    <name>Temple of "Las Pinturas"</name>
+                    <img src="https://www.mesoweb.com/reports/SanBartolo/04.jpg"/>
+                    <desc><p>The vegetation-covered pyramid complex at San Bartolo in Guatemala shows the mural room located at the base (bottom center) of pyramid. The room's recently excavated west wall, adorned with the earliest preserved Maya mural, abuts the edge of the pyramid. Archaeologists believe the vividly painted room, dating from around 100 B.C. and chronicling the mythology of kings and the birth of the Maya cosmos, could have been a preparation area for ceremonies that took place on the courtyard in front of the pyramid.</p></desc>
                 </building>
             </structures>
         </site>
@@ -47,12 +48,18 @@
             <dateActive yearStart="-2700 " yearEnd="-200"/>
             <location lat="42.5713" long="-64.2817"/>
             <artifacts>
-                <relic>
-                    <name/>
-                    <desc/>
+                <relic type="frieze">
+                    <name>Water Collection Tecolote Friezes</name>
+                    <img src="https://i0.wp.com/mayadecipherment.com/wp-content/uploads/2012/04/elm_fig1.jpg"/>
+                    <img src="https://i.pinimg.com/originals/b2/26/4d/b2264dff76320b6dd953501e1d234030.jpg"/>
+                    <desc descSource="https://mayadecipherment.com/2012/04/09/a-watery-tableau-at-el-mirador-guatemala/"><p>A long set of stucco friezes that depicts two more examples of Late Preclassic deity impersonation. The façades are located in a prominent pathway running east-west in the center of the “Central Acropolis.” They appear to front a large plaza at the base of the “Tecolote” pyramid complex, perhaps adorning part of an ancient water collection system (see map). The figures on the lower frieze have been associated with the Hero Twins, Hunahpu and Xbalanque, protagonists of the colonial K’iche Maya creation story, the Popol Vuh (Hansen et al. 2011: 190). Yet, in our view, these figures represent god impersonators and bear no secure connection to twins in the Popol Vuh.</p>
+                        <p>The lower, more prominent façade contains three beings: two humans with large headdresses, and the large profile head. The figure on the left, whose face is partially damaged, wears a headdress and shell ear spools. His one visible eye has the inverted-“L” found on some early gods; his mouth displays a circular outline, his outstretched arms and bent legs conform to the pattern of many diving figures in Maya art (see Taube et al. 2010: Fig. 54A).</p>
+                        <p>The central figure wears a simple knotted belt with an effigy head attached to his lower back. His headdress and chinstrap form the gaping jaws of what is likely a version of Chahk, the god of rain (see Taube 1996: Fig. 15, 16): the diagnostic elements are the curled forehead (or hair) and especially the Spondylus ear spool (Figure 2). The figure on the viewer’s left shares many of the same features, but with different, tufted forehead, as though referring to another aspect of the rain deity. </p>
+                    </desc>
                     <gods>
-                        <deityName/>
-
+                        <deityName godID="#Hun">Hunahpu</deityName>
+                        <deityName godID="#Xba">Xbalanque</deityName>
+                        <deityName godID="#Cha">Chahk</deityName>
                     </gods>
                 </relic>
             </artifacts>
@@ -121,7 +128,7 @@
             <dateActive yearStart="290" yearEnd="900"/>
             <location lat="14.8497" long="-89.1468"/>
             <artifacts>
-                <relic>
+                <relic type="ball court marker">
                     <name>Xibalban ball-court markers</name>
                     <desc
                         descSource="https://uncoveredhistory.com/honduras/copan/copan-templo-11-the-portal-to-the-underworld/"
@@ -174,7 +181,7 @@
                         lineage.</p> </desc>
                     <gods>
                         <deityName godID="#OneArt">Howler Monkey God</deityName>
-                        <deityName godID="#OneMonk">Howler Monkey God</deityName>
+                        <deityName godID="#OneMonk">Spider Monkey God</deityName>
                     </gods>
                 </building>
             </structures>
@@ -238,7 +245,7 @@
                     </gods>
                 </relic>
                 <relic type="stela"> 
-                <name>N/A</name>
+                <name>Chahk Stone Carving</name>
                     <desc>
                        <p> A carved stone depiction of Mayan god of rain, Chahk (God G), standing on water. The decorations at the top, called a "sky band," was the Mayan artistic method of depicting the sky and the heavens above a scene.
                     </p></desc>
@@ -249,16 +256,19 @@
                 <relic type="stela">
                     <name>Stela 5</name>
                     <desc><p>This Izapan stela depicts humanity emerging out of the World's Tree from the underworld, Xibalba. It possibly depicts a Mayan ritual.</p></desc>
+                    <gods>
+                        <deityName godID="#LOX">Xibalba</deityName>
+                    </gods>
                 </relic>
             </artifacts>
-            <structures>
+            <!--<structures>
                 <building type="temple">
                     <name>N/A</name>
                     <desc> <p>Izapa is known more for its vastness rather than any of the particualr
                         buildngs on the premiss. The site stretches close to one and a half miles.
                         The abundance of monuments gives name to the term Izapan style.</p></desc>
                 </building>
-            </structures>
+            </structures>-->
         </site>
 
         <site id="#KJ">
@@ -380,6 +390,9 @@
                         the wider, has a small temple along the way that cut the stairway in half.
                         The second access stair, the Western, faces the Nunnery Quadrangle and is
                         decorated with friezes of the rain god Chaac.</p></desc>
+                    <gods>
+                        <deityName godID="#Cha">Chaac</deityName>
+                    </gods>
                 </building>
             </structures>
         </site>
@@ -423,44 +436,22 @@
             </structures>
         </site>
 
-
-        <!-- mb: I'm thinkin about taking Yaxuna out of the index cuz it might not have enough cool stuff to be worth paying attention to-->
-
-        <!--<site id="#yaxun">
-            <name>Yaxuna</name>
-            <dateActive yearStart="" yearEnd=""/>
-            <location lat="20.5411" long="-88.6766"/>
-            <artifacts>
-                <relic>
-                    <name/>
-                    <desc/>
-                    <gods>
-                        <deityName godID="#GOD"/>
-
-                    </gods>
-                </relic>
-            </artifacts>
-            <structures>
-                <building >
-                    <name/>
-                    <desc/>
-                </building>
-            </structures>
-        </site>-->
+        <unknownOrigin>
+            <relic type="pottery">
+                <name>Chama Vase</name>
+                
+                <date when="600">Late Classic Period</date>
+                <img src=""/>
+                <desc descSource="http://www.mesoweb.com/publications/MayaScribe/MayaScribe.lores.pdf">
+                    <p> The theme of this vessel has many linkages with the Popol Vuh. A Young Lord is in the act of pulling God N from his snail shell, while he conceals behind his back the knife with which he is going to sacrifice him.
+                    </p></desc>
+                <gods>
+                    <deityName>God N</deityName>
+                    <deityName godID="#LOX">Lord of Xibalba</deityName>
+                </gods>
+            </relic>
+        </unknownOrigin>
+       
     </mayanSites>
-    <unknownOrigin>
-        <relic>
-            <name>Chama Vase</name>
-            
-            <date when="600">Late Classic Period</date>
-            <img src=""/>
-            <desc descSource="http://www.mesoweb.com/publications/MayaScribe/MayaScribe.lores.pdf">
-               <p> The theme of this vessel has many linkages with the Popol Vuh. A Young Lord is in the act of pulling God N from his snail shell, while he conceals behind his back the knife with which he is going to sacrifice him.
-            </p></desc>
-            <gods>
-                <deityName>God N</deityName>
-                <deityName godID="#LOX">Lord of Xibalba</deityName>
-            </gods>
-        </relic>
-    </unknownOrigin>
+    
 </xml>

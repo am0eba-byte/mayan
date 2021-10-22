@@ -284,3 +284,84 @@ img.god{
  p.bioText {
      font-size: .8em;
  }
+ 
+ 
+ 
+ 
+ 
+/* ********************************************************
+ *  JAVASCRIPT STUFF
+ * ******************************************************** */
+ 
+ /* CHARACTERS */
+ span.OneH.on {
+    color:#3333CC
+ }
+ 
+span.Cha.on {
+    color:#FF3300
+}
+
+span.Xba.on {
+        color: grey
+}
+
+span.Hun.on {
+    color:aqua
+}
+
+span.PBD.on {
+    color:yellow
+}
+
+span.SPS.on {
+    color:red;
+}
+
+span.LOX.on {
+    color:brown;
+}
+
+/* SITES */
+
+tr.SanBart.on {
+    color:#477519
+    }
+    
+tr.elMira.on {
+    color:beige
+    }
+    
+tr.tikal.on {
+    color:fuchsia;
+}
+
+tr.copan.on {
+    color:olive
+}
+
+tr.chItza.on {
+    color:lime
+}
+
+tr.izapa.on {
+    color:silver
+}
+
+tr.KJ.on {
+    color:purple
+}
+
+tr.palenQ.on {
+    color:orange
+}
+
+tr.uxmal.on {
+    color:teal
+}
+
+tr.yaxchil.on {
+    color:cornflowerblue
+}
+
+
