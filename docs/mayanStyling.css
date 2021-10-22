@@ -295,73 +295,73 @@ img.god{
  
  /* CHARACTERS */
  span.OneH.on {
-    color:#3333CC
+    background-color:#3333CC
  }
  
 span.Cha.on {
-    color:#FF3300
+    background-color:#FF3300
 }
 
 span.Xba.on {
-        color: grey
+        background-color: grey
 }
 
 span.Hun.on {
-    color:aqua
+    background-color:aqua
 }
 
 span.PBD.on {
-    color:yellow
+    background-color:yellow
 }
 
 span.SPS.on {
-    color:red;
+    background-color:red;
 }
 
 span.LOX.on {
-    color:brown;
+    background-color:brown;
 }
 
 /* SITES */
 
 tr.SanBart.on {
-    color:#477519
+    background-color:#477519
     }
     
 tr.elMira.on {
-    color:beige
+    background-color:beige
     }
     
 tr.tikal.on {
-    color:fuchsia;
+    background-color:fuchsia;
 }
 
 tr.copan.on {
-    color:olive
+    background-color:olive
 }
 
 tr.chItza.on {
-    color:lime
+    background-color:lime
 }
 
 tr.izapa.on {
-    color:silver
+    background-color:silver
 }
 
 tr.KJ.on {
-    color:purple
+    background-color:purple
 }
 
 tr.palenQ.on {
-    color:orange
+    background-color:orange
 }
 
 tr.uxmal.on {
-    color:teal
+    background-color:teal
 }
 
 tr.yaxchil.on {
-    color:cornflowerblue
+    background-color:cornflowerblue
 }
 
 
