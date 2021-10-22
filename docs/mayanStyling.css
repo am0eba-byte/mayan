@@ -293,17 +293,48 @@ img.god{
  *  JAVASCRIPT STUFF
  * ******************************************************** */
  
+ /* LEGEND */
+ 
+ section#jsLegend{
+     display:flex;
+ }
+ 
+ div.legendWrap {
+     flex:1
+ }
+ 
+ div.legend{
+     position:sticky;
+     top: 20px;
+     /*flex:1;*/
+     margin-top:10px;
+ }
+ 
+ div.content {
+     flex:8;
+ }
+ 
+ div.checkboxes {
+     display:flex;
+     flex-direction:column;
+ }
+ 
+ 
+ 
  /* CHARACTERS */
  span.OneH.on {
-    background-color:#3333CC
+   background-color: #EF9157;
+color: black;
  }
  
 span.Cha.on {
-    background-color:#FF3300
+   background-color: #229775;
+color: white;
 }
 
 span.Xba.on {
-        background-color: grey
+        background-color: #5265ca;
+color: white;
 }
 
 span.Hun.on {
@@ -315,29 +346,35 @@ span.PBD.on {
 }
 
 span.SPS.on {
-    background-color:red;
+    background-color: #3f8a30;
+color: white;
 }
 
 span.LOX.on {
-    background-color:brown;
+   background-color: #8c2121;
+color: white;
 }
 
 /* SITES */
 
 tr.SanBart.on {
-    background-color:#477519
+    background-color: #7fb24b;
+color: black;
     }
     
 tr.elMira.on {
-    background-color:beige
+   background-color: #8e1313;
+color: white;
     }
     
 tr.tikal.on {
-    background-color:fuchsia;
+   background-color: #f0a5e4;
+color: black;
 }
 
 tr.copan.on {
-    background-color:olive
+    background-color:olive;
+    color: black;
 }
 
 tr.chItza.on {
@@ -349,7 +386,8 @@ tr.izapa.on {
 }
 
 tr.KJ.on {
-    background-color:purple
+    background-color: #c36aec;
+color: black;
 }
 
 tr.palenQ.on {
@@ -357,11 +395,13 @@ tr.palenQ.on {
 }
 
 tr.uxmal.on {
-    background-color:teal
+    background-color:teal;
+    color: white;
 }
 
 tr.yaxchil.on {
-    background-color:cornflowerblue
+    background-color:cornflowerblue;
+    color:black;
 }
 
 
