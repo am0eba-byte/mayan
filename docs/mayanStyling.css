@@ -2,9 +2,11 @@
 
 
 body {
-    background-color: #FFE8DD;
-    color:maroon;
-    font-family:arial, helvetica, sans-serif;
+    /*background-color: #FFE8DD;*/
+    background-image: url("images/designs/Maya_Background_one.jpg");
+    background-position:center;
+    color:black;
+   /* font-family:arial, helvetica, sans-serif;*/
     padding: 10px;
     line-height:1.4em;
 }
@@ -15,6 +17,16 @@ p.date {
 
 span#date-time {
     font-family: 'Noto Sans Mayan Numerals', sans-serif;
+}
+
+section {
+   background-color: #FFE8DDB5;
+    border-radius: 25px;
+    padding-top: .1%;
+    padding-bottom: .1%;
+   margin-top: 10px;
+margin-bottom: 10px;
+    /*opacity: .6;*/
 }
 
 
@@ -82,6 +94,7 @@ header h1 {
 	flex-direction:column;
 	justify-content: space-evenly;
 	text-align:center;
+	text-shadow: 2px 2px black;
 }
 
 
@@ -110,8 +123,9 @@ div.navbar {
   overflow: hidden;
   
   color: #FF7A23;
-   font-family: 'Dokdo', cursive;
-   font-size:1.6em;
+   /*font-family: 'Dokdo', cursive;*/
+   font-family: 'Walter Turncoat', cursive;
+   font-size:1.2em;
    display: flex;
 justify-content: space-evenly;
 }
@@ -142,6 +156,68 @@ img.banner {
     width:100%;
     height: 250px;
 }
+
+
+
+/* The dropdown container */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+ font-size: 1.2em;
+  border: none;
+  outline: none;
+  /*color: white;
+  padding: 14px 16px;*/
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  text-decoration: wavy underline;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #48F0C3;
+}
+/*#10A37C; }
+.light teal { color: #48F0C3;*/
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: wavy underline;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+
+
 
 /*************************** ************************
  * ***************FOOTER STYLE 
@@ -199,9 +275,10 @@ h2 {
 	font-size: 2.2em;
 	letter-spacing: 1px; 
 	text-align: center;
-	
+	text-shadow: 2px 2px black;
 	margin-bottom: 5px; 
 	color: #10A37C;
+	opacity: 1;
 }
 p { 
     margin-top: 1.5em;
@@ -209,12 +286,25 @@ p {
 	font-size: 18px;
 	color: #000000;
 	font-family: 'New Tegomin', serif;
+	opacity:1;
 }
 
 h3 {
     font-family: 'Dokdo', cursive;
+    /*text-shadow: 2px 2px black;*/
 }
 
+
+
+/* *********************************************
+ * TABLES GENERAL STYLE
+ * ******************************************** */
+
+table {
+    font-size: 18px;
+	color: #000000;
+	font-family: 'New Tegomin', serif;
+}
 
 
 /* **********************************************
@@ -236,6 +326,57 @@ img.god{
     max-width:100%;
 }
 
+.famDropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.famDropdown .famDropbtn {
+ font-size: 1.2em;
+  border: none;
+  outline: none;
+ 
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  text-decoration: wavy underline;
+}
+
+
+.famDropdown:hover .dropbtn {
+  background-color: #48F0C3;
+}
+
+/* Dropdown content (hidden by default) */
+.famDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.famDropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: wavy underline;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.famDropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.famDropdown:hover .famDropdown-content {
+  display: block;
+} 
 
 
 
@@ -308,6 +449,10 @@ img.god{
      top: 20px;
      /*flex:1;*/
      margin-top:10px;
+ }
+ 
+ legend {
+      font-family: 'Walter Turncoat', cursive;
  }
  
  div.content {

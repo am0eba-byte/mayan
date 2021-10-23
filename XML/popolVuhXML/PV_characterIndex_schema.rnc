@@ -19,7 +19,7 @@ entity = element entity {text}
 of = element of {text}
 
 
-xmlid = attribute xml:id {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha" | "#Itz" | "#GodG" | "#GodL"}
+xmlid = attribute xml:id {"SPS" | "Hur" | "Xpi" | "Xmu" | "MudM" | "WoodM" | "MazM" | "Hun" | "Xba" | "PBD" | "Zip" | "Ear" | "OneH" | "SevH" | "OneMonk" | "OneArt" | "LOX" | "TOM" | "BW" | "Toh" | "OneD" | "SevenD" | "BldG" | "Cha" | "Itz" | "GodG" | "GodL"}
 
 name = element name {text}
 
@@ -33,7 +33,7 @@ ref = attribute  ref {text}
 
 
 
-family = element family {(partner?, children?, grandparents?, grandChildren?, parents?, brother?, babymom?, uncle?)*}
+family = element family {(partner?, children?, grandparents?, grandChildren?, parents?, brother?, babymom?, uncle?, nephews?, babydaddy?)*}
 
 partner = element partner {idref, text}
 
@@ -57,6 +57,12 @@ brother = element brother {idref, text}
 babymom = element babymom {idref?, text}
 
 uncle = element uncle {idref, text}
+
+nephews = element nephews {nephew+}
+
+nephew = element nephew {idref, text}
+
+babydaddy = element babydaddy {idref, text}
 
 idref = attribute idref {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
 

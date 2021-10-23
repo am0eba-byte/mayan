@@ -103,11 +103,23 @@
     </xsl:template>
     
     <xsl:template match="family">
-        <h6>Parents:</h6>
+        <h6>Siblings:</h6>
         <ul>
-            <xsl:for-each select="parents/*">
+            <xsl:for-each select="brother">
                 <li><xsl:apply-templates/></li>
             </xsl:for-each>
+        </ul>
+        <h6>Grandparents:</h6>
+        <ul>
+            <xsl:for-each select="grandparents/*">
+                <li><xsl:apply-templates select="grandmother"/></li>
+                <li><xsl:apply-templates select="grandfather"/></li>
+            </xsl:for-each>
+        </ul>
+        <h6>Parents:</h6>
+        <ul>
+            <li><xsl:apply-templates select="parents/mother"/></li>
+            <li><xsl:apply-templates select="parents/father"/></li>
         </ul>
         <h6>Children:</h6>
         <ul>
@@ -115,15 +127,10 @@
                 <li><xsl:apply-templates/></li>
             </xsl:for-each>
         </ul>
-        <h6>Grandparents:</h6>
+        
+        <h6>Grandchildren:</h6>
         <ul>
-            <xsl:for-each select="grandparents/*">
-                <li><xsl:apply-templates/></li>
-            </xsl:for-each>
-        </ul>
-        <h6>Siblings:</h6>
-        <ul>
-            <xsl:for-each select="brother">
+            <xsl:for-each select="grandchildren/*">
                 <li><xsl:apply-templates/></li>
             </xsl:for-each>
         </ul>

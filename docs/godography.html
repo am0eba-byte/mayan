@@ -1,5 +1,4 @@
-<!DOCTYPE html
-  SYSTEM "about:legacy-compat">
+<!DOCTYPE html>
 <html>
    <head>
       <title>Mayan Project</title>
@@ -21,15 +20,16 @@
    <body>
       <header>
          <div class="titlePic">
-            <h1><span class="head">Ancient Mayans</span>
-               <span class="head">Digitized</span></h1>
+            <h1>
+               <span class="head">Ancient Mayans</span>
+               <span class="head">Digitized</span>
+            </h1>
             <img alt="eleven gods" class="headImg" src="images/designs/eleven_gods.png" />
          </div>
          <div class="navbar">
             <a class="nav" href="index.html">Home</a>
             <a class="nav" href="siteMap.html">Mayan Sites Map</a>
-            <a class="nav" href="Gods.html">God-ography</a>
-            
+            <a class="nav" href="godography.html">God-ography</a>
             <a class="nav" href="3Dmodels.html">3D Models</a>
             <a class="nav" href="about.html">Project Team</a>
             <div class="dropdown">
@@ -37,13 +37,12 @@
                <div class="dropdown-content">
                   <a class="nav" href="sitesTemplesTimeline.html">Sites and Temples Timeline</a>
                   <a class="nav" href="godRelicRefs.html">Mayan Gods and Artifacts</a>
-                  <!-- <a href="404.html">More coming</a>-->
                </div>
-            </div> 
-            <a class="nav" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
-               ><img alt="Creative Commons License" style="border-width:0"
-                  src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
-            
+            </div>
+            <a class="nav" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+               <img alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+            </a>
          </div>
       </header>
       <section class="gods">
@@ -53,23 +52,19 @@
                <th>Image</th>
                <th>God Name</th>
                <th>Alternate Names</th>
-               <th>God Type</th>
-               <th>God Origins</th>
                <th>Family Relationships</th>
                <th>Description</th>
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="kukulkan" src="images/characterPics/SPSerpent.jpg" />
+                  <img alt="" class="god" src="images/characterPics/SPSerpent.jpg" />
                </td>
-               <td>Sovereign Plumed Serpent</td>
+               <td id="SPS">Sovereign Plumed Serpent</td>
                <td>
                   <ul>
                      <li>Kukulkan</li>
                   </ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td></td>
                <td>Sovereign Plumed Serpent is a feathered serpent god very similar to Quetzalcoatl
                   of the Aztecs. In the Quiché language his name is Tepeu Gucumatz and it’s actually
@@ -82,16 +77,14 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="hurricane" src="images/characterPics/Hurricane.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Hurricane.jpg" />
                </td>
-               <td>Hurricane</td>
+               <td id="Hur">Hurricane</td>
                <td>
                   <ul>
                      <li>Thunderbolt Hurricane</li>
                   </ul>
                </td>
-               <td>God</td>
-               <td>Heart of Sky</td>
                <td></td>
                <td>Hurricane is the leader of the three thunder gods that together are Heart of Sky
                   (sometimes called Heart of Sky, Heart of Earth). The god is often called
@@ -100,28 +93,28 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="xpi" src="images/characterPics/Xpiyacoc.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Xpiyacoc.jpg" />
                </td>
-               <td>Xpiyacoc</td>
+               <td id="Xpi">Xpiyacoc</td>
                <td>
                   <ul>
                      <li>Grandfather</li>
                   </ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul></ul>
-                  <h6>Children:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                     <li>Seven Hunahpu</li>
-                  </ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul></ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Children:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneH">One Hunahpu</a>
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Partner:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Xmu">Xmucane</a>
+                     </div>
+                  </div>
                </td>
                <td>Xpiyacoc and Xmucane referred to as a pair almost always in epithet are the two
                   oldest gods of the Quiché-Maya pantheon. This doesn’t end up being as successful
@@ -130,28 +123,28 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="xpi" src="images/characterPics/Xmucane.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Xmucane.jpg" />
                </td>
-               <td>Xmucane</td>
+               <td id="Xmu">Xmucane</td>
                <td>
                   <ul>
                      <li>Grandmother</li>
                   </ul>
                </td>
-               <td>diety</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul></ul>
-                  <h6>Children:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                     <li>Seven Hunahpu</li>
-                  </ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul></ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Children:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneH">One Hunahpu</a>
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Partner:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Xpi">Xpiyacoc</a>
+                     </div>
+                  </div>
                </td>
                <td>Xpiyacoc and Xmucane referred to as a pair almost always in epithet are the two
                   oldest gods of the Quiché-Maya pantheon. This doesn’t end up being as successful
@@ -159,39 +152,46 @@
                   man, maize men. Xmucane even grinds the maize from which the first men are made.
                </td>
             </tr>
-            
             <tr>
                <td>
-                  <img class="god" alt="herotwins" src="images/characterPics/HeroTwins.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/HeroTwins.jpg" />
                </td>
-               <td>Hunahpu</td>
+               <td id="Hun">Hunahpu</td>
                <td>
                   <ul>
                      <li>One Blowgun Hunter</li>
                      <li>Venus Lord</li>
                   </ul>
                </td>
-               <td>Hero Twins</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                     <li>Blood Woman</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul>
-                     <li>Xmucane</li>
-                     <li>Xpiyacoc</li>
-                  </ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>Xbalanque</li>
-                     <li>One Artisan</li>
-                     <li>One Monkey</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Xba">Xbalanque</a>
+                        <a href="#OneArt">One Artisan</a>
+                        <a href="#OneMonk">One Monkey</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Grandparents:</button>
+                     <div class="famDropdown-content">
+                        <p> Grandmother:<a href="#Xmu">Xmucane</a></p>
+                        <p> Grandfather:<a href="#Xpi">Xpiyacoc</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Mother:<a href="#BW">Blood Woman</a></p>
+                        <p> Father:<a href="#OneH">One Hunahpu</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Uncle:</button>
+                     <div class="famDropdown-content">
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
                </td>
                <td> Hunahpu is one of the hero twins in the Popol Vuh. Both brothers were
                   intelligent, brave, handsome, and had magical powers; all necessary traits for
@@ -211,36 +211,44 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="herotwins" src="images/characterPics/Hero_Twins.JPG" />
+                  <img alt="god" class="god" src="images/characterPics/Hero_Twins.JPG" />
                </td>
-               <td>Xbalanque</td>
+               <td id="Xba">Xbalanque</td>
                <td>
                   <ul>
                      <li>Young Hidden Sun</li>
                      <li>Jaguar Sun</li>
                   </ul>
                </td>
-               <td>Hero Twins</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                     <li>Blood Woman</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul>
-                     <li>Xmucane</li>
-                     <li>Xpiyacoc</li>
-                  </ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>Hunahpu</li>
-                     <li>One Artisan</li>
-                     <li>One Monkey</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Hun">Hunahpu</a>
+                        <a href="#OneArt">One Artisan</a>
+                        <a href="#OneMonk">One Monkey</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Grandparents:</button>
+                     <div class="famDropdown-content">
+                        <p> Grandmother:<a href="#Xmu">Xmucane</a></p>
+                        <p> Grandfather:<a href="#Xpi">Xpiyacoc</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Mother:<a href="#BW">Blood Woman</a></p>
+                        <p> Father:<a href="#OneH">One Hunahpu</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Uncle:</button>
+                     <div class="famDropdown-content">
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
                </td>
                <td>Xbalanque is one of the hero twins in the Popol Vuh. He and his twin, Hunahpu,
                   dedicate their lives to taking down any characters who seek to "magnify
@@ -256,29 +264,23 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="seven macaw" src="images/characterPics/Seven_Macaw.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Seven_Macaw.jpg" />
                </td>
-               <td>Seven Macaw</td>
+               <td id="PBD">Seven Macaw</td>
                <td>
                   <ul>
                      <li>Principal Bird Diety</li>
                      <li>Wuqub Kaquix</li>
                   </ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul></ul>
-                  <h6>Children:</h6>
-                  <ul>
-                     <li>Zipacna</li>
-                     <li>Earthquake</li>
-                  </ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul></ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Children:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Zip">Zipacna</a>
+                        <a href="#Ear">Earthquake</a>
+                     </div>
+                  </div>
                </td>
                <td>Seven Macaw Is a highly prideful god who is often compared to Lucifer by scholars
                   of the Popol Vuh. The brightly colored Macaw demon-god is also the father of both
@@ -287,26 +289,26 @@
                </td>
             </tr>
             <tr>
-               <td></td>
-               <td>Zipacna</td>
+               <td>
+                  <img alt="god" class="god" src="images/characterPics/Earth_and_Zipac.jpg" />
+               </td>
+               <td id="Zip">Zipacna</td>
                <td>
                   <ul></ul>
                </td>
-               <td>Demon God</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>Seven Macaw</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>Earthquake</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Ear">Earthquake</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Father:<a href="#SevM">Seven Macaw</a></p>
+                     </div>
+                  </div>
                </td>
                <td>One of the demonic sons of Seven Macaw, Zipacna was known as the crust of the
                   earth. He had the power to create mountains overnight. Like his father though he
@@ -321,28 +323,25 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="earth and zipac"
-                     src="images/characterPics/Earth_and_Zipac.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Earth_and_Zipac.jpg" />
                </td>
-               <td>Earthquake</td>
+               <td id="Ear">Earthquake</td>
                <td>
                   <ul></ul>
                </td>
-               <td>Demon God</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>Seven Macaw</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>Zipacna</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Zip">Zipacna</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Father:<a href="#SevM">Seven Macaw</a></p>
+                     </div>
+                  </div>
                </td>
                <td>Earthquake is the other demonic son of Seven Macaw. As his name suggests he is
                   the god of earthquakes, causing mountains to move with the tap of his foot. Like
@@ -355,34 +354,44 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="one and seven hunahpu"
-                     src="images/characterPics/One_and_7_Hun.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/One_and_7_Hun.jpg" />
                </td>
-               <td>One Hunahpu</td>
+               <td id="OneH">One Hunahpu</td>
                <td>
                   <ul>
                      <li>Maize God</li>
                   </ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>Xmucane</li>
-                     <li>Xpiyacoc</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul>
-                     <li>One Monkey</li>
-                     <li>One Artisan</li>
-                     <li>Hunahpu</li>
-                     <li>Xbalanque</li>
-                  </ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul></ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Mother:<a href="#Xmu">Xmucane</a></p>
+                        <p> Father:<a href="#Xpi">Xpiyacoc</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Children:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneMonk">One Monkey</a>
+                        <a href="#OneArt">One Artisan</a>
+                        <a href="#Hun">Hunahpu</a>
+                        <a href="#Xba">Xbalanque</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Baby-Mamas:</button>
+                     <div class="famDropdown-content">
+                        <a href="">Xbaquiyalo</a>
+                        <a href="#BW">Lady Blood</a>
+                     </div>
+                  </div>
                </td>
                <td>One is the first child of the two oldest gods in the Maya pantheon, the
                   Grandfather and the Grandmother. Though it might seem strange to have characters
@@ -391,29 +400,35 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="one and seven hunahpu"
-                     src="images/characterPics/One_and_7_Hun.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/One_and_7_Hun.jpg" />
                </td>
-               <td>Seven Hunahpu</td>
+               <td id="SevH">Seven Hunahpu</td>
                <td>
                   <ul></ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>Xmucane</li>
-                     <li>Xpiyacoc</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneH">One Hunahpu</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Mother:<a href="#Xmu">Xmucane</a></p>
+                        <p> Father:<a href="#Xpi">Xpiyacoc</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Nephews:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Hun">Hunahpu</a>
+                        <a href="#Xba">Xbalanque</a>
+                        <a href="#OneMonk">One Monkey</a>
+                        <a href="#OneArt">One Artisan</a>
+                     </div>
+                  </div>
                </td>
                <td>Seven Hunahpu is the second child of the two oldest gods in the Maya pantheon,
                   the Grandfather and the Grandmother. Though his brother One Hunahpu fathers
@@ -432,33 +447,43 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="one batz and one chouen"
-                     src="images/characterPics/OneMonk_and_One_Art.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/OneMonk_and_One_Art.jpg" />
                </td>
-               <td>One Monkey</td>
+               <td id="OneMonk">One Monkey</td>
                <td>
                   <ul>
                      <li>One Batz</li>
                   </ul>
                </td>
-               <td></td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                     <li>Xbaquiyalo</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>One Artisan</li>
-                     <li>Hunahpu</li>
-                     <li>Xbalanque</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneArt">One Artisan</a>
+                        <a href="#Hun">Hunahpu</a>
+                        <a href="#Xba">Xbalanque</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Grandparents:</button>
+                     <div class="famDropdown-content">
+                        <p> Grandmother:<a href="#Xmu">Xmucane</a></p>
+                        <p> Grandfather:<a href="#Xpi">Xpiyacoc</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Mother:<a href="">Xbaquiyalo</a></p>
+                        <p> Father:<a href="#OneH">One Hunahpu</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Uncle:</button>
+                     <div class="famDropdown-content">
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
                </td>
                <td>One Monkey is onne of the sons of One Hunahpu and Xbaquiyalo. Before One left for
                   Xibalba to eventually be defeated, the two brothers trained One Monkey and One
@@ -469,34 +494,44 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="one batz and one chouen"
-                     src="images/characterPics/OneMonk_and_One_Art.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/OneMonk_and_One_Art.jpg" />
                </td>
-               <td>One Artisan</td>
+               <td id="OneArt">One Artisan</td>
                <td>
                   <ul>
                      <li>One Chouen</li>
                      <li>One Howler</li>
                   </ul>
                </td>
-               <td></td>
-               <td></td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>One Hunahpu</li>
-                     <li>Xbaquiyalo</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul></ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul>
-                     <li>One Monkey</li>
-                     <li>Hunahpu</li>
-                     <li>Xbalanque</li>
-                  </ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Siblings:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneMonk">One Monkey</a>
+                        <a href="#Hun">Hunahpu</a>
+                        <a href="#Xba">Xbalanque</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Grandparents:</button>
+                     <div class="famDropdown-content">
+                        <p> Grandmother:<a href="#Xmu">Xmucane</a></p>
+                        <p> Grandfather:<a href="#Xpi">Xpiyacoc</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Mother:<a href="">Xbaquiyalo</a></p>
+                        <p> Father:<a href="#OneH">One Hunahpu</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Uncle:</button>
+                     <div class="famDropdown-content">
+                        <a href="#SevH">Seven Hunahpu</a>
+                     </div>
+                  </div>
                </td>
                <td>One Artisan is one the sons of One Hunahpu and Xbaquiyalo. Before One and Seven
                   Hunahpu left for Xibalba to eventually be defeated, the two brothers trained One
@@ -508,15 +543,13 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="lords of xibalba on bone"
+                  <img alt="god" class="god"
                      src="images/characterPics/Jasaw-Kawiil-bone_Xibalba.jpg" />
                </td>
-               <td>Lords of Xibalba</td>
+               <td id="LOX">Lords of Xibalba</td>
                <td>
                   <ul></ul>
                </td>
-               <td></td>
-               <td>Xibalba</td>
                <td></td>
                <td>The lords of Xibalba are the court that rules Xibalba, the underworld. The group
                   as a whole is far from a charming lot, and tends to ultimately sacrifice all who
@@ -530,16 +563,18 @@
                   stabbing them; and Wing and Packstrap, who cause people to spontaneously die on
                   roads. It is One and Seven Death who, angered by the sounds of the ball game
                   played by One and Seven Hunahpu on the road to Xibalba, summon the twins to
-                  Xibalba to sacrifice them. </td>
+                  Xibalba to sacrifice them. The remaining residents of Xibalba are thought to have
+                  fallen under the dominion of one of these Lords, going about the face of the Earth
+                  to carry out their listed duties. </td>
             </tr>
             <tr>
-               <td></td>
-               <td>One Death</td>
+               <td>
+                  <img alt="god" class="god" src="images/characterPics/one_death_godA.jpg" />
+               </td>
+               <td id="OneD">One Death</td>
                <td>
                   <ul></ul>
                </td>
-               <td>Lord</td>
-               <td>Xibalba</td>
                <td></td>
                <td>One Death is one of the most powerful lords of Xibalba, along with Seven Death.
                   Both lords enjoy their peace and quiet, which leads them to summon One Hunahpu,
@@ -551,13 +586,13 @@
                   minstrels to understand that they're actually going to kill him.</td>
             </tr>
             <tr>
-               <td></td>
-               <td>Seven Death</td>
+               <td>
+                  <img alt="god" class="god" src="images/characterPics/lords_of_xibalba.jpeg" />
+               </td>
+               <td id="SevenD">Seven Death</td>
                <td>
                   <ul></ul>
                </td>
-               <td>Lord</td>
-               <td>Xibalba</td>
                <td></td>
                <td>Seven Death is a powerful lord of Xibalba who works primarily with One Death. The
                   lords are skilled ball players, though they detest when non-Xibalban gods play
@@ -569,14 +604,12 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="owls" src="images/characterPics/Owls.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Owls.jpg" />
                </td>
-               <td>The Owl Messengers</td>
+               <td id="TOM">The Owl Messengers</td>
                <td>
                   <ul></ul>
                </td>
-               <td></td>
-               <td>Xibalba</td>
                <td></td>
                <td>The four owl messengers of Xibalba, called Shooting Owl (“like a point, just
                   piercing”), One-Legged Owl (“with just one leg; he has wings”), Macaw Owl (“with a
@@ -586,31 +619,38 @@
                   to summon One Hunahpu and Seven Hunahpu to their defeat at Xibalba. </td>
             </tr>
             <tr>
-               <td></td>
-               <td>Blood Woman</td>
+               <td>
+                  <img alt="god" class="god" src="images/characterPics/blood_woman.jpeg" />
+               </td>
+               <td id="BW">Blood Woman</td>
                <td>
                   <ul>
                      <li>Little Blood</li>
                      <li>Lady Blood</li>
+                     <li>Xquic</li>
                      <li>Maiden</li>
                   </ul>
                </td>
-               <td></td>
-               <td>Xibalba</td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul>
-                     <li>Blood Gatherer</li>
-                  </ul>
-                  <h6>Children:</h6>
-                  <ul>
-                     <li>Hunahpu</li>
-                     <li>Xbalanque</li>
-                  </ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul></ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Parents:</button>
+                     <div class="famDropdown-content">
+                        <p> Father:<a href="#BldG">Blood Gatherer</a></p>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Children:</button>
+                     <div class="famDropdown-content">
+                        <a href="#Hun">Hunahpu</a>
+                        <a href="#Xba">Xbalanque</a>
+                     </div>
+                  </div>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Baby-Daddy:</button>
+                     <div class="famDropdown-content">
+                        <a href="#OneH">One Hunahpu</a>
+                     </div>
+                  </div>
                </td>
                <td>Blood Woman, or simply the Maiden, is the daughter of Blood Gatherer, the fourth
                   lord of Xibalba. After being told by her father about the calabash tree under
@@ -622,26 +662,23 @@
                   their owl messengers to do so. </td>
             </tr>
             <tr>
-               <td></td>
-               <td>Blood Gatherer</td>
+               <td>
+                  <img alt="god" class="god" src="images/characterPics/bldGthr2.jpg" />
+               </td>
+               <td id="BldG">Blood Gatherer</td>
                <td>
                   <ul>
                      <li>Gathered Blood</li>
+                     <li>Cuchumaquic</li>
                   </ul>
                </td>
-               <td>Lord</td>
-               <td>Xibalba</td>
                <td>
-                  <h6>Parents:</h6>
-                  <ul></ul>
-                  <h6>Children:</h6>
-                  <ul>
-                     <li>Lady Blood</li>
-                  </ul>
-                  <h6>Grandparents:</h6>
-                  <ul></ul>
-                  <h6>Siblings:</h6>
-                  <ul></ul>
+                  <div class="famDropdown">
+                     <button class="famDropbtn">Children:</button>
+                     <div class="famDropdown-content">
+                        <a href="#BW">Lady Blood</a>
+                     </div>
+                  </div>
                </td>
                <td>Blood Gatherer is the fourth lord of Xibalba. He has a virgin daughter, Blood
                   Moon, and is enraged when he realizes she's pregnant. Because he believes that her
@@ -650,14 +687,12 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="tohil" src="images/characterPics/Tohil.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Tohil.jpg" />
                </td>
-               <td>Tohil</td>
+               <td id="Toh">Tohil</td>
                <td>
                   <ul></ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td></td>
                <td>Tohil is the patron god of the Quiché-Maya and the bringer of fire, which he
                   creates by pivoting in his sandal. Tohil first appears by name in the fourth part
@@ -675,27 +710,30 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="Chaac" src="images/characterPics/Chaac.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/Chaac.jpg" />
                </td>
-               <td>Chaac</td>
+               <td id="Cha">Chaac</td>
                <td>
-                  <ul></ul>
+                  <ul>
+                     <li>Chahk</li>
+                     <li>Rain God</li>
+                  </ul>
                </td>
-               <td>Rain God</td>
-               <td></td>
                <td></td>
                <td> Chaac is the goggled-eyed rain god, of prime importance to the Mayans. Chaac has
                   a four-fold aspect, with each aspect representing the cardinal directions and
                   colors. Chaac brought clouds, thunder, lightning and most importantly, rain. </td>
             </tr>
             <tr>
-               <td></td>
-               <td>Itzamna</td>
                <td>
-                  <ul></ul>
+                  <img alt="god" class="god" src="images/characterPics/Itzamna.jpg" />
                </td>
-               <td>Creator God</td>
-               <td></td>
+               <td id="Itz">Itzamna</td>
+               <td>
+                  <ul>
+                     <li>Creation God</li>
+                  </ul>
+               </td>
                <td></td>
                <td>Itzamna is a creator god, one of the gods involved in creating human beings and
                   father of the Bacabs, who upheld the corners of the world. Itzamna taught humans
@@ -704,16 +742,14 @@
             </tr>
             <tr>
                <td>
-                  <img class="god" alt="god G" src="images/characterPics/godG.jpg" />
+                  <img alt="god" class="god" src="images/characterPics/godG.jpg" />
                </td>
-               <td>Kinich Ahau</td>
+               <td id="GodG">Kinich Ahau</td>
                <td>
                   <ul>
                      <li>God G</li>
                   </ul>
                </td>
-               <td>God</td>
-               <td></td>
                <td></td>
                <td>Kinich Ahau is the sun god of the Mayans, sometimes associated with or an aspect
                   of Itzamna. During the Classic period, Kinich Ahau was used as a royal title,
@@ -721,13 +757,13 @@
                   G and is shown in many carvings on Mayan pyramids.</td>
             </tr>
             <tr>
-               <td></td>
-               <td>God L of the Underworld</td>
+               <td>
+                  <img alt="god" class="god" src="images/characterPics/God-L.jpg" />
+               </td>
+               <td id="GodL">God L of the Underworld</td>
                <td>
                   <ul></ul>
                </td>
-               <td>Underworld God</td>
-               <td>Xibalba</td>
                <td></td>
                <td>The name of this Maya Pantheon deity is unknown. What we do know, is that he is
                   related to the night and the underworld, as well as death and the moment of
@@ -745,10 +781,11 @@
             <div class="footLinks">
                <p class="foot">Hosted on <a href="https://newtfire.org/">Newtfire</a></p>
                <p class="foot">Check out this site on the <a href="https://mayan.newtfire.org/"
-                  >Newtfire Server</a></p>
+                     >Newtfire Server</a></p>
             </div>
             <div class="footLinks">
-               <p class="foot">View this <a href="https://github.com/am0eba-byte/mayan">project repo on GitHub</a></p>
+               <p class="foot">View this <a href="https://github.com/am0eba-byte/mayan">project repo
+                     on GitHub</a></p>
                <p class="foot">Read about the <a href="about.html">project team</a></p>
             </div>
             <img alt="glyphs" class="foot" src="images/designs/angleGlyph2.png" />

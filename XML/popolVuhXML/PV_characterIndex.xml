@@ -10,12 +10,13 @@
         <source ref="https://www.historyonthenet.com/the-mayan-pantheon-gods-and-goddesses"/>
     </head>
     <index>
-        <character xml:id="#SPS">
+        <character xml:id="SPS">
             <name>Sovereign Plumed Serpent</name>
             
             <altName>Kukulkan</altName>
-            <img src="characterPics/SPSerpent.jpg"/>
+            <img src="images/characterPics/SPSerpent.jpg"/>
             <entity>God</entity>
+            <of>Heart of Sky</of>
             <desc>Sovereign Plumed Serpent is a feathered serpent god very similar to Quetzalcoatl
                 of the Aztecs. In the Quiché language his name is Tepeu Gucumatz and it’s actually
                 the first place we come to a translation issue, as often in previous translations
@@ -25,20 +26,20 @@
                 destroyed for it; and lastly, maize, which succeeds in creating the people we know
                 today. </desc>
         </character>
-        <character xml:id="#Hur">
+        <character xml:id="Hur">
             <name>Hurricane</name>
             <altName>Thunderbolt Hurricane</altName>
-            <img src="characterPics/Hurricane.jpg"/>
+            <img src="images/characterPics/Hurricane.jpg"/>
             <entity>God</entity>
             <of>Heart of Sky</of>
             <desc>Hurricane is the leader of the three thunder gods that together are Heart of Sky
                 (sometimes called Heart of Sky, Heart of Earth). The god is often called One-Legged
                 because in most depictions he has one human leg and a serpent’s tail. </desc>
         </character>
-        <character xml:id="#Xpi">
+        <character xml:id="Xpi">
             <name>Xpiyacoc</name>
             <altName>Grandfather</altName>
-            <img src="characterPics/Xpiyacoc.jpg"/>
+            <img src="images/characterPics/Xpiyacoc.jpg"/>
             <entity>God</entity>
             <family>
                 <partner idref="#Xmu">Xmucane</partner>
@@ -49,6 +50,8 @@
                 <grandChildren>
                     <grandson idref="#Hun">Hunahpu</grandson>
                     <grandson idref="#Xba">Xbalanque</grandson>
+                    <grandson idref="#OneMonk">One Monkey</grandson>
+                    <grandson idref="#OneArt">One Artisan</grandson>
                 </grandChildren>
             </family>
             <desc>Xpiyacoc and Xmucane referred to as a pair almost always in epithet are the two
@@ -56,10 +59,10 @@
                 any of the gods would like, so the pair also helps create the final version of man,
                 maize men. </desc>
         </character>
-        <character xml:id="#Xmu">
+        <character xml:id="Xmu">
             <name>Xmucane</name>
             <altName>Grandmother</altName>
-            <img src="characterPics/Xmucane.jpg"/>
+            <img src="images/characterPics/Xmucane.jpg"/>
             <entity>diety</entity>
             <family>
                 <partner idref="#Xpi">Xpiyacoc</partner>
@@ -70,6 +73,8 @@
                 <grandChildren>
                     <grandson idref="#Hun">Hunahpu</grandson>
                     <grandson idref="#Xba">Xbalanque</grandson>
+                    <grandson idref="#OneMonk">One Monkey</grandson>
+                    <grandson idref="#OneArt">One Artisan</grandson>
                 </grandChildren>
             </family>
             <desc>Xpiyacoc and Xmucane referred to as a pair almost always in epithet are the two
@@ -77,7 +82,7 @@
                 any of the gods would like, so the pair also helps create the final version of man,
                 maize men. Xmucane even grinds the maize from which the first men are made. </desc>
         </character>
-        <character xml:id="#MudM">
+        <character xml:id="MudM">
             <name>Mud Men</name>
             
             <desc>The mud men were the Bearer, Begetter’s first attempt at making man. They were
@@ -87,7 +92,7 @@
                 disappointment, the gods left the mud men to dwindle until they were nothing.
             </desc>
         </character>
-        <character xml:id="#WoodM">
+        <character xml:id="WoodM">
             <name>Wooden Men</name>
             <desc>After the failure of the mud men, Heart of Sky and Bearer, Begetter decide that it
                 would be prudent to get assistance in their creation of man, so they enlist the help
@@ -98,7 +103,7 @@
                 creatures they had once eaten for food and were horribly disfigured. The few that
                 got away became monkeys and still live in the forests today. </desc>
         </character>
-        <character xml:id="#MazM">
+        <character xml:id="MazM">
             <name>Maize Men</name>
             <desc>The first men from which we all descend were made from maize and water by Heart of
                 Sky; Bearer, Begetter; Xpiyacoc and Xmucane. The maker gods searched for a long time
@@ -112,11 +117,11 @@
                 everything we do; they talked, looked, and listened, thought, moved, and worked.
                 Most importantly they gave thanks to the gods. </desc>
         </character>
-        <character xml:id="#Hun">
+        <character xml:id="Hun">
             <name>Hunahpu</name>
             <altName>One Blowgun Hunter</altName>
             <altName>Venus Lord</altName>
-            <img src="characterPics/HeroTwins.jpg"/>
+            <img src="images/characterPics/HeroTwins.jpg"/>
             <entity>Hero Twins</entity>
             <family>
                 <parents>
@@ -138,12 +143,12 @@
                 heroic protagonists for the Popol Vuh. With his brother, Xbalanque, he rids the pre-human world of all manner of villainous gods, including Seven Macaw, Zipacna, One Death, and Seven Death. Hunahpu is a skilled trickster and is referred to by the narrator as genius. Though the twins are physically strong and are skilled at physical pursuits such as playing ball and shooting birds with blowguns, their genius is their most important asset and is the primary reason why the twins are so successful in ridding the world of evil. Hunahpu's genius is apparent even before his birth, when the narrator suggests that he and Xbalanque are responsible for leaving signs that allow his grandmother, Xmucane, to understand that Blood Moon is telling the truth about the twins' immaculate conception. Their father is One Hunahpu, and the twins are conceived when he spits into Blood Moon's hand. After the twins sacrifice One and Seven Death, they ascend to the sky with the Four Hundred Boys to become the moon and sun.
             </desc>
         </character>
-        <character xml:id="#Xba">
+        <character xml:id="Xba">
             <name>Xbalanque</name>
             
             <altName>Young Hidden Sun</altName>
             <altName>Jaguar Sun</altName>
-            <img src="characterPics/Hero_Twins.JPG"/>
+            <img src="images/characterPics/Hero_Twins.JPG"/>
             <entity>Hero Twins</entity>
             <family>
                 <parents>
@@ -162,11 +167,11 @@
             <desc>Xbalanque is one of the hero twins in the Popol Vuh. He and his twin, Hunahpu, dedicate their lives to taking down any characters who seek to "magnify themselves" and attempt to appear more powerful than they actually are. The twins are very strong and excel in their physical pursuits. In particular, the boys are very good at playing a traditional Mesoamerican ball game, just like their father and uncle One Hunahpu and Seven Hunahpu were before their deaths. Despite this, however, Xbalanque and Hunahpu's greatest assets are their smarts and their ability to lay traps and tricks for others, while also seeing through their adversaries' tricks. In particular, this is how Xbalanque and Hunahpu best One Death and Seven Death. After this, the boys leave earth for the sky, where they become the moon and sun. 
             </desc>
         </character>
-        <character xml:id="#PBD">
+        <character xml:id="PBD">
             <name>Seven Macaw</name>
             <altName>Principal Bird Diety</altName>
             <altName>Wuqub Kaquix</altName>
-            <img src="characterPics/Seven_Macaw.jpg"/>
+            <img src="images/characterPics/Seven_Macaw.jpg"/>
             <entity>God</entity>
             <family>
                 <children>
@@ -180,9 +185,9 @@
                 of Sky by declaring himself to be both the sun and the moon to the wooden men.
             </desc>
         </character>
-        <character xml:id="#Zip">
+        <character xml:id="Zip">
             <name>Zipacna</name>
-            <img src="characterPics/"/>
+            <img src="images/characterPics/Earth_and_Zipac.jpg"/>
             <entity>Demon God</entity>
             <family>
                 <parents>
@@ -196,9 +201,9 @@
                 moon, he claims to be the creator of the earth. He outsmarts the Four Hundred Boys when they try to kill him by burying him in a deep hole, and when they're too drunk to fight back, Zipacna brings their hut down on them and kills them all. Hunahpu and Xbalanque take revenge by starving Zipacna for two days, and then setting a trap for him by placing a fake crab under an overhang at the foot of a mountain. When Zipacna wiggles into the small space to get the crab, the mountain rests on his chest and he turns to stone.
             </desc>
         </character>
-        <character xml:id="#Ear">
+        <character xml:id="Ear">
             <name>Earthquake</name>
-            <img src="characterPics/Earth_and_Zipac.jpg"/>
+            <img src="images/characterPics/Earth_and_Zipac.jpg"/>
             <entity>Demon God</entity>
             <family>
                 <parents>
@@ -210,10 +215,10 @@
                 god of earthquakes, causing mountains to move with the tap of his foot. Like his
                 brother and father, he is prideful.  Hurricane instructs Hunahpu and Xbalanque to trick Earthquake into sitting down somewhere in the east, which the twins do by telling Earthquake that there's a massive mountain in the east. As they travel, Hunahpu and Xbalanque coat a bird in plaster and give it to Earthquake to eat. This causes Earthquake to lose the strength in his arms and legs, and the twins bury him in the earth.</desc>
         </character>
-        <character xml:id="#OneH">
+        <character xml:id="OneH">
             <name>One Hunahpu</name>
             <altName>Maize God</altName>
-            <img src="characterPics/One_and_7_Hun.jpg"/>
+            <img src="images/characterPics/One_and_7_Hun.jpg"/>
             <entity>God</entity>
             <family>
                 <parents>
@@ -228,15 +233,16 @@
                 </children>
                 <babymom>Xbaquiyalo</babymom>
                 <babymom idref="#BW">Lady Blood</babymom>
+                <brother idref="#SevH">Seven Hunahpu</brother>
             </family>
             <desc>One is the first child of the two oldest gods in the Maya pantheon, the
                 Grandfather and the Grandmother. Though it might seem strange to have characters
                 named One and Seven Hunahpu, the distinction has to do with Maya astronomy and their
                 calendrical system. One would be the beginning of a cycle. </desc>
         </character>
-        <character xml:id="#SevH">
+        <character xml:id="SevH">
             <name>Seven Hunahpu</name>
-            <img src="characterPics/One_and_7_Hun.jpg"/>
+            <img src="images/characterPics/One_and_7_Hun.jpg"/>
             <entity>God</entity>
             <family>
                 <parents>
@@ -244,24 +250,35 @@
                     <father idref="#Xpi">Xpiyacoc</father>
                 </parents>
                 <brother idref="#OneH">One Hunahpu</brother>
+                <nephews>
+                    <nephew idref="#Hun">Hunahpu</nephew>
+                    <nephew idref="#Xba">Xbalanque</nephew>
+                    <nephew idref="#OneMonk">One Monkey</nephew>
+                    <nephew idref="#OneArt">One Artisan</nephew>
+                </nephews>
             </family>
             <desc>Seven Hunahpu is the second child of the two oldest gods in the Maya pantheon, the
                 Grandfather and the Grandmother. Though his brother One Hunahpu fathers children, Seven Hunahpu never takes a wife and, according to the narrator, remains "a boy" and a mere uncle figure to his four nephews. He and his brother are very good at a traditional Mesoamerican ball game, and Seven Hunahpu spends most of his time on earth playing. He dies when One Death and Seven Death summon him and One Hunahpu to Xibalba for a match, and he and his brother fall for all the tricks of the Xibalban lords. After Hunahpu and Xbalanque's victory, they ask Seven Hunahpu to name the parts of his face so that he can "be put back together again" after his death. Though Seven Hunahpu can only name a few parts of his face, the twins leave their father and uncle buried in the ball court so they'll be able to be appropriately worshipped. Though it might seem strange to have characters
                 named One and Seven Hunahpu, the distinction has to do with Maya astronomy and their
                 calendrical system. Seven would be the end of the cycle. </desc>
         </character>
-        <character xml:id="#OneMonk">
+        <character xml:id="OneMonk">
             <name>One Monkey</name>
             <altName>One Batz</altName>
-            <img src="characterPics/OneMonk_and_One_Art.jpg"/>
+            <img src="images/characterPics/OneMonk_and_One_Art.jpg"/>
             <family>
                 <parents>
                     <father idref="#OneH">One Hunahpu</father>
                     <mother>Xbaquiyalo</mother>
                 </parents>
+                <grandparents>
+                    <grandma idref="#Xmu">Xmucane</grandma>
+                    <grandpa idref="#Xpi">Xpiyacoc</grandpa>
+                </grandparents>
                 <brother idref="#OneArt">One Artisan</brother>
                 <brother idref="#Hun">Hunahpu</brother>
                 <brother idref="#Xba">Xbalanque</brother>
+                <uncle idref="#SevH">Seven Hunahpu</uncle>
             </family>
             <desc>One Monkey is onne of the sons of One Hunahpu and Xbaquiyalo. Before One left for
                 Xibalba to eventually be defeated, the two brothers trained One Monkey and One
@@ -270,19 +287,24 @@
                 Unfortunately they were tortured souls, extremely jealous of Hunahpu and Xbalanque
                 as their younger half-brothers were better than them at most everything. </desc>
         </character>
-        <character xml:id="#OneArt">
+        <character xml:id="OneArt">
             <name>One Artisan</name>
             <altName>One Chouen</altName>
             <altName>One Howler</altName>
-            <img src="characterPics/OneMonk_and_One_Art.jpg"/>
+            <img src="images/characterPics/OneMonk_and_One_Art.jpg"/>
             <family>
                 <parents>
                     <father idref="#OneH">One Hunahpu</father>
                     <mother>Xbaquiyalo</mother>
                 </parents>
+                <grandparents>
+                    <grandma idref="#Xmu">Xmucane</grandma>
+                    <grandpa idref="#Xpi">Xpiyacoc</grandpa>
+                </grandparents>
                 <brother idref="#OneMonk">One Monkey</brother>
                 <brother idref="#Hun">Hunahpu</brother>
                 <brother idref="#Xba">Xbalanque</brother>
+                <uncle idref="#SevH">Seven Hunahpu</uncle>
             </family>
             <desc>One Artisan is one the sons of One Hunahpu and Xbaquiyalo. Before One and Seven
                 Hunahpu left for Xibalba to eventually be defeated, the two brothers trained One
@@ -292,9 +314,9 @@
                 Xbalanque as their younger half-brothers were better than them at most everything.
             </desc>
         </character>
-        <character xml:id="#LOX">
+        <character xml:id="LOX">
             <name>Lords of Xibalba</name>
-            <img src="characterPics/Jasaw-Kawiil-bone_Xibalba.jpg"/>
+            <img src="images/characterPics/Jasaw-Kawiil-bone_Xibalba.jpg"/>
             <of>Xibalba</of>
             <desc>The lords of Xibalba are the court that rules Xibalba, the underworld. The group
                 as a whole is far from a charming lot, and tends to ultimately sacrifice all who
@@ -308,11 +330,12 @@
                 them; and Wing and Packstrap, who cause people to spontaneously die on roads. It is
                 One and Seven Death who, angered by the sounds of the ball game played by One and
                 Seven Hunahpu on the road to Xibalba, summon the twins to Xibalba to sacrifice them.
+            The remaining residents of Xibalba are thought to have fallen under the dominion of one of these Lords, going about the face of the Earth to carry out their listed duties. 
             </desc>
         </character>
-        <character xml:id="#OneD">
+        <character xml:id="OneD">
             <name>One Death</name>
-            
+            <img src="images/characterPics/one_death_godA.jpg"/>
             <entity>Lord</entity>
             <of>Xibalba</of>
             
@@ -325,8 +348,9 @@
                 when he's too entranced by Xbalanque and Hunahpu's return as minstrels to understand
                 that they're actually going to kill him.</desc>
         </character>
-        <character xml:id="#SevenD">
+        <character xml:id="SevenD">
             <name>Seven Death</name>
+            <img src="images/characterPics/lords_of_xibalba.jpeg"/>
             <entity>Lord</entity>
             <of>Xibalba</of>
             <desc>Seven Death is a powerful lord of Xibalba who works primarily with One Death. The
@@ -337,9 +361,9 @@
                 Hunahpu, but they are outsmarted time and again by One Hunahpu's sons, Hunahpu and
                 Xbalanque.</desc>
         </character>
-        <character xml:id="#TOM">
+        <character xml:id="TOM">
             <name>The Owl Messengers</name>
-            <img src="characterPics/Owls.jpg"/>
+            <img src="images/characterPics/Owls.jpg"/>
             <of>Xibalba</of>
             <desc>The four owl messengers of Xibalba, called Shooting Owl (“like a point, just
                 piercing”), One-Legged Owl (“with just one leg; he has wings”), Macaw Owl (“with a
@@ -348,11 +372,13 @@
                 which is their rank in Xibalba. The Owls are ordered by the lords of Xibalba to
                 summon One Hunahpu and Seven Hunahpu to their defeat at Xibalba. </desc>
         </character>
-        <character xml:id="#BW">
+        <character xml:id="BW">
             <name>Blood Woman</name>
             <altName>Little Blood</altName>
             <altName>Lady Blood</altName>
+            <altName>Xquic</altName>
             <altName>Maiden</altName>
+            <img src="images/characterPics/blood_woman.jpeg"/>
             <of>Xibalba</of>
             <family>
                 <parents>
@@ -362,6 +388,7 @@
                     <son idref="#Hun">Hunahpu</son>
                     <son idref="#Xba">Xbalanque</son>
                 </children>
+                <babydaddy idref="#OneH">One Hunahpu</babydaddy>
             </family>
             <desc>Blood Woman, or simply the Maiden, is the daughter of Blood Gatherer, the fourth
                 lord of Xibalba. After being told by her father about the calabash tree under which
@@ -372,9 +399,11 @@
                 Xibalba determine that she must be sacrificed and order their owl messengers to do
                 so. </desc>
         </character>
-        <character xml:id="#BldG">
+        <character xml:id="BldG">
             <name>Blood Gatherer</name>
             <altName>Gathered Blood</altName>
+            <altName>Cuchumaquic</altName>
+            <img src="images/characterPics/bldGthr2.jpg"/>
             <entity>Lord</entity>
             <of>Xibalba</of>
             <family>
@@ -391,9 +420,9 @@
                 children will be bastards, he, One Death, and Seven Death command the owl messengers
                 to take her into the woods and cut out her heart.</desc>
         </character>
-        <character xml:id="#Toh">
+        <character xml:id="Toh">
             <name>Tohil</name>
-            <img src="characterPics/Tohil.jpg"/>
+            <img src="images/characterPics/Tohil.jpg"/>
             <entity>God</entity>
             <desc>Tohil is the patron god of the Quiché-Maya and the bringer of fire, which he
                 creates by pivoting in his sandal. Tohil first appears by name in the fourth part of
@@ -409,30 +438,35 @@
                 as to embarrass their patron god, Calm Snake (who oddly enough has the appearance of
                 a bat). </desc>
         </character>
-        <character xml:id="#Cha">
+        <character xml:id="Cha">
             <name>Chaac</name>
-            <img src="characterPics/Chaac.jpg"/>
+            <altName>Chahk</altName>
+            <altName>Rain God</altName>
+            <img src="images/characterPics/Chaac.jpg"/>
             <entity>Rain God</entity>
             <desc>
                 Chaac is the goggled-eyed rain god, of prime importance to the Mayans. Chaac has a four-fold aspect, with each aspect representing the cardinal directions and colors. Chaac brought clouds, thunder, lightning and most importantly, rain.
             </desc>
         </character>
-        <character xml:id="#Itz">
+        <character xml:id="Itz">
             <name>Itzamna</name>
+            <altName>Creation God</altName>
+            <img src="images\characterPics\Itzamna.jpg"/>
             <entity>Creator God</entity>
             <desc>Itzamna is a creator god, one of the gods involved in creating human beings and father of the Bacabs, who upheld the corners of the world. Itzamna taught humans the crafts of writing and medicine. Itzamna is sometimes identified with the high god Hunab Ku and the sun god Kinich Ahau.</desc>
         </character>
-        <character xml:id="#GodG">
+        <character xml:id="GodG">
             <name>Kinich Ahau</name>
             
             <altName>God G</altName>
-            <img src="characterPics/godG.jpg"/>
+            <img src="images/characterPics/godG.jpg"/>
             <entity>God</entity>
             <desc>Kinich Ahau is the sun god of the Mayans, sometimes associated with or an aspect of Itzamna. During the Classic period, Kinich Ahau was used as a royal title, carrying the idea of the divine king. He is also known in the Mayan codices as God G and is shown in many carvings on Mayan pyramids.</desc>
         </character>
         
-        <character xml:id="#GodL">
+        <character xml:id="GodL">
             <name>God L of the Underworld</name>
+            <img src="images/characterPics/God-L.jpg"/>
             <entity>Underworld God</entity>
             <of>Xibalba</of>
             <desc>The name of this Maya Pantheon deity is unknown. What we do know, is that he is related to the night and the underworld, as well as death and the moment of creation of the cosmos. As in the other powerful gods of the Maya culture, his image is represented through an old man with jaguar ears and black painted body parts.  
