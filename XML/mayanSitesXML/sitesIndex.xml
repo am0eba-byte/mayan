@@ -39,6 +39,11 @@
                     <name>Temple of "Las Pinturas"</name>
                     <img src="https://www.mesoweb.com/reports/SanBartolo/04.jpg"/>
                     <desc><p>The vegetation-covered pyramid complex at San Bartolo in Guatemala shows the mural room located at the base (bottom center) of pyramid. The room's recently excavated west wall, adorned with the earliest preserved Maya mural, abuts the edge of the pyramid. Archaeologists believe the vividly painted room, dating from around 100 B.C. and chronicling the mythology of kings and the birth of the Maya cosmos, could have been a preparation area for ceremonies that took place on the courtyard in front of the pyramid.</p></desc>
+                    <gods>
+                        <deityName godID="#OneH">Maize God</deityName>
+                        <deityName godID="#Hun">Hunahpu</deityName>
+                        <deityName godID="#PBD">Principal Bird Deity</deityName>
+                    </gods>
                 </building>
             </structures>
         </site>
@@ -209,6 +214,9 @@
                 <building type="temple">
                     <name>Temple of the Jaguars</name>
                     <desc><p>The inner walls were once beautifully painted with Toltec battle scenes, so detailed and convincing that the artist must have been a witness to the Toltec invasion. Decades of neglect have resulted in their almost total ruin. The doorway of the Temple of the Jaguars, overlooking the ball court, depict one of two Feathered Serpant columns which support the lintel, and a door jamb with a relief figure of a Toltec warrior. Four staircases, paved on the top, where the two Dance Platforms are, whose facings are covered with themes such as eagles and jaguars eating hearts. They say that the Dance Platforms are where farces were represented, and comedies for the pleasure of the public.</p> </desc>
+                    <gods>
+                        <deityName godID="#SPS">Kukulcan</deityName>
+                    </gods>
                 </building>
                 <building type="pyramid">
                     <name>Pyramid of Kukulcan</name>
@@ -294,9 +302,7 @@
                     <desc> <p>Two mounds that are noticable becuase of the amount of fine pottery that
                         is mixed in with the dirt covering the mounds. In the same style done in
                         Teotihuacan.</p></desc>
-                    <gods>
-                        <deityName/>
-                    </gods>
+                   
                 </building>
                 <building type="tomb">
                     <name>Tomb II, Mound E-II-3</name>
@@ -340,6 +346,9 @@
                         the Great) was found. This temple holds the second longest glyph known in
                         the Mayan world. The glyph tells the history of the site for around 180
                         years. This is also the place that leads to Pakal's Tomb.</p> </desc>
+                    <gods>
+                        <deityName godID="#OneH">Maize God Impersonation</deityName>
+                    </gods>
                 </building>
                 <building type="temple">
                     <name> Temple of the cross group </name>

@@ -436,7 +436,7 @@ img.god{
  
  /* LEGEND */
  
- section#jsLegend{
+ section.jsLegend{
      display:flex;
  }
  
@@ -462,6 +462,11 @@ img.god{
  div.checkboxes {
      display:flex;
      flex-direction:column;
+ }
+ 
+ div.checkboxes div span{
+     font-family: 'Walter Turncoat', cursive;
+     font-size:.8em;
  }
  
  
@@ -499,6 +504,8 @@ span.LOX.on {
    background-color: #8c2121;
 color: white;
 }
+
+
 
 /* SITES */
 
@@ -550,3 +557,25 @@ tr.yaxchil.on {
 }
 
 
+
+/* COUNTRIES */
+
+tr.Guat.on {
+    background-color:cornflowerblue;
+    color:black;
+}
+
+tr.MexYuc.on {
+   background-color: #dbc863;
+color: black;
+}
+
+tr.MexChi.on {
+ background-color: #865050;
+color: white;
+}
+
+tr.Hond.on {
+    background-color: #7fb24b;
+color: black;
+    }
