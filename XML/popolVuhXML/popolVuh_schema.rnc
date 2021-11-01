@@ -58,14 +58,13 @@ head = element head {text}
 
 \text = element text {mixed{(spk | character)*}}
 
-character = element character {idref, rel*, entity?, of?, text}
+character = element character {idref, text}
 
-idref = attribute idref {text}
+idref = attribute idref {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
 
-rel = attribute rel {text}
 
-entity = attribute entity {text}
+spk = element spk {who?, who2?, mixed{character*}}
 
-of = attribute of {text}
+who = attribute who {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
 
-spk = element spk {mixed{character*}}
+who2 = attribute who2 {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
