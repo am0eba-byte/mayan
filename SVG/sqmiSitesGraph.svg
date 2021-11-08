@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc>Square Mileage of Maya Sites Graph</desc>
+    
+    <g alignment-baseline="baseline" transform="translate(300,150)">
+        
+        <ellipse fill="url(#dark)" cy="200" ry="370" rx="750" cx="450"/>
+        
+        <text fill="url(#rainbow)" style="font-size:50px;font-weight:bold;" y="-50" x="100">Square Mileage of Mayan Sites</text>
+        
+        <line y2="435" stroke="blue" stroke-width="100" x1="100" x2="100" y1="450"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px;font-weight:bold;" y="465" x="55">Chichen Itza</text>
+        
+        <line y2="100" stroke="pink" stroke-width="100" x1="250" x2="250" y1="450"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px;font-weight:bold;" y="465" x="230">Tikal</text>
+        
+        <line y2="15" stroke="red" stroke-width="100" x1="400" x2="400" y1="450"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px;font-weight:bold;" y="465" x="370">Palenque</text>
+        
+        <line y2="180" stroke="purple" stroke-width="100" x1="550" x2="550" y1="450"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px;font-weight:bold;" y="465" x="530">Copan</text>
+        
+        <line y2="190" stroke="teal" stroke-width="100" x1="700" x2="700" y1="450"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px;font-weight:bold;" y="465" x="670">Uxmal</text>
+        
+        <line y2="390" stroke="yellow" stroke-width="100" x1="850" x2="850" y1="450"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px;font-weight:bold;" y="465" x="815">El Mirador</text>
+        
+        
+        <line stroke="white" stroke-width="3" x2="950" y1="450" y2="450" x1="0"/>
+        <line stroke="white" stroke-width="3" y1="450" y2="-50" x1="0" x2="0"/>
+        
+        
+        
+        <line x2="950" stroke="#ccccff" stroke-width="2" x1="0" y1="400" y2="400"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px; writing-mode: tb; glyph-orientation-vertical: 5" x="-15" y="390">10</text>
+  
+        <line x2="950" stroke="#ccccff" stroke-width="2" x1="0" y1="300" y2="300"/>
+        <text fill="#ccccff" style="font-family:sans-serif;font-size:15px; writing-mode: tb; glyph-orientation-vertical: 5" x="-15" y="290">50</text>
+        
+        
+        
+        <line y1="180" x2="950" y2="180" stroke="#ccccff" stroke-width="2" x1="0"/>
+        <text y="170" fill="#ccccff" style="font-family:sans-serif;font-size:15px; writing-mode: tb; glyph-orientation-vertical: 5" x="-15">100</text>
+        
+        
+        <line y1="30" x2="950" y2="30" stroke="#ccccff" stroke-width="2" x1="0"/>
+        <text y="20" fill="#ccccff" style="font-family:sans-serif;font-size:15px; writing-mode: tb; glyph-orientation-horizontal: 5" x="-15">400</text>
+        
+        <defs>
+            <linearGradient id="rainbow" x1="0" x2="0" y1="0" y2="80%">
+                <stop stop-color="#FF5B99" offset="0%"/>
+                <stop stop-color="#FF5447" offset="20%"/>
+                <stop stop-color="#FF7B21" offset="40%"/>
+                <stop stop-color="#EAFC37" offset="60%"/>
+                <stop stop-color="#4FCB6B" offset="80%"/>
+                <stop stop-color="#51F7FE" offset="100%"/> 
+            </linearGradient>
+            
+            <linearGradient id="dark" x1="0" x2="0" y1="0" y2="100%">
+                <stop stop-color="#06f998" offset="0%"/>
+                <stop stop-color="black" offset="10%"/>
+                <stop stop-color=" #595959" offset="40%"/>
+                <stop stop-color="#999999" offset="50%"/>
+                <stop stop-color=" #595959" offset="60%"/>
+                <stop stop-color="black" offset="90%"/>
+                <stop stop-color="#06f998" offset="100%"/>
+            </linearGradient>
+            
+        </defs>
+        
+    </g>
+    
+    
+    <!-- Chichen Itza: 4 sq mi
+        Tikal: 224 sq mi
+        Palenque: 434 sq mi
+        Copan: 100 sq mi
+        Uxmal: 90 sq mi
+        El Mirador: 15 sq mi
+        Izapa: 1.5 sq mi
+        KJ: 5 sq mi
+    -->
+</svg>

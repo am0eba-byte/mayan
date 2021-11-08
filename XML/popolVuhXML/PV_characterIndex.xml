@@ -8,6 +8,11 @@
             ref="https://www.bowers.org/index.php/collection/collection-blog/who-s-who-in-the-popol-vuh"/>
         <source ref="https://www.litcharts.com/lit/popol-vuh/characters"/>
         <source ref="https://www.historyonthenet.com/the-mayan-pantheon-gods-and-goddesses"/>
+        <source ref="https://ancientmayalife.blogspot.com/2012/11/kawil-god-k.html"/>
+        <source ref="https://mayanpeninsula.com/mayan-gods/"/>
+        <source ref="http://www.teachinghistory100.org/objects/about_the_object/maize_god"/>
+        <source ref="https://jacquescoulardeau.medium.com/male-exclusive-blood-sacrifice-in-maya-religion-82319e95dd2d"/>
+        <source ref="https://www.thoughtco.com/maya-gods-and-goddesses-117947"/>
     </head>
     <index>
         <character xml:id="SPS">
@@ -187,7 +192,7 @@
         </character>
         <character xml:id="Zip">
             <name>Zipacna</name>
-            <img src="images/characterPics/Earth_and_Zipac.jpg"/>
+            <img src="images/characterPics/zipacna.jpeg"/>
             <entity>Demon God</entity>
             <family>
                 <parents>
@@ -195,7 +200,10 @@
                 </parents>
                 <brother idref="#Ear">Earthquake</brother>
             </family>
-            <desc>One of the demonic sons of Seven Macaw, Zipacna was known as the crust of the
+            <desc> Zipacna (or Sipac) is a celestial crocodile warrior, considered a counterpart of the pan-Mesoamerican god Cipactli, the earth-monster, who had to be killed to create the earth. Known mainly from the 16th-century highland account of the Popol Vuh, Zipacna also appears in oral traditions of rural towns in highland Maya regions.
+                
+                According to the Popol Vuh, Zipacna was the maker of mountains, who spent his days looking for crabs and fishes to eat, and his nights lifting up the mountains.
+                One of the demonic sons of Seven Macaw, Zipacna was known as the crust of the
                 earth. He had the power to create mountains overnight. Like his father though he is
                 too prideful and similar to his father. As his father claims to be the sun and the
                 moon, he claims to be the creator of the earth. He outsmarts the Four Hundred Boys when they try to kill him by burying him in a deep hole, and when they're too drunk to fight back, Zipacna brings their hut down on them and kills them all. Hunahpu and Xbalanque take revenge by starving Zipacna for two days, and then setting a trap for him by placing a fake crab under an overhang at the foot of a mountain. When Zipacna wiggles into the small space to get the crab, the mountain rests on his chest and he turns to stone.
@@ -218,7 +226,9 @@
         <character xml:id="OneH">
             <name>One Hunahpu</name>
             <altName>Maize God</altName>
-            <img src="images/characterPics/One_and_7_Hun.jpg"/>
+            <altName>Hun Hunahpu</altName>
+            <altName>God E</altName>
+            <img src="images/characterPics/maize_god.png"/>
             <entity>God</entity>
             <family>
                 <parents>
@@ -235,7 +245,7 @@
                 <babymom idref="#BW">Lady Blood</babymom>
                 <brother idref="#SevH">Seven Hunahpu</brother>
             </family>
-            <desc>One is the first child of the two oldest gods in the Maya pantheon, the
+            <desc>The maize god, Hun Hunahpu, was one of the most important owing to his connection with this vital staple crop. Hun Hunahpu is the first child of the two oldest gods in the Maya pantheon, the
                 Grandfather and the Grandmother. Though it might seem strange to have characters
                 named One and Seven Hunahpu, the distinction has to do with Maya astronomy and their
                 calendrical system. One would be the beginning of a cycle. </desc>
@@ -291,7 +301,7 @@
             <name>One Artisan</name>
             <altName>One Chouen</altName>
             <altName>One Howler</altName>
-            <img src="images/characterPics/OneMonk_and_One_Art.jpg"/>
+            <img src="images/characterPics/howler_Copan_sculpture.jpg"/>
             <family>
                 <parents>
                     <father idref="#OneH">One Hunahpu</father>
@@ -451,13 +461,15 @@
         <character xml:id="Itz">
             <name>Itzamna</name>
             <altName>Creation God</altName>
+            <altName>God D</altName>
             <img src="images\characterPics\Itzamna.jpg"/>
             <entity>Creator God</entity>
             <desc>Itzamna is a creator god, one of the gods involved in creating human beings and father of the Bacabs, who upheld the corners of the world. Itzamna taught humans the crafts of writing and medicine. Itzamna is sometimes identified with the high god Hunab Ku and the sun god Kinich Ahau.</desc>
         </character>
         <character xml:id="GodG">
             <name>Kinich Ahau</name>
-            
+            <altName>Sun God</altName>
+            <altName>K'inich Ajaw</altName>
             <altName>God G</altName>
             <img src="images/characterPics/godG.jpg"/>
             <entity>God</entity>
@@ -472,6 +484,15 @@
             <desc>The name of this Maya Pantheon deity is unknown. What we do know, is that he is related to the night and the underworld, as well as death and the moment of creation of the cosmos. As in the other powerful gods of the Maya culture, his image is represented through an old man with jaguar ears and black painted body parts.  
                 
                 One of the most distinctive features of this god is a kind of hat decorated with owl feathers of the horned species. His back is covered by a huge jaguar skin or he appears naked showing the flaccidity of his belly. </desc>
+        </character>
+        <character xml:id="Kaw">
+            <name>K'awiil</name>
+            <altName>God K</altName>
+            <img src="images/characterPics/godK_kawiil-scepter.jpg"/>
+            <entity>God</entity>
+            <desc>
+                Kʼawiil, in the Post-Classic codices corresponding to God K, is a Maya deity identified with lightning, serpents, fertility and maize. He is characterized by a zoomorphic head, with large eyes, long, upturned snout and attenuated serpent tooth.[1] A torch, stone celt, or cigar, normally emitting smoke, comes out of his forehead, while a serpent leg represents a lightning bolt. In this way, Kʼawiil personifies the lightning axe both of the rain deity and of the king as depicted on his stelae. 
+            </desc>
         </character>
     </index>
 </xml>

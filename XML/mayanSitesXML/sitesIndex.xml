@@ -50,7 +50,7 @@
 
         <site id="#elMira">
             <name>El Mirador</name>
-            <dateActive yearStart="-2700 " yearEnd="-200"/>
+            <dateActive yearStart="-400 " yearEnd="100"/>
             <location lat="42.5713" long="-64.2817"/>
             <artifacts>
                 <relic type="frieze">
@@ -117,6 +117,16 @@
                         <deityName godID="#OneH">Maize God</deityName>
                     </gods>
                 </relic>
+                <relic type="obsidian">
+                    <name>Incised obsidians</name>
+                    <desc>
+                        <p>Incised obsidians from an offering placed beneath a stela at Tikal from the Late Classic period. The flat side of a crude flake has in each instance been engraved with the figure of a deity or with a simplified mat design. The god K'awiil appears at upper left and right; the Sun God K'inich Ajaw at lower right.</p>
+                    </desc>
+                    <gods>
+                        <deityName godID="#GodG">K'inich Ajaw</deityName>
+                        <deityName godID="#Kaw">K'awiil</deityName>
+                    </gods>
+                </relic>
             </artifacts>
             <structures>
                 <building type="temple">
@@ -124,6 +134,12 @@
                     <desc><p>
                         
                         The 212-foot high Temple IV is the highest pyramid temple at Tikal; it towers over the rain forest. According to Maya experts, leader Yax Kin ordered the temple built around 734 AD. Climb to the summit of this temple with care, by wooden ladder and stone steps. The summit affords a panoramic view over the site, with views of the other major temples rising from the treetops. This temple is known as the Two-Headed Serpent Temple</p></desc>
+                </building>
+                <building type="temple">
+                    <name>Mundo Perdido // "Lost World"</name>
+                    <desc>
+                        <p>A pyramid from the preclassic period, this is the oldest part of Tikal. It features remnants of large plaster masks, as well as the adoption of Teotihuacan-influenced style in Preclassic Mayan architectural design.</p>
+                    </desc>
                 </building>
             </structures>
         </site>
@@ -281,7 +297,8 @@
 
         <site id="#KJ">
             <name>Kaminaljuyu</name>
-            <dateActive yearStart="-400" yearEnd="100"/>
+            <dateActive phase="Miraflores" yearStart="-400" yearEnd="100"/>
+            <dateActive phase="Esperanza" yearStart="250" yearEnd="600"/>
             <location lat="14.6263441613" long="-90.5427911622"/>
             <artifacts>
                 <relic type="stela">
@@ -422,6 +439,13 @@
                         <deityName godID="#Cha">Chahk</deityName>
 
                     </gods>
+                </relic>
+                <relic type="lintel">
+                    <name>Lintel 15</name>
+                    <img src="images/temples_and_relics/yaxchilan/yaxchilan-lintels_kawiil.webp"/>
+                    <desc descSource="https://www.thoughtco.com/maya-gods-and-goddesses-117947">
+                       <p> Lady Wak Tuun holds bloodletting equipment and communes with an aspect of waterlily serpent, the nagual of the serpent-legged lightning deity K'awiil. Lintel 15 at Yaxilan.</p>
+                    </desc>
                 </relic>
             </artifacts>
             <structures>
