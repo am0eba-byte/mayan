@@ -9,11 +9,12 @@ href = attribute href {xsd:anyURI}
 
 mayanSites = element mayanSites {site+, unknownOrigin}
 
-site = element site {id, name, dateActive, location, artifacts?, structures?}
+site = element site {id, name, dateActive+, location, artifacts?, structures?}
 id = attribute id {"#SanBart" | "#elMira" | "#tikal" | "#copan" | "#chItza" | "#izapa" | "#KJ" | "#palenQ" | "#uxmal" | "#yaxchil" | "#yaxun" }
 name = element name {text}
 
-dateActive = element dateActive {yearStart, yearEnd}
+dateActive = element dateActive {phase?, yearStart, yearEnd}
+phase = attribute phase {text}
 yearStart = attribute yearStart {xsd:integer}
 yearEnd = attribute yearEnd {xsd:integer}
 
@@ -31,7 +32,7 @@ descSource = attribute descSource {xsd:anyURI}
 
 gods = element gods {deityName+}
 deityName = element deityName {godID?, text}
-godID = attribute godID {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha"} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
+godID = attribute godID {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG" | "#Cha" | "#Itz" | "#GodG" | "#GodL" | "#Kaw"} # NEED TO PUT LIST OF POPOLVUH CHARACTER IDS HERE #
 
 structures = element structures {building+}
 building = element building {type, name, img*, desc, gods*}
