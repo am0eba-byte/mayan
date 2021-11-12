@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Yaxchilan</name>
+    <description>Stela 11 shows two standing figures in costume on the front, probably signifying the accession of the ruler Bird-Jaguar alongside his father and, in a quite different style, the reverse side again shows Bird-Jaguar, this time represented as the god Chahk, attacking three kneeling victims with his sceptre. Lady Wak Tuun holds bloodletting equipment and communes with an aspect of waterlily serpent, the nagual of the serpent-legged lightning deity K'awiil. Lintel 15 at Yaxilan. Temple 23 has scenes on limestone lintels, carved in high relief, typically portray rituals such as a worshipper drawing blood from his tongue in the presence of a priest and Bird-Jaguar standing over a kneeling captive. Another vivid scene, from Temple 23, shows a giant double-headed snake creature from the mouths of which emerge a warrior and the war and rain god Tlaloc, who both tower over a kneeling worshipper, identified as Lady Xok', wife of the Yaxchilan ruler Shield-Jaguar, who sees the monster in a blood-letting induced vision. This scene, as indicated by the glyphs, occurred on 23rd October 681 CE, the accession of Itzamnaaj Bahlam II, 'Shield Jaguar the Great'. Traces of red, greens, and yellows indicate that the panels were once brightly painted. These violent scenes are amongst the earliest to show such graphic episodes of religious life and conquest, although they would later become common in the art of the Toltec and Aztec civilizations.</description>
+    <Point>
+      <coordinates>-90.9659,16.8989</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>

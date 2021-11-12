@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Kaminaljuyu</name>
+    <description>A ruler impersonating the Principal Bird Deity (Wuqub Kaquix) is carved on this granite stela. Ht 6 ft Monument 65 depicts high-ranking captives captured in battle, about to be sacrificed to the gods. Two mounds that are noticable becuase of the amount of fine pottery that is mixed in with the dirt covering the mounds. In the same style done in Teotihuacan. A burial of the Late Preclassic culture at Kaminaljuyu, the first and oldest royal burial found from the Preclassic Period. Consists of several superimposed temple platforms, each a flat-topped, stepped pyramid fronted by a broad stairway. Almost certainly the temples themselves were thatched-roof affairs supported by upright timbers. Within, skeletal remains of sacrifices, both adults and children, accompanied by the illustrious dead, together with offerings of an astonishing richness and profusion. Over 300 objects of beautiful workmanship were placed with the bodies. Among those recovered were the remains of a mask or head-dress of jade plaques, jade flares which once adorned the earlobes of the honored dead, bowls carved from chlorite-schist engraves with scroll designs, and little carved bottles of soapstone adn fuchsite. Pottery vessels, stingray spines, and other objects were also within the tomb.</description>
+    <Point>
+      <coordinates>-90.5427911622,14.6263441613</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>

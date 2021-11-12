@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Uxmal</name>
+    <description>Its condition is very deteriorated, and it’s made of two constructions of medium dimensions that make up the sides of the court with the rings by which the ball was to be introduced. The originally carved stone rings were removed to protect them from the elements and were replaced by reproductions. This game has always been related to mythical and cosmic aspects. The ball symbolized the movements of the stars in the sky and the players, in repeated occasions, symbolically staged the fight of the day against the night or the struggle of the deities of the underworld against the gods of heaven. The date of construction was found in one of the calendrical symbols revealing the date in the year 906, time in which Uxmal began the decline. Its name comes from a Maya tale of the 19th century, titled the Leyenda del Enano de Uxmal (The Legend of the Uxmal’s Dwarf). According to this legend, a dwarf constructed the pyramid in one night, helped by his mother, a witch. This building is one of the most impressive of Uxmal, measuring about 115 feet in height. It was constructed over the Late and Terminal Classic periods, between AD 600 and 1000, and five constructive phases have been detected. The one visible today is the latest one, built around AD 900-1000. The pyramid, over which the actual temple stands, has a peculiar elliptical form. Two staircases lead to the top of the pyramid. The Eastern staircase, the wider, has a small temple along the way that cut the stairway in half. The second access stair, the Western, faces the Nunnery Quadrangle and is decorated with friezes of the rain god Chaac.</description>
+    <Point>
+      <coordinates>-89.7684,20.3599</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>
