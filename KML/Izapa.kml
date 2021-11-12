@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Izapa</name>
+    <description>The Hero Twins gesture toward the Principal Bird Deity (Wuqub Caquix) as he descends to the fruit tree. Late Preclassic, c. 100 B.C. or later. A carved stone depiction of Mayan god of rain, Chahk (God G), standing on water. The decorations at the top, called a "sky band," was the Mayan artistic method of depicting the sky and the heavens above a scene. This Izapan stela depicts humanity emerging out of the World's Tree from the underworld, Xibalba. It possibly depicts a Mayan ritual.</description>
+    <Point>
+      <coordinates>-92.18,14.923</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>

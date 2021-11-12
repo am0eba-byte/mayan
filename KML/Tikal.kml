@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Tikal</name>
+    <description>Two incised bones from the Temple I tomb in Tikal. One depicts three Chahks (Rain Gods) catching fish. The other depicts seven Maya deities travelling in a canoe to the Underworld. In the middle is the Maize God; at the left and right are the old Paddler Gods. Jade mosaic vase with portrait head of the Maize God, from Burial 196, a royal interment of the Late Classic period at Tikal, Guatemala. The pieces once adhered to a wooden interior, which has long since disintigrated. Ht: 9.5 inches (24.2 cm) Incised obsidians from an offering placed beneath a stela at Tikal from the Late Classic period. The flat side of a crude flake has in each instance been engraved with the figure of a deity or with a simplified mat design. The god K'awiil appears at upper left and right; the Sun God K'inich Ajaw at lower right. The 212-foot high Temple IV is the highest pyramid temple at Tikal; it towers over the rain forest. According to Maya experts, leader Yax Kin ordered the temple built around 734 AD. Climb to the summit of this temple with care, by wooden ladder and stone steps. The summit affords a panoramic view over the site, with views of the other major temples rising from the treetops. This temple is known as the Two-Headed Serpent Temple A pyramid from the preclassic period, this is the oldest part of Tikal. It features remnants of large plaster masks, as well as the adoption of Teotihuacan-influenced style in Preclassic Mayan architectural design.</description>
+    <Point>
+      <coordinates>-89.6237,17.222</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>

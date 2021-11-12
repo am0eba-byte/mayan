@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Palenque</name>
+    <description>This carving on the upper surface of the sarcophagus found within the Funerary Crypt in the Temple of Inscriptions depicts the youthful-appearing Pakal the Great (the eighty-year-old king interred within the tomb) falling through gigantic fleshless jaws into the Underworld; above him rises the World Tree, surmounted by the bird-monster Wuqub Kaquix. Surrounding the scene is a band depicting celestial bodies and ancestral figures. AD 683. The Temple of Inscriptions rests on a 65-ft high stepped pyramid approached by a noble frontal stairway. On the walls of its portico and central chamber, three panels contain a total of 620 hieroglyphs with many dates, the most corresponding to AD 692. The floor of the temple is covered by large stone slabs, some of which covering vaults which are entrances to the interior of the pyramid, where sacrificial skeletons were found. A huge triangular slab at the end of this passage, once removed, revealed the great Funerary Crypt, where Palenque's mighty ruler K'inich Janahb Pakal (Pakal the Great) was found. This temple holds the second longest glyph known in the Mayan world. The glyph tells the history of the site for around 180 years. This is also the place that leads to Pakal's Tomb. Cross section of three temples, The temple of the Cross, the Temple of the Sun and Temple of the Foliated Cross. They sit upon temples</description>
+    <Point>
+      <coordinates>-91.98248,17.50953</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>

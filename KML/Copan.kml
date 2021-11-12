@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Copán</name>
+    <description>The stairs of Temple 11 in Copan also lead down to the underworld, which is defined by three Xibalban ball-court markers which are still located outside the Temple. The markers clearly show the evil looking Lords of Xibalba nestled amongst the roots of the Tree of Life. The stairs and sloping walls of Temple 11 act as one of the sloping walls of the ball-game arena, from the top of which the game can be watched. The sacred ball-game has its origins in a mythical game played by the Hero Twins, Hunuhpu and Xbalanque, who were asked to play against the the Lords of Xibalba. The myth ends with the boys winning the game and defeating the Lords of Xibabla and therefore defeating death. Stone bust of young Maize God, Temple 22. One of the wonderfully baroque sculptures from this site. Temple 11 is covered in glyphic inscriptions that describe the sacred rites that were performed within it and allude to its religious function, hence it is also known as the Temple of Inscriptions. Unfortunately, these texts are so specific to these unknown rites that they remain unreadable at present. However, the few carvings that remain attached and in situ around the building do provide enough evidence to assess its function and symbolic purpose. The most descriptive carvings are those of the so called “Howler Monkey God”. The two Howler Monkey Gods flank the stairway that rise from the West Court and have been given their name from the ape like face that they feature and what appear to be curling tails. The Howler Monkey Gods are thought to be associated with music and dance, as well as literature, and the left-hand monkey strikes a theatrical pose with what is said to be a rattle in his hand. There is plenty of evidence to suggest that Temple 11 was designed as a portal for the ruler Yax Pasaj to travel between the realms of the heavens and the underworld – a power that any divine ruler should have in his possession. Unlike his predecessors, Yax Pasaj may have felt the need prove his divinity as he wasn’t part of the divine royal lineage.</description>
+    <Point>
+      <coordinates>-89.1468,14.8497</coordinates>
+    </Point>
+  </Placemark>
+  
+</kml>
