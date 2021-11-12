@@ -9,7 +9,7 @@ co-editor = element co-editor {text}
 
 index =  element index {character+}
 
-character = element character {xmlid, name, altName*, img*, entity?, of?,  family?, desc+}
+character = element character {xmlid, inPV, name, altName*, img*, entity?, of?,  family?, desc+}
 
 img = element img {src, empty}
 src = attribute src {text}
@@ -20,6 +20,8 @@ of = element of {text}
 
 
 xmlid = attribute xml:id {"SPS" | "Hur" | "Xpi" | "Xmu" | "MudM" | "WoodM" | "MazM" | "Hun" | "Xba" | "PBD" | "Zip" | "Ear" | "OneH" | "SevH" | "OneMonk" | "OneArt" | "LOX" | "TOM" | "BW" | "Toh" | "OneD" | "SevenD" | "BldG" | "Cha" | "Itz" | "GodG" | "GodL" | "Kaw"}
+
+inPV = attribute inPV {"true" | "false"}
 
 name = element name {text}
 

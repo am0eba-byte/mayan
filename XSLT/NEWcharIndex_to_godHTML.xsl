@@ -31,41 +31,41 @@
             <body>
                 <header>
                     <div class="titlePic">
-                        <h1>
-                            <span class="head">Ancient Mayans</span>
-                            <span class="head">Digitized</span>
-                        </h1>
-                        <img alt="eleven gods" class="headImg" src="images/designs/eleven_gods.png"
-                        />
+                        <h1><span><span class="head">Ancient</span><span class="head"> Mayans</span></span>
+                            <span class="head">Digitized</span></h1>
+                        <img alt="eleven gods" class="headImg" src="images/designs/eleven_gods.png" />
                     </div>
                     <div class="navbar">
                         <a class="nav" href="index.html">Home</a>
                         <a class="nav" href="siteMap.html">Mayan Sites Map</a>
-                        <a class="nav" href="Gods.html">God-ography</a>
-
+                        <a class="nav" href="godography.html">God-ography</a>
+                        
                         <a class="nav" href="3Dmodels.html">3D Models</a>
                         <a class="nav" href="about.html">Project Team</a>
                         <div class="dropdown">
                             <button class="dropbtn">Discover</button>
                             <div class="dropdown-content">
-                                <a class="nav" href="sitesTemplesTimeline.html">Sites and Temples
+                                <a class="nav" href="sitesStructRelicsTimeline.html">Maya Sites
                                     Timeline</a>
-                                <a class="nav" href="godRelicRefs.html">Mayan Gods and Artifacts</a>
-                                <!-- <a href="404.html">More coming</a>-->
+                                <a class="nav" href="godRelicRefs.html">Mayan Gods in Artifacts</a>
+                                <a class="nav" href="godStructureRefs.html">Mayan Gods in Structures</a>
                             </div>
-                        </div>
-                        <a class="nav" rel="license"
-                            href="http://creativecommons.org/licenses/by-nc/4.0/">
-                            <img alt="Creative Commons License" style="border-width:0"
-                                src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png"/>
-                        </a>
-
+                        </div> 
+                        <a class="nav" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+                            ><img alt="Creative Commons License" style="border-width:0"
+                                src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+                        
                     </div>
                 </header>
                 <section class="gods">
                     <h2>Mayan Godography</h2>
+                    <h3 class="godtableHead">Gods as Characters in the Popol Vuh</h3>
                     <table class="gods">
-                        <xsl:apply-templates select="descendant::index"/>
+                        <xsl:apply-templates select="descendant::index" mode="PV"/>
+                    </table>
+                    <h3 class="godtableHead">Gods That Are Not Referenced in Popol Vuh</h3>
+                    <table class="gods">
+                        <xsl:apply-templates select="descendant::index" mode="nonPV"/>
                     </table>
                 </section>
                 <footer>
@@ -92,26 +92,47 @@
 
     </xsl:template>
 
-    <xsl:template match="descendant::index">
-
+    <xsl:template match="descendant::index" mode="PV">
+    <xsl:choose>
+        <xsl:when test="character[@inPV = 'true']">
+    
         <tr>
             <th>Image</th>
             <th>God Name</th>
-            <th>Alternate Names</th>
-            <!--<th>God Type</th>
-            <th>God Origins</th>-->
+            <th>Other Names</th>
             <th>Family Relationships</th>
-
+            
             <th>Description</th>
         </tr>
 
-        <xsl:apply-templates select="character"/>
-
-
+            <xsl:apply-templates select="character[@inPV='true']" mode="PV"/>
+        </xsl:when>
+        <xsl:otherwise>
+       
+        </xsl:otherwise>
+    </xsl:choose>
+        
 
     </xsl:template>
+    
+    <xsl:template match="descendant::index" mode="nonPV">
+        <xsl:choose>
+            <xsl:when test="character[@inPV = 'false']">
+                <tr>
+                    <th>Image</th>
+                    <th>God Name</th>
+                    <th>Other Names</th>
+                    <th>Description</th>
+                </tr>
+                <xsl:apply-templates select="character[@inPV='false']" mode="nonPV"/>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
-    <xsl:template match="character">
+    <xsl:template match="character[@inPV='true']" mode="PV">
 
         <tr>
             <td>
@@ -129,12 +150,6 @@
                     </xsl:for-each>
                 </ul>
             </td>
-            <!--<td>
-                <xsl:apply-templates select="entity"/>
-            </td>
-            <td>
-                <xsl:apply-templates select="of"/>
-            </td>-->
             <td>
                 <xsl:apply-templates select="family"/>
             </td>
@@ -143,6 +158,31 @@
             </td>
         </tr>
 
+    </xsl:template>
+    
+    <xsl:template match="character[@inPV='false']" mode="nonPV">
+        
+        <tr>
+            <td>
+                <img class="god" src="{img/@src}"/>
+            </td>
+            <td id="{@xml:id}">
+                <xsl:apply-templates select="name"/>
+            </td>
+            <td>
+                <ul>
+                    <xsl:for-each select="altName">
+                        <li>
+                            <xsl:apply-templates/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </td>
+            <td>
+                <xsl:apply-templates select="desc"/>
+            </td>
+        </tr>
+        
     </xsl:template>
 
     <xsl:template match="img">
@@ -200,8 +240,12 @@
             <div class="famDropdown">
             <button class="famDropbtn">Parents:</button>
             <div class="famDropdown-content">
-                
-                <p><underline>Mother:</underline><a href="{parents/mother/@idref}"> <xsl:apply-templates select="parents/mother"/></a></p>
+                <xsl:choose>
+                <xsl:when test="child::parents/mother => count() gt 0">
+                    <p><underline>Mother:</underline><a href="{parents/mother/@idref}"> <xsl:apply-templates select="parents/mother"/></a></p>
+                </xsl:when>
+                    <xsl:otherwise></xsl:otherwise>
+                </xsl:choose>
                 <p><underline>Father:</underline><a href="{parents/father/@idref}"> <xsl:apply-templates select="parents/father"/></a></p>
                 
             </div>
