@@ -309,6 +309,7 @@ table {
     font-size: 18px;
 	color: #000000;
 	font-family: 'New Tegomin', serif;
+	
 }
 
 
@@ -401,6 +402,50 @@ img.god{
      width:10%;
  }
  
+ section.svgWrap{
+     display: flex;
+justify-content: flex-start;
+flex-direction:column;
+ }
+ 
+ div.svgTimeline{
+     text-align:center;
+     flex:3;
+     flex-basis: auto;
+     
+ }
+ 
+ section.bodyContainer {
+     display: flex;
+justify-content: flex-start;
+flex-direction:column;
+background-color:unset;
+ }
+ 
+ svg {
+     flex-basis:auto;
+     position:static;
+ }
+ 
+ table.timeline {
+     border-style: double;
+ }
+ 
+  table.timeline th {
+     border-style: dashed;
+ }
+ 
+ 
+ table.timeline td {
+     border-style: dashed;
+ }
+ 
+ div.timelineContent{
+    flex:8;
+     display: flex;
+justify-content: center;
+ }
+ 
  
  
  
@@ -467,6 +512,7 @@ img.god{
  
  div.content {
      flex:8;
+     
  }
  
  div.checkboxes {
@@ -589,3 +635,30 @@ tr.Hond.on {
     background-color: #7fb24b;
 color: black;
     }
+    
+    
+    
+/* TIMEPERIODS */
+
+.MidPre.on{
+    background-color:#008060
+}
+
+.LatePre.on {
+    background-color:#80ffdf;
+    color:black;
+}
+
+.EarlyClas.on{
+    background-color:#cc0066
+}
+
+.LateClas.on{
+    background-color:#ff99cc
+}
+
+.PostClas.on{
+    background-color:thistle
+}
+
+.

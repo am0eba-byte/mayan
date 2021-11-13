@@ -11,6 +11,8 @@
         <source href="https://www.worldhistory.org/Yaxchilan/"/>
         <source href="https://www.thoughtco.com/pyramid-of-the-magician-mexico-169623"/>
         <source href="https://mayanpeninsula.com/ball-court-in-uxmal/"/>
+        <source href="https://www.history.com/topics/ancient-americas/chichen-itza"/>
+        <source href="http://www.famsi.org/research/pohl/chronology.html"/>
     </head>
     <mayanSites>
         <site id="#SanBart">
@@ -91,7 +93,7 @@
 
         <site id="#tikal">
             <name>Tikal</name>
-            <dateActive yearStart="600" yearEnd="900"/>
+            <dateActive yearStart="-300" yearEnd="900"/>
             <location lat="17.2220" long="-89.6237"/>
             <artifacts>
                 <relic type="bones">
@@ -210,7 +212,7 @@
 
         <site id="#chItza">
             <name>Chichen Itza</name>
-            <dateActive yearStart="600" yearEnd="900"/>
+            <dateActive yearStart="600" yearEnd="1200"/>
             <location lat="20.6843" long="-88.5678"/>
             <artifacts>
                 <relic type="temple sculpture">
