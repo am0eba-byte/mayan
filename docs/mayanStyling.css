@@ -314,6 +314,52 @@ div.sqmiSVG{
 
 
 
+/* ***********************************************
+ * CITATIONS PAGE
+ * ************************************************ */
+
+section.bib{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+div.indexBibWrap{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+div.bibWrap{
+     display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+div.sitesources{
+   /* border-right:dashed;*/
+}
+
+div.godsources{
+    border-left:double;
+}
+
+h1.bib{
+    font-family: 'Frijole', cursive;
+/*font-size: 35px;
+letter-spacing: 1px;
+margin-bottom: 20px;*/
+color: #10A37C;
+/*display: flex;
+flex-direction: column;
+justify-content: space-evenly;*/
+text-align: center;
+text-shadow: 2px 2px black;
+}
+
+div.imgsources{
+    text-align:center;
+}
+
 
 /* *********************************************
  * TABLES GENERAL STYLE
