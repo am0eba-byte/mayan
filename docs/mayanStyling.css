@@ -470,6 +470,7 @@ img.god{
      display: flex;
 justify-content: flex-start;
 flex-direction:column;
+    padding: .5%;
  }
  
  div.svgTimeline{
