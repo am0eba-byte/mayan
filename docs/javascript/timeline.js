@@ -36,8 +36,8 @@ function toggle() {
             }
         };
         break;
-        case "MidClastoggle": {
-            var chars = document.getElementsByClassName("MidClas");
+        case "PostClastoggle": {
+            var chars = document.getElementsByClassName("PostClas");
             for (var i = 0; i < chars.length; i++) {
                 chars[i].classList.toggle("on")
             }

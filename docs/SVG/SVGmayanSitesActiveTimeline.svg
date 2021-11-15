@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1000">
+    <g transform="translate(30, 100) rotate(270 250 50)">
+        <text style="writing-mode: tb;" x="75" y="-35">400 B.C.</text>
+        <text style="writing-mode: tb;" x="85" y="1565">1200 A.D.</text>
+        <!--<text style="writing-mode: tb;" x="290" y="0">MaxYear - MinYear = 1600</text>-->
+        <line class="timeline" x1="100" y1="0" x2="100" y2="1600" stroke="purple" stroke-width="3"/>
+        <circle class="year0" cx="100" cy="400" r="10" fill="gold"/>
+        <text style="writing-mode: tb;" class="year0" x="100" y="396">0</text>
+        <line class="timePeriodStart" x1="30" y1="-600" x2="30" y2="100" stroke-width="5"
+            stroke="#008060"/>
+        <text style="writing-mode: tb;" x="15" y="-110">Middle Preclassic</text>
+        <text style="writing-mode: tb;" x="20" y="-620">1000 B.C.</text><!--<text style="writing-mode: tb;" x="50" y="{$LatePreClasEnd + 380}">{$LatePreClasEnd}A.D.</text>-->
+        <line class="periodEndHash" x1="30" x2="100" y1="100" stroke="#008060" y2="100"
+            stroke-width="5"/>
+        <line class="periodStartHash" x1="30" x2="100" y1="-600" stroke="#008060" y2="-600"
+            stroke-width="5"/>
+        <line class="timePeriodStart" x1="60" y1="100" x2="60" y2="650" stroke-width="5"
+            stroke="#80ffdf"/>
+        <text style="writing-mode: tb;" x="45" y="310">Late Preclassic</text>
+        <text style="writing-mode: tb;" x="15" y="80">300 B.C.</text><!--<text style="writing-mode: tb;" x="50" y="{$LatePreClasEnd + 380}">{$LatePreClasEnd}A.D.</text>-->
+        <line class="periodEndHash" x1="60" x2="100" y1="650" stroke="#80ffdf" y2="650"
+            stroke-width="5"/>
+        <line class="periodStartHash" x1="60" x2="100" y1="100" stroke="#80ffdf" y2="100"
+            stroke-width="5"/>
+        <line class="timePeriodStart" x1="30" y1="650" x2="30" y2="1000" stroke-width="5"
+            stroke="#cc0066"/>
+        <text style="writing-mode: tb;" x="15" y="770">Early Classic</text>
+        <text style="writing-mode: tb;" x="15" y="630">250 A.D.</text>
+        <text style="writing-mode: tb;" x="15" y="980">600A.D.</text>
+        <line class="periodEndHash" x1="30" x2="100" y1="1000" stroke="#cc0066" y2="1000"
+            stroke-width="5"/>
+        <line class="periodStartHash" x1="30" x2="100" y1="650" stroke="#cc0066" y2="650"
+            stroke-width="5"/>
+        <line class="timePeriodStart" x1="60" y1="1000" x2="60" y2="1300" stroke-width="5"
+            stroke="#ff99cc"/>
+        <text style="writing-mode: tb;" x="45" y="1100">Late Classic</text>
+        <line class="periodEndHash" x1="60" x2="100" y1="1300" stroke="#ff99cc" y2="1300"
+            stroke-width="5"/>
+        <line class="periodStartHash" x1="60" x2="100" y1="1000" stroke="#ff99cc" y2="1000"
+            stroke-width="5"/>
+        <text style="writing-mode: tb;" x="15" y="1280">900A.D.</text>
+        <line class="timePeriodStart" x1="30" y1="1300" x2="30" y2="1921" stroke-width="5"
+            stroke="thistle"/>
+        <text style="writing-mode: tb;" x="15" y="1441">Post-Classic</text>
+        <line class="periodEndHash" x1="30" x2="100" y1="1921" stroke="thistle" y2="1921"
+            stroke-width="5"/>
+        <line class="periodStartHash" x1="30" x2="100" y1="1300" stroke="thistle" y2="1300"
+            stroke-width="5"/>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="120" y1="300" stroke="Chartreuse"
+                stroke-width="2" y2="300"/>
+            <line class="yearEndHash" x1="100" x2="120" y1="600" stroke="Chartreuse" y2="600"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="120" x2="120" y1="300" y2="600" stroke-width="2"
+                stroke="Chartreuse"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="130" y="375">San
+                Bartolo</text>
+            <circle class="start" cx="100" cy="300" r="5" fill="green"/>
+            <circle cx="100" cy="600" r="5" fill="blue"/>
+            <text style="writing-mode: tb;" class="yearStartDate" x="125" y="300" fill="black">-100</text>
+            <text style="writing-mode: tb;" class="yearEndDate" x="125" y="580" fill="black">200</text>
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="140" y1="0" stroke="blue" stroke-width="2"
+                y2="0"/>
+            <line class="yearEndHash" x1="100" x2="140" y1="500" stroke="blue" y2="500"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="140" x2="140" y1="0" y2="500" stroke-width="2"
+                stroke="blue"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="150" y="0">El
+                Mirador</text>
+            <circle class="start" cx="100" cy="0" r="5" fill="green"/>
+   
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="160" y1="100" stroke="teal" stroke-width="2"
+                y2="100"/>
+            <line class="yearEndHash" x1="100" x2="160" y1="1300" stroke="teal" y2="1300"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="160" x2="160" y1="100" y2="1300" stroke-width="2"
+                stroke="teal"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="170" y="325"
+                >Tikal</text>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="170" y="1125"
+                >Tikal</text>
+            <circle class="start" cx="100" cy="100" r="5" fill="green"/>
+            <circle cx="100" cy="1300" r="5" fill="blue"/>
+           
+          
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="180" y1="690" stroke="Turquoise"
+                stroke-width="2" y2="690"/>
+            <line class="yearEndHash" x1="100" x2="180" y1="1300" stroke="Turquoise" y2="1300"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="180" x2="180" y1="690" y2="1300" stroke-width="2"
+                stroke="Turquoise"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="190" y="800"
+                >Copán</text>
+            <circle class="start" cx="100" cy="690" r="5" fill="green"/>
+            <circle cx="100" cy="1300" r="5" fill="blue"/>
+            <text class="yearStartDate" x="120" y="688" fill="black">290</text>
+            
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="200" y1="1000" stroke="MidnightBlue"
+                stroke-width="2" y2="1000"/>
+            <line class="yearEndHash" x1="100" x2="200" y1="1600" stroke="MidnightBlue" y2="1600"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="200" x2="200" y1="1000" y2="1600" stroke-width="2"
+                stroke="MidnightBlue"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="210" y="1050">Chichen
+                Itza</text>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="210" y="1450">Chichen
+                Itza</text>
+            <circle class="start" cx="100" cy="1000" r="5" fill="green"/>
+            <circle cx="100" cy="1600" r="5" fill="blue"/>
+            
+            
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="220" y1="150" stroke="MediumSeaGreen"
+                stroke-width="2" y2="150"/>
+            <line class="yearEndHash" x1="100" x2="220" y1="515" stroke="MediumSeaGreen" y2="515"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="220" x2="220" y1="150" y2="515" stroke-width="2"
+                stroke="MediumSeaGreen"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="230" y="260"
+                >Izapa</text>
+            <circle class="start" cx="100" cy="150" r="5" fill="green"/>
+            <circle cx="100" cy="515" r="5" fill="blue"/>
+            <text class="yearStartDate" x="165" y="148" fill="black">-250</text>
+            <text class="yearEndDate" x="190" y="513" fill="black">115</text>
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="260" y1="174" stroke="MediumPurple"
+                stroke-width="2" y2="174"/>
+            <line class="yearEndHash" x1="100" x2="260" y1="1199" stroke="MediumPurple" y2="1199"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="260" x2="260" y1="174" y2="1199" stroke-width="2"
+                stroke="MediumPurple"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="270" y="350"
+                >Palenque</text>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="270" y="980"
+                >Palenque</text>
+            <circle class="start" cx="100" cy="174" r="5" fill="green"/>
+            <circle cx="100" cy="1199" r="5" fill="blue"/>
+            <text class="yearStartDate" x="180" y="172" fill="black">-226</text>
+            <text class="yearEndDate" x="220" y="1197" fill="black">799</text>
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="280" y1="900" stroke="LightSkyBlue"
+                stroke-width="2" y2="900"/>
+            <line class="yearEndHash" x1="100" x2="280" y1="1400" stroke="LightSkyBlue" y2="1400"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="280" x2="280" y1="900" y2="1400" stroke-width="2"
+                stroke="LightSkyBlue"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="290" y="1125"
+                >Uxmal</text>
+            <circle class="start" cx="100" cy="900" r="5" fill="green"/>
+            <circle cx="100" cy="1400" r="5" fill="blue"/>
+            <text class="yearStartDate" x="200" y="898" fill="black">500</text>
+            <text class="yearEndDate" x="210" y="1398" fill="black">1000</text>
+        </g>
+        <g class="yeardata">
+            <line class="yearStartHash" x1="100" x2="300" y1="650" stroke="DarkOrange"
+                stroke-width="2" y2="650"/>
+            <line class="yearEndHash" x1="100" x2="300" y1="1300" stroke="DarkOrange" y2="1300"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="300" x2="300" y1="650" y2="1300" stroke-width="2"
+                stroke="DarkOrange"/>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="310" y="812.5"
+                >Yaxchilan</text>
+            <circle class="start" cx="100" cy="650" r="5" fill="green"/>
+            <circle cx="100" cy="1300" r="5" fill="blue"/>
+            
+           
+        </g>
+        <!--                    KJ PHASES LINE                              --> 
+        <g>
+            <line class="yearStartHash" x1="100" x2="240" y1="650" stroke="red" stroke-width="2"
+                y2="650"/>
+            <line class="yearEndHash" x1="100" x2="240" y1="1000" stroke="red" y2="1000"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="240" x2="240" y1="650" y2="1000" stroke-width="2"
+                stroke="red"/>  <text class="siteName" style="writing-mode: tb;" fill="black"
+                x="250" y="690">Kaminaljuyu</text>
+            <text class="siteName" style="writing-mode: tb;" fill="black"
+                x="250" y="840">Esperanza Phase</text>
+            <circle class="start" cx="100" cy="650" r="5" fill="green"/>
+            <circle cx="100" cy="1000" r="5" fill="blue"/>
+            <text fill="black" x="50" y="655"/>
+            <text fill="black" x="50" y="1005"/>
+        </g>
+        <g>
+            <line class="yearStartHash" x1="100" x2="240" y1="0" stroke="red" stroke-width="2"
+                y2="0"/>
+            <line class="yearEndHash" x1="100" x2="240" y1="500" stroke="red" y2="500"
+                stroke-width="2"/>
+            <line class="startEndConnector" x1="240" x2="240" y1="0" y2="500" stroke-width="2"
+                stroke="red"/>  
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="250" y="70">Kaminaljuyu</text>
+            <text class="siteName" style="writing-mode: tb;" fill="black" x="250" y="190"> Miraflores Phase</text>
+            <circle class="start" cx="100" cy="0" r="5" fill="green"/>
+            <circle cx="100" cy="1000" r="5" fill="blue"/>
+            <circle cx="100" cy="500" r="5" fill="blue"/>
+            <text class="yearEndDate" x="165" y="498" fill="black">100</text>
+        </g>
+    </g>
+</svg>
