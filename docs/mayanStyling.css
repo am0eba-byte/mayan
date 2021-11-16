@@ -726,4 +726,12 @@ color: black;
     background-color:thistle
 }
 
+/* Cytoscape Graph */
+#cy {
+   width: 65vw;
+   height:70vh;
+   /*position:absolute;*/
+   margin:auto;
+   border-style:double;
+ }
 .
