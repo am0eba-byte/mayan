@@ -22,10 +22,11 @@ span#date-time {
 section {
    background-color: #FFE8DDB5;
     border-radius: 25px;
-    padding-top: 5%;
+   /* padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 5%;*/
+    padding: 3%;
    margin-top: 10px;
 margin-bottom: 10px;
     /*opacity: .6;*/
@@ -726,13 +727,28 @@ color: black;
     background-color:thistle
 }
 
-/* Cytoscape Graph */
+
+
+/**********************************************
+ *  Cytoscape Graph 
+ * *********************************************/
+ 
+ 
 #cy {
    width: 65vw;
    height:70vh;
    /*position:absolute;*/
    margin:auto;
    border-style:double;
-   background-color: #9E1129;
+   background-color: #64101054;
+ }
+ 
+ h2.godography{
+     padding-bottom:15px;
+ }
+ 
+ div.networkGraph {
+     display:flex;
+     flex-direction:column;
  }
 .
