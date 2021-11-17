@@ -196,7 +196,7 @@
             <entity>Demon God</entity>
             <family>
                 <parents>
-                    <father idref="#SevM">Seven Macaw</father>
+                    <father idref="#PBD">Seven Macaw</father>
                 </parents>
                 <brother idref="#Ear">Earthquake</brother>
             </family>
@@ -215,7 +215,7 @@
             <entity>Demon God</entity>
             <family>
                 <parents>
-                    <father idref="#SevM">Seven Macaw</father>
+                    <father idref="#PBD">Seven Macaw</father>
                 </parents>
                 <brother idref="#Zip">Zipacna</brother>
             </family>

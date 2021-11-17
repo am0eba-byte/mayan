@@ -60,11 +60,11 @@ head = element head {text}
 
 character = element character {idref, text}
 
-idref = attribute idref {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
+idref = attribute idref {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
 
 
 spk = element spk {who?, who2?, mixed{character*}}
 
-who = attribute who {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
+who = attribute who {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
 
-who2 = attribute who2 {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#SevM" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
+who2 = attribute who2 {"#SPS" | "#Hur" | "#Xpi" | "#Xmu" | "#MudM" | "#WoodM" | "#MazM" | "#Hun" | "#Xba" | "#PBD" | "#Zip" | "#Ear" | "#OneH" | "#SevH" | "#OneMonk" | "#OneArt" | "#LOX" | "#TOM" | "#BW" | "#Toh" | "#OneD" | "#SevenD" | "#BldG"}
