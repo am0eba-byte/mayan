@@ -750,5 +750,27 @@ color: black;
  div.networkGraph {
      display:flex;
      flex-direction:column;
+     
  }
-.
+ 
+ 
+ 
+ /* ************************************
+  * CYTOSCAPE SVG
+  * *********************************** */
+
+div.networkSVG{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-left: 15%;
+margin-right: 15%;
+}
+
+p.captionSVG{
+    flex: 3;
+}
+
+img.networkSVG{
+    flex:10
+}
