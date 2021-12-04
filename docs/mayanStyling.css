@@ -19,7 +19,19 @@ span#date-time {
     font-family: 'Noto Sans Mayan Numerals', sans-serif;
 }
 
-section {
+section{
+     background-color: #FFE8DDB5;
+    border-radius: 25px;
+   /* padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;*/
+    padding: 3%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section.gods {
    background-color: #FFE8DDB5;
     border-radius: 25px;
    /* padding-top: 5%;
@@ -29,26 +41,26 @@ section {
     padding: 3%;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width 100%;
+	/*width: 100%;*/
 	height: 600px;
 	overflow: auto;
     /*opacity: .6;*/
 }
 
 /* ScrollBar Mdified */
-.scrollbar-track-y:{
+.scrollbar-track-y{
 	background: #FFFFFF !important;
 }
 
-.scrollbar-thumb-y:{
+.scrollbar-thumb-y{
 	background: #000000 !important;
 }
 
-.scrollbar-track-x:{
+.scrollbar-track-x{
 	background: #FFFFFF !important;
 }
 
-.scrollbar-thumb-x:{
+.scrollbar-thumb-x{
 	background: #000000 !important;
 }
 /* *******************************
@@ -438,9 +450,15 @@ img.god{
 }
 
 
-.famDropdown:hover .dropbtn {
+.famDropdown:hover .famDropbtn{
   background-color: #48F0C3;
+  display:block;
 }
+
+.famDropdown:hover .famDropdown-content {
+  display: contents;
+} 
+
 
 /* Dropdown content (hidden by default) */
 .famDropdown-content {
@@ -468,8 +486,8 @@ img.god{
 }
 
 /* Show the dropdown menu on hover */
-.famDropdown:hover .famDropdown-content {
-  display: block;
+.famDropbtn:hover .famDropdown-content {
+  display: contents;
 } 
 
 
@@ -532,6 +550,46 @@ justify-content: center;
  
  
  
+ table.relicRefs{
+     border-style:dashed;
+ }
+ 
+ table.relicRefs tr{
+     border-style:double;
+   justify-content:space-evenly;
+display: flex;
+
+ }
+ 
+ table.relicRefs th{
+     border-style:double;
+     display: block;
+     float: left;
+ }
+ 
+ table.relicRefs td {
+     margin: 3px;
+/*display: block;*/
+/*border-style:groove;*/
+border-left-style: double;
+border-right-style: double;
+ }
+ 
+  table.relicRefs td p {
+     margin:auto;
+     
+ }
+ 
+ div.tableimg{
+     display:flex;
+     justify-content:center;
+ }
+ 
+ img.table {
+    width: 300px;
+ }
+ 
+ 
  
  /* ****************************************************
   * ABOUT THE PROJECT TEAM 
@@ -577,10 +635,12 @@ justify-content: center;
  
  section.jsLegend{
      display:flex;
+     
  }
  
  div.legendWrap {
-     flex:1
+     flex:1;
+     margin-right: 10px;
  }
  
  div.legend{
@@ -755,10 +815,11 @@ color: black;
 #cy {
    width: 65vw;
    height:70vh;
-   /*position:absolute;*/
+   position: sticky;
    margin:auto;
    border-style:double;
-   background-color: #64101054;
+  /* background-color: #64101054;*/
+  overflow: hidden;
  }
  
  h2.godography{
