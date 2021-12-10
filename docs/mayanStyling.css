@@ -42,7 +42,7 @@ section.gods {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	/*width: 100%;*/
-	height: 600px;
+	height: 700px;
 	overflow: auto;
     /*opacity: .6;*/
 }
@@ -146,12 +146,7 @@ header h1 span {
 .names{
     padding-left: 20px;
 }
-iframe {
-       width: 100%;
-       height: 700px;
-       border: none;
-       border-radius: 25px;
-}
+
 div.navbar {
   list-style-type: none;
   margin: 0;
@@ -853,3 +848,33 @@ p.captionSVG{
 img.networkSVG{
     flex:10
 }
+
+
+
+/* *******************************************
+ * POPOL VUH
+ * ****************************************** */
+ 
+ div#PVwrap {
+     display:flex;
+     flex-direction:row;
+     justify-content: space-between;
+margin: 20px;
+ }
+ 
+ section#popolvuh {
+     flex:3;
+     overflow: auto;
+     height: 1000px;
+ }
+ section#godiframe{
+     flex:5
+ }
+ 
+ .iframe {
+       width: 100%;
+    /*   height: 700px;*/
+       border: none;
+       border-radius: 25px;
+}
+ 
