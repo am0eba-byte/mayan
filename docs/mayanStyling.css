@@ -884,6 +884,10 @@ margin: 20px;
        border-radius: 25px;
 }
 
+h1.PVtitle{
+    font-family: 'Walter Turncoat', cursive;
+}
+
 /* ***********************************************
  * GODOGRAPHY IFRAME PV
  * ************************************************ */
@@ -933,3 +937,35 @@ td.PVdesc {
     
 }
  
+
+
+/* *********************************
+ * CODE SHARE BLURBS
+ * ********************************** */
+ 
+ div#PVcode{
+ 
+ display: flex;
+justify-content: center;
+      
+ }
+ 
+ p.codeshare{
+   background-color: #FFE8DDB5;
+   padding: 10px;
+border-radius: 10px;
+ }
+ 
+ a.codebutton{
+     background-image: linear-gradient(to bottom left, #10A37C, #1B6C57);
+     border-radius: 20px;
+     padding:5px;
+     color: white;
+     transition:.4s;
+ }
+ 
+  a.codebutton:hover{
+  color:black;
+ background-image: linear-gradient(to top left, #81DBC3, #4C8E7D);
+  }
+
