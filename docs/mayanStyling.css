@@ -430,6 +430,7 @@ img.god{
 .famDropdown {
   float: left;
   overflow: hidden;
+  transition: .4s;
 }
 
 /* Dropdown button */
@@ -442,6 +443,7 @@ img.god{
   font-family: inherit; 
   margin: 0; 
   text-decoration: wavy underline;
+  transition: .4s;
 }
 
 
@@ -463,6 +465,7 @@ img.god{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  transition: .4s;
 }
 
 /* Links inside the dropdown */
@@ -473,6 +476,7 @@ img.god{
   text-decoration: wavy underline;
   display: block;
   text-align: left;
+  transition: .2s;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -484,6 +488,8 @@ img.god{
 .famDropbtn:hover .famDropdown-content {
   display: contents;
 } 
+
+
 
 
 
@@ -876,5 +882,54 @@ margin: 20px;
     /*   height: 700px;*/
        border: none;
        border-radius: 25px;
+}
+
+/* ***********************************************
+ * GODOGRAPHY IFRAME PV
+ * ************************************************ */
+ 
+ 
+table#iframePVtable {
+    border-style:groove;
+}
+
+table#iframePVtable tr{
+    border-top-style: double;
+ 
+  border-bottom-style: double;
+}
+
+/*th.img{
+    width:150%;
+}*/
+td.img{
+    width:30vw;
+    padding-right: 1%;
+}
+
+img.iframegod{
+    width: 30vw;
+}
+
+td.godnameframe{
+    padding-left: 1%;
+}
+
+section#PViframe{
+    height: 900px;
+}
+
+td.godnameframe div.altnames {
+    font-size:.7em;
+}
+
+div.PVfamDropdown{
+    padding-top:20%;
+    font-size:.9em;
+}
+
+td.PVdesc {
+    width:100%;
+    
 }
  
