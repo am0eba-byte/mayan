@@ -866,6 +866,7 @@ img.networkSVG{
      flex-direction:row;
      justify-content: space-between;
 margin: 20px;
+margin-top: 5px;
  }
  
  section#popolvuh {
@@ -944,16 +945,22 @@ td.PVdesc {
  * ********************************** */
  
  div#PVcode{
- 
+ background-color: #FFE8DDB5;
  display: flex;
 justify-content: center;
-      
+      border-radius: 25px;
+margin-top: 15px;
  }
  
  p.codeshare{
    background-color: #FFE8DDB5;
    padding: 10px;
 border-radius: 10px;
+padding-top: 25px;
+ }
+ 
+ p.codedesc{
+     
  }
  
  a.codebutton{
